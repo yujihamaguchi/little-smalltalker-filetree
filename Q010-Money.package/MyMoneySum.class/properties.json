@@ -1,0 +1,15 @@
+{
+	"classtraitcomposition" : "TMyMoneyPlus classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"monies"
+	],
+	"name" : "MyMoneySum",
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "TMyMoneyPlus",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Q010-Money"
+}
