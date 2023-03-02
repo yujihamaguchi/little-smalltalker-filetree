@@ -1,0 +1,13 @@
+{
+	"classtraitcomposition" : "TFlyBehavier classTrait",
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "FlyNoWay",
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "TFlyBehavier",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Q020-Strategy"
+}

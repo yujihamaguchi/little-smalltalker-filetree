@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Duck",
+	"category" : "Q020-Strategy",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MallardDuck",
+	"type" : "normal"
+}
