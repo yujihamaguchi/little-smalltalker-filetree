@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Q030-Observer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"temperature",
+		"humidity"
+	],
+	"name" : "ForecastDisplay",
+	"type" : "normal"
+}
