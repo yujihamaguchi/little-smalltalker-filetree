@@ -1,8 +1,8 @@
 {
 	"instance" : {
-		"addObserver:" : "YujiHamaguchi 3/6/2023 08:15",
-		"initialize" : "YujiHamaguchi 3/6/2023 08:05",
-		"setTemperature:humidity:" : "YujiHamaguchi 3/6/2023 08:12"
+		"humidity" : "YujiHamaguchi 3/9/2023 07:48",
+		"setTemperature:humidity:" : "YujiHamaguchi 3/9/2023 07:54",
+		"temperature" : "YujiHamaguchi 3/9/2023 07:48"
 	},
 	"class" : { }
 }

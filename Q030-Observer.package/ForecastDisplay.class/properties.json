@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "MyObserver",
 	"category" : "Q030-Observer",
 	"classinstvars" : [ ],
 	"pools" : [ ],

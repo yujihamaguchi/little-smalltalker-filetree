@@ -3,7 +3,7 @@ testForcastDisplay
 	| weatherData target |
 	weatherData := WeatherData new initialize.
 
-	target := ForecastDisplay weatherData: weatherData.
+	target := ForecastDisplay subject: weatherData.
 
 	weatherData setTemperature: 1 humidity: 2.
 	self
