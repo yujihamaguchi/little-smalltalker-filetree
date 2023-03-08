@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MyObserver",
+	"category" : "Q030-Observer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"temperature"
+	],
+	"name" : "StatisticAnalyze",
+	"type" : "normal"
+}
