@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Topping",
+	"category" : "Q040-Decorator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Chocolate",
+	"type" : "normal"
+}
