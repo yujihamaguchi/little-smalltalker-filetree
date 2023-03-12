@@ -1,0 +1,13 @@
+{
+	"classtraitcomposition" : "TSushi classTrait",
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Ikura",
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "TSushi",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Q051-Simple-Factory"
+}
