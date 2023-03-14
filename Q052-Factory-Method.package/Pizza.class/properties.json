@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Q052-Factory-Method",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"dough",
+		"toppings"
+	],
+	"name" : "Pizza",
+	"type" : "normal"
+}
