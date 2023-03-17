@@ -1,0 +1,13 @@
+{
+	"classtraitcomposition" : "TIngredientFactory classTrait",
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ChicagoIngredientFactory",
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "TIngredientFactory",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Q053-Abstruct-Factory"
+}

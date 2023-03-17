@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Q053-Abstruct-Factory",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ingredientFactory",
+		"name",
+		"sauce",
+		"noodle"
+	],
+	"name" : "Pasta",
+	"type" : "normal"
+}

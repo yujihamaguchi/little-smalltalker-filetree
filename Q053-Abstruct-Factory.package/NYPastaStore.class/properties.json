@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PastaStore",
+	"category" : "Q053-Abstruct-Factory",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "NYPastaStore",
+	"type" : "normal"
+}
