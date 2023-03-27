@@ -1,9 +1,13 @@
 tests
 testCurrent
-	| object1 object2 |
-	"TODO: make multi thread creating instances below.
-	refer: https://books.pharo.org/booklet-ConcurrentProgramming/pdf/ConcurrentProgramming.pdf
-	refer: https://www.wikiwand.com/ja/Smalltalk"
+
+	| semaphore object1 object2 |
+	Singleton current: nil.
+	semaphore := Semaphore new.
+	[ 
+	Processor yield.
 	object1 := Singleton current.
+	semaphore signal ] fork.
 	object2 := Singleton current.
+	semaphore wait.
 	self assert: object1 identicalTo: object2

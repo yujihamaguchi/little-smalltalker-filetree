@@ -4,7 +4,10 @@
 	"category" : "Q060-Singleton",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"current",
+		"isProcessing"
+	],
 	"instvars" : [ ],
 	"name" : "Singleton",
 	"type" : "normal"
