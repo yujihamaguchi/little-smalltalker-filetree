@@ -1,22 +1,10 @@
-accessing
+instance creation
 current
 
-	Transcript
-		show: 'start';
-		cr.
-	Transcript
-		show: isProcessing asString;
-		cr.
-	current := current ifNil: [ 
-		           [ isProcessing not ] whileTrue: [  ].
-		           isProcessing := false.
-		           2 seconds asDelay wait.
-		           Transcript
-			           show: 'hello';
-			           cr.
-		           isProcessing := true.
-		           self new ].
-	Transcript
-		show: 'end';
-		cr.
-	^ current
+    [ isProcessing ] whileTrue: [  ].
+    isProcessing := true.
+    current := current ifNil: [ 
+                   (Delay forSeconds: 2) wait.
+                   self new ].
+    isProcessing := false.
+    ^ current
