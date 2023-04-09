@@ -5,10 +5,11 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
-		"mutex",
+		"mutex"
+	],
+	"instvars" : [
 		"uniqueInstance"
 	],
-	"instvars" : [ ],
 	"name" : "Singleton",
 	"type" : "normal"
 }
