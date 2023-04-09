@@ -1,4 +1,7 @@
 instance creation
 uniqueInstance
 
-	^ uniqueInstance ifNil: [ self initializeUniqueInstance ]
+	mutex ifNil: [ mutex := Mutex new ].
+	mutex critical: [ 
+		uniqueInstance ifNil: [ uniqueInstance := self new ] ].
+	^ uniqueInstance
