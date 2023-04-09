@@ -5,8 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
-		"current",
-		"isProcessing"
+		"uniqueInstance"
 	],
 	"instvars" : [ ],
 	"name" : "Singleton",
