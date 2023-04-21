@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Command",
+	"category" : "Q071-Command",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "StereoVolumeUpCommand",
+	"type" : "normal"
+}

@@ -1,4 +1,3 @@
 initialization
 initialize
-
-	uniqueInstance := nil
+	current := nil

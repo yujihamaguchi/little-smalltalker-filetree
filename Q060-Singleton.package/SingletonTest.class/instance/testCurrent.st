@@ -1,5 +1,5 @@
 tests
-testUniqueInstance
+testCurrent
 		
 	| semaphore object1 object2 |
 	Singleton initialize.
