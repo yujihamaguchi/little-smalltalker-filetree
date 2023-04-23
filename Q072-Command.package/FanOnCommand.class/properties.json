@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Q072-Command",
+	"classinstvars" : [
+		"fan"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fan"
+	],
+	"name" : "FanOnCommand",
+	"type" : "normal"
+}
