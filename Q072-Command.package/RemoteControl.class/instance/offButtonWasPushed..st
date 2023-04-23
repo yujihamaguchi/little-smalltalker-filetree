@@ -1,7 +1,4 @@
 as yet unclassified
-offButtonWasPushed: aSlot
-
-	| targetSlot |
-	targetSlot := slots at: aSlot.
-	(targetSlot at: #off) execute.
-	undoCommand := targetSlot at: #on
+offButtonWasPushed: aNumber
+	(offCommands at: aNumber) execute.
+	undoCommand := onCommands at: aNumber

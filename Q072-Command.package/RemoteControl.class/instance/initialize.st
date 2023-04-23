@@ -1,4 +1,5 @@
 initialization
 initialize
-	slots := Dictionary new.
+	onCommands := Dictionary new.
+	offCommands := Dictionary new.
 	^ self
