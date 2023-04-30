@@ -1,0 +1,15 @@
+{
+	"instance" : {
+		"ejectCoin" : "YujiHamaguchi 2/18/2023 08:47",
+		"turnCrank" : "YujiHamaguchi 2/18/2023 08:48",
+		"count" : "YujiHamaguchi 2/18/2023 08:05",
+		"insertCoin" : "YujiHamaguchi 2/18/2023 08:47",
+		"setState:count:" : "YujiHamaguchi 2/18/2023 08:36",
+		"state" : "YujiHamaguchi 2/18/2023 08:05",
+		"dispense" : "YujiHamaguchi 2/18/2023 08:41",
+		"state:" : "YujiHamaguchi 2/18/2023 08:48"
+	},
+	"class" : {
+		"initialize" : "YujiHamaguchi 2/18/2023 08:49"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "State",
+	"category" : "Q100-State",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SoldOut",
+	"type" : "normal"
+}

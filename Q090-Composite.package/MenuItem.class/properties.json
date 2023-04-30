@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MenuComponent",
+	"category" : "Q090-Composite",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name"
+	],
+	"name" : "MenuItem",
+	"type" : "normal"
+}
