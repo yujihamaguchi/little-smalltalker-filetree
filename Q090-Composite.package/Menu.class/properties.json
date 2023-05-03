@@ -1,13 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "MenuComponent",
-	"category" : "Q090-Composite",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TMenuComponent classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"menuComponents"
 	],
 	"name" : "Menu",
-	"type" : "normal"
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "TMenuComponent",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Q090-Composite"
 }

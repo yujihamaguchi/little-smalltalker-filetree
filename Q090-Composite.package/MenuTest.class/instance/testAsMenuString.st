@@ -1,6 +1,5 @@
 tests
-testPrint
-
+testAsMenuString
 	| target menuComponent1 menuComponent2 |
 	"Use lazy initializetion for the Menu class"
 	target := Menu new.
@@ -9,7 +8,7 @@ testPrint
 	target add: menuComponent1.
 	target add: menuComponent2.
 
-	target print.
+	target asMenuString.
 
-	menuComponent1 should receive print once.
-	menuComponent2 should receive print once
+	menuComponent1 should receive asMenuString once.
+	menuComponent2 should receive asMenuString once
