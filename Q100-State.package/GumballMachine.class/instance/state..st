@@ -1,4 +1,4 @@
 accessing
-state: aState
+state: anObject
 
-	state := aState
+	state := anObject

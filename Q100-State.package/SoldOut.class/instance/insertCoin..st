@@ -1,3 +1,3 @@
 as yet unclassified
-insertCoin: aMachine
-	^ self
+insertCoin: aGumballMachine
+	aGumballMachine state: HasCoin new

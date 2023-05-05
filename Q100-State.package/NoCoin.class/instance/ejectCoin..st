@@ -1,3 +1,3 @@
 as yet unclassified
-ejectCoin: aMachine
-	^ self
+ejectCoin: aGumballMachine
+	NoCoinToEjectException signal: 'No coin to eject.'

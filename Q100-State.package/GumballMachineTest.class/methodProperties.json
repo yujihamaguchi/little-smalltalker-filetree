@@ -1,6 +1,10 @@
 {
 	"instance" : {
-		"testGumballMachine" : "YujiHamaguchi 2/18/2023 08:38"
+		"testTurnCrankWithCoin" : "YujiHamaguchi 5/5/2023 08:51",
+		"testSoldOut" : "YujiHamaguchi 5/5/2023 09:38",
+		"testEjectCoin" : "YujiHamaguchi 5/5/2023 09:35",
+		"testTurnCrankWithoutCoin" : "YujiHamaguchi 5/5/2023 09:28",
+		"testInsertCoin" : "YujiHamaguchi 5/5/2023 09:16"
 	},
 	"class" : { }
 }

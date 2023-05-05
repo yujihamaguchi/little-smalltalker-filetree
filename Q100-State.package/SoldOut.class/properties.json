@@ -1,11 +1,13 @@
 {
-	"commentStamp" : "",
-	"super" : "State",
-	"category" : "Q100-State",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TState classTrait",
 	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "SoldOut",
-	"type" : "normal"
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "TState",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Q100-State"
 }

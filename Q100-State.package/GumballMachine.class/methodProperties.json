@@ -1,15 +1,15 @@
 {
 	"instance" : {
-		"ejectCoin" : "YujiHamaguchi 2/18/2023 08:47",
-		"turnCrank" : "YujiHamaguchi 2/18/2023 08:48",
-		"count" : "YujiHamaguchi 2/18/2023 08:05",
-		"insertCoin" : "YujiHamaguchi 2/18/2023 08:47",
-		"setState:count:" : "YujiHamaguchi 2/18/2023 08:36",
-		"state" : "YujiHamaguchi 2/18/2023 08:05",
-		"dispense" : "YujiHamaguchi 2/18/2023 08:41",
-		"state:" : "YujiHamaguchi 2/18/2023 08:48"
+		"ejectCoin" : "YujiHamaguchi 5/5/2023 09:35",
+		"turnCrank" : "YujiHamaguchi 5/5/2023 08:37",
+		"count" : "YujiHamaguchi 5/5/2023 08:14",
+		"initialize" : "YujiHamaguchi 5/5/2023 08:13",
+		"decrease" : "YujiHamaguchi 5/5/2023 08:31",
+		"insertCoin" : "YujiHamaguchi 5/5/2023 09:29",
+		"state" : "YujiHamaguchi 5/5/2023 08:14",
+		"state:" : "YujiHamaguchi 5/5/2023 08:29"
 	},
 	"class" : {
-		"initialize" : "YujiHamaguchi 2/18/2023 08:49"
+		"new" : "YujiHamaguchi 5/5/2023 08:12"
 	}
 }

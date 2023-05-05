@@ -1,13 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "Exception",
 	"category" : "Q100-State",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"machine"
-	],
-	"name" : "State",
+	"instvars" : [ ],
+	"name" : "NoCoinToEjectException",
 	"type" : "normal"
 }

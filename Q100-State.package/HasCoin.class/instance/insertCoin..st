@@ -1,3 +1,3 @@
 as yet unclassified
-insertCoin: aMachine
-	^ self
+insertCoin: aGumballMachine
+	CoinAlreadyInsertedException signal: 'Coin already inserted.'

@@ -1,3 +1,2 @@
 as yet unclassified
-ejectCoin: aMachine
-	^ self
+ejectCoin: aGumballMachine
