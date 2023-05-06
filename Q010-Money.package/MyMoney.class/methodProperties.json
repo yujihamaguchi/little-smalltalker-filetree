@@ -1,14 +1,14 @@
 {
 	"instance" : {
-		"+" : "YujiHamaguchi 2/26/2023 07:38",
-		"amount" : "YujiHamaguchi 2/22/2023 07:44",
-		"=" : "YujiHamaguchi 2/22/2023 07:46",
-		"plusMoney:" : "",
-		"currency" : "YujiHamaguchi 2/22/2023 07:46",
-		"plusMoneySum:" : "YujiHamaguchi 3/2/2023 07:59",
-		"setAmount:currency:" : "YujiHamaguchi 2/22/2023 07:42"
+		"+" : "YujiHamaguchi 5/7/2023 07:48",
+		"amount" : "YujiHamaguchi 5/7/2023 07:10",
+		"=" : "YujiHamaguchi 5/7/2023 07:11",
+		"currency" : "YujiHamaguchi 5/7/2023 07:11",
+		"setAmount:currency:" : "YujiHamaguchi 5/7/2023 07:48",
+		"addMyMoney:" : "YujiHamaguchi 5/7/2023 07:33",
+		"addMyMoneySum:" : "YujiHamaguchi 5/7/2023 07:48"
 	},
 	"class" : {
-		"amount:currency:" : "YujiHamaguchi 2/22/2023 07:41"
+		"amount:currency:" : "YujiHamaguchi 5/7/2023 07:07"
 	}
 }

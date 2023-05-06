@@ -1,3 +1,3 @@
-initialization
-monies: aCollection
-	^ self new setMonies: aCollection
+as yet unclassified
+monies: someMyMonies
+	^ self new setMonies: someMyMonies 

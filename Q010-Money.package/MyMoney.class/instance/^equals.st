@@ -1,3 +1,4 @@
 comparing
-= aMoney
-	^ currency = aMoney currency and: amount = aMoney amount
+= aMyMoney
+
+	^ currency = aMyMoney currency and: amount = aMyMoney amount

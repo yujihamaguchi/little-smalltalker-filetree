@@ -1,3 +1,5 @@
 initialization
-setMonies: aCollection
-	monies := aCollection
+setMonies: someMyMoneies
+
+	monies := someMyMoneies.
+	^ self

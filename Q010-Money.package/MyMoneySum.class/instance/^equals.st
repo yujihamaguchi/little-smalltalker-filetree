@@ -1,3 +1,4 @@
 comparing
 = aMyMoneySum
-	^ monies = aMyMoneySum monies
+
+	^ self monies = aMyMoneySum monies

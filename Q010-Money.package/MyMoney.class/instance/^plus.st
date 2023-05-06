@@ -1,3 +1,4 @@
 arithmetic
-+ aMoney
-	^ aMoney plusMoney: self
++ aMyMoney
+
+	^ aMyMoney addMyMoney: self
