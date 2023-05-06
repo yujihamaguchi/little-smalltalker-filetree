@@ -1,14 +1,16 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "Q010-Money",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TMyMoneyPlus classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"amount",
 		"currency"
 	],
 	"name" : "MyMoney",
-	"type" : "normal"
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "TMyMoneyPlus",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Q010-Money"
 }
