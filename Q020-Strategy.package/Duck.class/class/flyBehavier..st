@@ -1,3 +1,3 @@
 as yet unclassified
-flyBehavier: aFlyBehavior
-	^ self new setFlyBehavier: aFlyBehavior 
+flyBehavier: aFlyBehavier
+	^ self new setFlyBehavier: aFlyBehavier 

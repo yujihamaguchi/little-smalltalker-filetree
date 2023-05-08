@@ -1,3 +1,3 @@
 as yet unclassified
-swim 
+swim
 	^ 'floating'

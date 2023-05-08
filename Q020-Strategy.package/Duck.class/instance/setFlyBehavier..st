@@ -1,4 +1,4 @@
 initialization
 setFlyBehavier: aFlyBehavier
-	flyBehavier := aFlyBehavier .
+	flyBehavier := aFlyBehavier.
 	^ self

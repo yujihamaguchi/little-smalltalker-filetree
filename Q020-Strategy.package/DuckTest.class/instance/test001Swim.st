@@ -1,5 +1,6 @@
 tests
 test001Swim
+
 	| duck mallardDuck rubberDuck |
 	duck := Duck new.
 	self assert: duck swim equals: 'swimming'.
