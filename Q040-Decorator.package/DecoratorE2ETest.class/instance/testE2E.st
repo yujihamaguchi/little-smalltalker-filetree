@@ -1,5 +1,6 @@
 tests
 testE2E
+
 	| darkRoastBeverage chocolateToppedBeverage doubleChocolateToppedBeverage whipToppedBeverage |
 	darkRoastBeverage := DarkRoast cost: 3.
 	self assert: darkRoastBeverage cost equals: 3.

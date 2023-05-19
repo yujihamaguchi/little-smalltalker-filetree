@@ -2,9 +2,10 @@
 	"classtraitcomposition" : "TBeverage classTrait",
 	"classvars" : [ ],
 	"instvars" : [
-		"cost"
+		"cost",
+		"beverage"
 	],
-	"name" : "DarkRoast",
+	"name" : "Decoration",
 	"commentStamp" : "",
 	"super" : "Object",
 	"traitcomposition" : "TBeverage",
