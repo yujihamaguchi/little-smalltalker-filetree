@@ -2,13 +2,13 @@
 	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "Q999-Payroll",
-	"classinstvars" : [
-		"employees",
-		"unionMembers"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "PayrollDatabase",
+	"instvars" : [
+		"dues",
+		"serviceCharge"
+	],
+	"name" : "UnionAffiliation",
 	"type" : "normal"
 }

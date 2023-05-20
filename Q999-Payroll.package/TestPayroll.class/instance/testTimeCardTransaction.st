@@ -3,6 +3,7 @@ testTimeCardTransaction
 
 	| empId t tct e hc tc |
 	empId := 2.
+
 	t := AddHourlyEmployee
 		     empId: empId
 		     name: 'Bill'
@@ -19,6 +20,7 @@ testTimeCardTransaction
 	hc := e classification.
 	self deny: hc isNil.
 	self assert: hc class equals: HourlyClassification.
+
 	tc := hc timecard: 20230518.
 	self deny: tc isNil.
 	self assert: tc class equals: TimeCard.

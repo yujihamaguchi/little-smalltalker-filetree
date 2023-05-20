@@ -1,8 +1,10 @@
 {
 	"instance" : {
 		"testDeleteEmployee" : "YujiHamaguchi 5/19/2023 16:29",
+		"testServiceChargeTransaction" : "YujiHamaguchi 5/20/2023 14:42",
 		"testAddCommissionedEmployee" : "YujiHamaguchi 5/19/2023 16:14",
-		"testTimeCardTransaction" : "YujiHamaguchi 5/20/2023 08:31",
+		"testSalesReceiptTransaction" : "YujiHamaguchi 5/20/2023 14:13",
+		"testTimeCardTransaction" : "YujiHamaguchi 5/20/2023 13:58",
 		"testAddHourlyEmployee" : "YujiHamaguchi 5/19/2023 16:12",
 		"testAddSalariedEmployee" : "YujiHamaguchi 5/19/2023 15:28"
 	},

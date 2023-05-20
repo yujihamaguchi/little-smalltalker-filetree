@@ -2,13 +2,14 @@
 	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "Q999-Payroll",
-	"classinstvars" : [
-		"employees",
-		"unionMembers"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "PayrollDatabase",
+	"instvars" : [
+		"date",
+		"amount",
+		"memberId"
+	],
+	"name" : "ServiceChargeTransaction",
 	"type" : "normal"
 }
