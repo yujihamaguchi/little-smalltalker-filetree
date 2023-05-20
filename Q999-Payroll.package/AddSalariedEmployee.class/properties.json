@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "AddEmployeeTransaction",
+	"category" : "Q999-Payroll",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"salary"
+	],
+	"name" : "AddSalariedEmployee",
+	"type" : "normal"
+}

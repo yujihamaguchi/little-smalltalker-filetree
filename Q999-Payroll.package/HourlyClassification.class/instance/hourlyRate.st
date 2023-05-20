@@ -1,0 +1,4 @@
+accessing
+hourlyRate
+
+	^ hourlyRate

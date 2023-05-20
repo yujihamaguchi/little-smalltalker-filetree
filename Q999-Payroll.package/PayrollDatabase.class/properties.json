@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Q999-Payroll",
+	"classinstvars" : [
+		"employees"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PayrollDatabase",
+	"type" : "normal"
+}
