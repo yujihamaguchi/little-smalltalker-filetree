@@ -3,4 +3,6 @@ execute
 
 	| e |
 	e := PayrollDatabase employee: empId.
-	e ifNotNil: [ e affiliation: self affiliation ]
+	e ifNotNil: [
+		self recordMembership: e.
+		e affiliation: self affiliation ]

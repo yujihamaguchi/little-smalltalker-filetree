@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"dues"
+		"dues",
+		"memberId"
 	],
 	"name" : "ChangeMemberTransaction",
 	"type" : "normal"

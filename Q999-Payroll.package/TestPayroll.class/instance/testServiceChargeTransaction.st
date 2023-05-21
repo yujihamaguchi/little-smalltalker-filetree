@@ -3,6 +3,7 @@ testServiceChargeTransaction
 
 	| empId t tct e af memberId sct |
 	empId := 2.
+	memberId := 10.
 
 	t := AddHourlyEmployee
 		     empId: empId
@@ -17,9 +18,8 @@ testServiceChargeTransaction
 
 	e := PayrollDatabase employee: empId.
 
-	af := UnionAffiliation dues: 12.
+	af := UnionAffiliation memberId: memberId dues: 12.
 	e affiliation: af.
-	memberId := 10.
 	PayrollDatabase addUnionMember: e id: memberId.
 	sct := ServiceChargeTransaction
 		       date: 20230601

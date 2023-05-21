@@ -1,8 +1,9 @@
 tests
 testChangeMemberTransaction
 
-	| empId cmt e t |
+	| empId cmt e t af memberId m |
 	empId := 1.
+	memberId := 10.
 	t := AddSalariedEmployee
 		     empId: empId
 		     name: 'Bob'
@@ -11,8 +12,18 @@ testChangeMemberTransaction
 
 	t execute.
 
-	cmt := ChangeMemberTransaction empId: empId dues: 10.
+	cmt := ChangeMemberTransaction
+		       empId: empId
+		       memberId: memberId
+		       dues: 20.
 	cmt execute.
 	e := PayrollDatabase employee: empId.
-	self assert: e affiliation class equals: UnionAffiliation.
-	self assert: e affiliation dues equals: 10
+	self deny: e isNil.
+	af := e affiliation.
+	self deny: af isNil.
+	self assert: af class equals: UnionAffiliation.
+	self assert: af dues equals: 20.
+
+	m := PayrollDatabase unionMember: memberId.
+	self deny: m isNil.
+	self assert: e equals: m

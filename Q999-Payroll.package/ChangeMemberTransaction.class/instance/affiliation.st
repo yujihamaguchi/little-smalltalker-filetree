@@ -1,3 +1,3 @@
 accessing
 affiliation
-	^ UnionAffiliation dues: dues 
+	^ UnionAffiliation memberId: memberId dues: dues 
