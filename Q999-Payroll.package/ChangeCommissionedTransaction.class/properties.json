@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "ChangeClassificationTransaction",
+	"category" : "Q999-Payroll",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"salary",
+		"commissionRate"
+	],
+	"name" : "ChangeCommissionedTransaction",
+	"type" : "normal"
+}

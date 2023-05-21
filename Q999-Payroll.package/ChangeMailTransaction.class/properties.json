@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ChangeMethodTransaction",
+	"category" : "Q999-Payroll",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ChangeMailTransaction",
+	"type" : "normal"
+}

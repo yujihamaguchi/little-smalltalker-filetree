@@ -1,0 +1,3 @@
+private
+schedule
+	^ MonthlySchedule new

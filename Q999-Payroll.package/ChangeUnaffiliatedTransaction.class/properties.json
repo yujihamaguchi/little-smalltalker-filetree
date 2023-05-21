@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ChangeAffiliationTransaction",
+	"category" : "Q999-Payroll",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ChangeUnaffiliatedTransaction",
+	"type" : "normal"
+}

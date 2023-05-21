@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ChangeClassificationTransaction",
+	"category" : "Q999-Payroll",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"hourlyRate"
+	],
+	"name" : "ChangeHourlyTransaction",
+	"type" : "normal"
+}
