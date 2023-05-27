@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "Transaction",
 	"category" : "Q999-Payroll",
 	"classinstvars" : [ ],
 	"pools" : [ ],

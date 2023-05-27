@@ -3,10 +3,11 @@
 	"class" : {
 		"addEmployee:id:" : "YujiHamaguchi 5/19/2023 14:34",
 		"deleteEmployee:" : "YujiHamaguchi 5/19/2023 16:26",
-		"unionMember:" : "YujiHamaguchi 5/20/2023 14:47",
+		"allEmployeeIds" : "YujiHamaguchi 5/27/2023 08:26",
 		"addUnionMember:id:" : "YujiHamaguchi 5/20/2023 14:37",
-		"employee:" : "YujiHamaguchi 5/20/2023 08:22",
 		"date:hours:empId:" : "YujiHamaguchi 5/20/2023 08:23",
-		"removeUnionMember:" : "YujiHamaguchi 5/21/2023 09:28"
+		"employee:" : "YujiHamaguchi 5/20/2023 08:22",
+		"removeUnionMember:" : "YujiHamaguchi 5/21/2023 09:28",
+		"unionMember:" : "YujiHamaguchi 5/20/2023 14:47"
 	}
 }

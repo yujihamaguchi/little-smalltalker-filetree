@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Transaction",
+	"category" : "Q999-Payroll",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"payDate",
+		"paychecks"
+	],
+	"name" : "PaydayTransaction",
+	"type" : "normal"
+}

@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Q999-Payroll",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"from",
+		"to",
+		"grossPay",
+		"netPay",
+		"deductions"
+	],
+	"name" : "PayCheck",
+	"type" : "normal"
+}
