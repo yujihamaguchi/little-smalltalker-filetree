@@ -9,7 +9,7 @@ testPaySingleSalariedEmployee
 		     address: 'Home'
 		     salary: 1000.
 	t execute.
-	payDate := Date fromString: '11/30/2023'.
+	payDate := MyDate fromString: '11/30/2023'.
 	pt := PaydayTransaction payDate: payDate.
 	pt execute.
 	self
