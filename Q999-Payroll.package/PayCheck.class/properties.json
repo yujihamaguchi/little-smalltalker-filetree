@@ -10,7 +10,8 @@
 		"to",
 		"grossPay",
 		"netPay",
-		"deductions"
+		"deductions",
+		"fields"
 	],
 	"name" : "PayCheck",
 	"type" : "normal"

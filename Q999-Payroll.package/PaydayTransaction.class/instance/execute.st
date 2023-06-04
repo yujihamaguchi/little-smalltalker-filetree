@@ -7,7 +7,7 @@ execute
 		employee := PayrollDatabase employee: empId.
 		(employee schedule isPayDate: payDate) ifTrue: [
 			pc := PayCheck
-				      from: (employee payPriodStartDate: payDate)
+				      from: (employee payPeriodStartDate: payDate)
 				      to: payDate.
 			paychecks := paychecks ifNil: [ paychecks := Dictionary new ].
 			paychecks at: empId put: pc.

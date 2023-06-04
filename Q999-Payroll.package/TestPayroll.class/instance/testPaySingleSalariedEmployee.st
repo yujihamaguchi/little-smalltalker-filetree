@@ -8,10 +8,13 @@ testPaySingleSalariedEmployee
 		     name: 'Bob'
 		     address: 'Home'
 		     salary: 1000.
+
 	t execute.
+
 	payDate := MyDate fromString: '11/30/2023'.
 	pt := PaydayTransaction payDate: payDate.
 	pt execute.
+
 	self
 		validatePaycheck: pt
 		ForEmpId: empId

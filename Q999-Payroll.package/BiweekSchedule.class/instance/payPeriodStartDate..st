@@ -1,3 +1,3 @@
 as yet unclassified
-payPriodStartDate: aPayDate
+payPeriodStartDate: aPayDate
 	^ aPayDate addDays: 14
