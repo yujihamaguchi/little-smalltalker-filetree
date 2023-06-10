@@ -7,7 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"hourlyRate",
-		"timecards"
+		"timecards",
+		"regularWorkingHours",
+		"overtimeRate"
 	],
 	"name" : "HourlyClassification",
 	"type" : "normal"

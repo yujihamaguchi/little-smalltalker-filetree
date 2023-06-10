@@ -8,7 +8,6 @@ testPaySingleSalariedEmployee
 		     name: 'Bob'
 		     address: 'Home'
 		     salary: 1000.
-
 	t execute.
 
 	payDate := MyDate fromString: '11/30/2023'.

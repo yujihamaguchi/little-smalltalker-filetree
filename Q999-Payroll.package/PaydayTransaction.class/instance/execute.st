@@ -9,6 +9,5 @@ execute
 			pc := PayCheck
 				      from: (employee payPeriodStartDate: payDate)
 				      to: payDate.
-			paychecks := paychecks ifNil: [ paychecks := Dictionary new ].
 			paychecks at: empId put: pc.
 			employee payday: pc ] ]
