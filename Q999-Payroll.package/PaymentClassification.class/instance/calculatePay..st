@@ -1,3 +1,3 @@
 as yet unclassified
-calculatePay: aDate
+calculatePay: aPayCheck
 	^ self subclassResponsibility 

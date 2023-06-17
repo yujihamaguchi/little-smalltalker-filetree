@@ -1,3 +1,3 @@
 as yet unclassified
 payPeriodStartDate: aPayDate
-	^ aPayDate addDays: 14
+	^ aPayDate subtractDays: 13
