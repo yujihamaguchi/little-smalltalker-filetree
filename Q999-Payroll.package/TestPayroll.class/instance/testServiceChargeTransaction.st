@@ -1,7 +1,7 @@
 tests
 testServiceChargeTransaction
 
-	| empId t tct e af memberId sct |
+	| empId t tct e af memberId sct timeCardDate serviceChargeDate |
 	empId := 2.
 	memberId := 10.
 
@@ -13,7 +13,8 @@ testServiceChargeTransaction
 
 	t execute.
 
-	tct := TimeCardTransaction date: 20230518 hours: 8 empId: empId.
+	timeCardDate := MyDate fromString: '05/18/2023'.
+	tct := TimeCardTransaction date: timeCardDate hours: 8 empId: empId.
 	tct execute.
 
 	e := PayrollDatabase employee: empId.
@@ -21,8 +22,10 @@ testServiceChargeTransaction
 	af := UnionAffiliation memberId: memberId dues: 12.
 	e affiliation: af.
 	PayrollDatabase addUnionMember: e id: memberId.
+	
+	serviceChargeDate := MyDate fromString: '06/01/2023'.
 	sct := ServiceChargeTransaction
-		       date: 20230601
+		       date: serviceChargeDate
 		       amount: 13
 		       memberId: memberId.
 	sct execute.

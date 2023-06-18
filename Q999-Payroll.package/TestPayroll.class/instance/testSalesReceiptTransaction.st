@@ -1,7 +1,7 @@
 tests
 testSalesReceiptTransaction
 
-	| empId t srt e cc sr |
+	| empId t srt e cc sr receiptDate |
 	empId := 3.
 
 	t := AddCommissionedEmployee
@@ -12,8 +12,9 @@ testSalesReceiptTransaction
 		     commissionRate: 20.
 	t execute.
 
+	receiptDate := MyDate fromString: '05/01/2023'.
 	srt := SalesReceiptTransaction
-		       date: 20230501
+		       date: receiptDate
 		       amount: 100
 		       empId: empId.
 	srt execute.
@@ -24,7 +25,7 @@ testSalesReceiptTransaction
 	self deny: cc isNil.
 	self assert: cc class equals: CommissionedClassification.
 
-	sr := cc salesReceipt: 20230501.
+	sr := cc salesReceipt: receiptDate.
 	self deny: sr isNil.
 	self assert: sr class equals: SalesReceipt.
 	self assert: sr amount equals: 100
