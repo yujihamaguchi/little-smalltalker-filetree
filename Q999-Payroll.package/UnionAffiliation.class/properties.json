@@ -8,7 +8,7 @@
 	"instvars" : [
 		"memberId",
 		"dues",
-		"serviceCharge"
+		"serviceCharges"
 	],
 	"name" : "UnionAffiliation",
 	"type" : "normal"

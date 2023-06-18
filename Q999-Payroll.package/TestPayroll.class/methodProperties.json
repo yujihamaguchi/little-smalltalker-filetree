@@ -1,7 +1,7 @@
 {
 	"instance" : {
 		"testDeleteEmployee" : "YujiHamaguchi 5/19/2023 16:29",
-		"testServiceChargeTransaction" : "YujiHamaguchi 6/18/2023 08:54",
+		"testServiceChargeTransaction" : "YujiHamaguchi 6/18/2023 16:33",
 		"testAddSalariedEmployee" : "YujiHamaguchi 5/19/2023 15:28",
 		"testPaySingleHourlyEmployeeTwoTimeCards" : "YujiHamaguchi 6/18/2023 07:53",
 		"testTimeCardTransaction" : "YujiHamaguchi 5/20/2023 13:58",
@@ -24,6 +24,7 @@
 		"testPaySingleHourlyEmployeeOnWrongDate" : "YujiHamaguchi 6/11/2023 08:14",
 		"testChangeMailTransaction" : "YujiHamaguchi 5/21/2023 08:55",
 		"testChangeHourlyTransaction" : "YujiHamaguchi 5/21/2023 08:36",
+		"testHourlyUnionMemberServiceCharge" : "YujiHamaguchi 6/18/2023 16:44",
 		"testChangeHoldTransaction" : "YujiHamaguchi 5/21/2023 08:56",
 		"testPaySingleHourlyEmployeeNoTimeCards" : "YujiHamaguchi 6/11/2023 07:07",
 		"testChangeAddressTransaction" : "YujiHamaguchi 5/21/2023 08:04"

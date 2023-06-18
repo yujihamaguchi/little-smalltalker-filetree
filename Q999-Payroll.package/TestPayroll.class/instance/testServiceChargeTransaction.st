@@ -29,4 +29,4 @@ testServiceChargeTransaction
 		       amount: 13
 		       memberId: memberId.
 	sct execute.
-	self assert: af serviceCharge equals: 13
+	self assert: (af serviceCharge: serviceChargeDate) amount  equals: 13

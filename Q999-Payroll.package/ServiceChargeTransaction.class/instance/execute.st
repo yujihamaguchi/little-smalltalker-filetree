@@ -8,5 +8,5 @@ execute
 		af class = UnionAffiliation
 			ifTrue: [
 				sc := ServiceCharge date: date amount: amount.
-				af serviceCharge: sc ]
+				af addServiceCharge: sc ]
 			ifFalse: [ Error signal: 'must be UnionAffiliation' ] ]

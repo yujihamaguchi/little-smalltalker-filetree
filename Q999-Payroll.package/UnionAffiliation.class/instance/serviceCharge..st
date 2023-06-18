@@ -1,4 +1,3 @@
 accessing
-serviceCharge: anObject
-
-	serviceCharge := anObject
+serviceCharge: aDate
+	^ serviceCharges at: aDate
