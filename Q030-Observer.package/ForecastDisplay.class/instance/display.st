@@ -1,4 +1,3 @@
-initialization
+api
 display
-	^ 'Forecast / temperature: ' , temperature asString , ', humidity: '
-	  , humidity asString
+	^ 'Forecast / temperature: ', subject temperature asString  ,', humidity: ', subject humidity asString

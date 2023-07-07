@@ -1,5 +1,6 @@
 tests
 testForcastDisplay
+
 	| weatherData target |
 	weatherData := WeatherData new initialize.
 

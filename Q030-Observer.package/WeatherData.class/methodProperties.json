@@ -1,8 +1,10 @@
 {
 	"instance" : {
-		"humidity" : "YujiHamaguchi 3/9/2023 07:48",
-		"setTemperature:humidity:" : "YujiHamaguchi 3/9/2023 07:54",
-		"temperature" : "YujiHamaguchi 3/9/2023 07:48"
+		"temperature" : "YujiHamaguchi 7/5/2023 07:50",
+		"register:" : "YujiHamaguchi 7/8/2023 08:20",
+		"initialize" : "YujiHamaguchi 7/8/2023 08:20",
+		"humidity" : "YujiHamaguchi 7/5/2023 07:50",
+		"setTemperature:humidity:" : "YujiHamaguchi 7/8/2023 08:22"
 	},
 	"class" : { }
 }
