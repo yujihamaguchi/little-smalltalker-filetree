@@ -1,15 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "MySubject",
 	"category" : "Q030-Observer",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"temperature",
-		"humidity",
-		"observers"
-	],
+	"instvars" : [ ],
 	"name" : "WeatherData",
 	"type" : "normal"
 }

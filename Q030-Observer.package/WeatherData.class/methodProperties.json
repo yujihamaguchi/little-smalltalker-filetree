@@ -1,9 +1,7 @@
 {
 	"instance" : {
-		"initialize" : "YujiHamaguchi 7/9/2023 09:15",
 		"setTemperature:humidity:" : "YujiHamaguchi 7/8/2023 08:22",
-		"notifyObservers" : "YujiHamaguchi 7/9/2023 09:47",
-		"register:interestedIn:" : "YujiHamaguchi 7/9/2023 09:17"
+		"notifyObservers" : "YujiHamaguchi 7/10/2023 07:41"
 	},
 	"class" : { }
 }

@@ -2,6 +2,7 @@ tests
 testForcastDisplay
 
 	| weatherData target |
+	"Rule: The observers should not be dependent on the subject"
 	weatherData := WeatherData new initialize.
 
 	target := ForecastDisplay subject: weatherData.
