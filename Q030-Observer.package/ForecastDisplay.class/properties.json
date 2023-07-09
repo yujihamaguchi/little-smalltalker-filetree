@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"temperature",
+		"humidity"
+	],
 	"name" : "ForecastDisplay",
 	"type" : "normal"
 }

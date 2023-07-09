@@ -1,6 +1,10 @@
 {
-	"instance" : { },
+	"instance" : {
+		"updateHumidity:" : "YujiHamaguchi 7/9/2023 09:37",
+		"interestingValues" : "YujiHamaguchi 7/9/2023 09:09",
+		"updateTemperature:" : "YujiHamaguchi 7/9/2023 09:36"
+	},
 	"class" : {
-		"subject:" : "YujiHamaguchi 7/8/2023 08:19"
+		"subject:" : "YujiHamaguchi 7/9/2023 09:54"
 	}
 }

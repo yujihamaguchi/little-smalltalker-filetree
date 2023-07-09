@@ -1,3 +1,3 @@
 private
 analyze
-	^ 'Statistic / temperature: ', subject temperature asString , ' is Good!'
+	^ 'Statistic / temperature: ', temperature asString , ' is Good!'
