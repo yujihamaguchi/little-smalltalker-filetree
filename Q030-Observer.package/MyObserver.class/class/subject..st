@@ -2,5 +2,5 @@ accessing
 subject: aSubject
 	| observer |
 	observer := self new.
-	aSubject register: observer interestedIn: observer interestingValues.
+	aSubject register: observer interestedIn: observer interestingProperties.
 	^ observer

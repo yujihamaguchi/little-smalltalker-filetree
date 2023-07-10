@@ -1,9 +1,9 @@
 {
 	"instance" : {
 		"updateHumidity:" : "YujiHamaguchi 7/9/2023 09:39",
-		"interestingValues" : "YujiHamaguchi 7/9/2023 09:14",
+		"updateTemperature:" : "YujiHamaguchi 7/9/2023 09:39",
 		"analyze" : "YujiHamaguchi 7/9/2023 09:39",
-		"updateTemperature:" : "YujiHamaguchi 7/9/2023 09:39"
+		"interestingProperties" : "YujiHamaguchi 7/11/2023 07:43"
 	},
 	"class" : { }
 }
