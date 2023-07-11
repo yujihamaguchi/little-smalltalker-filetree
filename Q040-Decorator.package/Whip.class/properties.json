@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Decoration",
+	"super" : "Topping",
 	"category" : "Q040-Decorator",
 	"classinstvars" : [ ],
 	"pools" : [ ],
