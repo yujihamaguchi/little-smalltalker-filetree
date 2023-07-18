@@ -1,11 +1,11 @@
 {
-	"classtraitcomposition" : "TSushiFactory classTrait",
+	"classtraitcomposition" : "TSimpleSushiFactory classTrait",
 	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "SimpleSushiFactory",
 	"commentStamp" : "",
 	"super" : "Object",
-	"traitcomposition" : "TSushiFactory",
+	"traitcomposition" : "TSimpleSushiFactory",
 	"type" : "normal",
 	"classinstvars" : [ ],
 	"pools" : [ ],

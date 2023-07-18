@@ -1,5 +1,6 @@
 tests
 testOrderSushi
+
 	| sushi simpleSushiFactory target preparedSushi boxedSushi |
 	sushi := Mock new.
 	preparedSushi := Mock new.

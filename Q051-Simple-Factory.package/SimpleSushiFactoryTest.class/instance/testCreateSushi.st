@@ -3,7 +3,7 @@ testCreateSushi
 
 	| target ikura |
 	target := SimpleSushiFactory new.
-	ikura := Ikura new.
+	ikura := Ikura new. 
 
 	self assert: (target createSushi: #Ikura) class equals: ikura class.
 

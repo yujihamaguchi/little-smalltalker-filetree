@@ -1,4 +1,4 @@
-initialize
+initialization
 setFactory: aSushiFactory
-	sushiFactory := aSushiFactory .
+	sushiFactory := aSushiFactory.
 	^ self
