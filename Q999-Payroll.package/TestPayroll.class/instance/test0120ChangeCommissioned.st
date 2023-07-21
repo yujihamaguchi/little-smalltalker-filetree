@@ -1,5 +1,5 @@
 tests
-testChangeCommissionedTransaction
+test0120ChangeCommissioned
 
 	| empId t chct e |
 	empId := 1.

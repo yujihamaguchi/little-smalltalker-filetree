@@ -1,5 +1,5 @@
 tests
-testChangeDirectTransaction
+test0140ChangeMailTransaction
 
 	| empId cdt e t |
 	empId := 1.
@@ -10,8 +10,8 @@ testChangeDirectTransaction
 		     salary: 1000.
 	t execute.
 
-	cdt := ChangeDirectTransaction empId: empId.
+	cdt := ChangeMailTransaction empId: empId.
 	cdt execute.
 
 	e := PayrollDatabase employee: empId.
-	self assert: e method class equals: DirectMethod
+	self assert: e method class equals: MailMethod

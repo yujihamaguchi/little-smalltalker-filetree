@@ -1,5 +1,5 @@
 tests
-testChangeAddressTransaction
+test0090ChangeAddress
 
 	| empId cat e t |
 	empId := 2.

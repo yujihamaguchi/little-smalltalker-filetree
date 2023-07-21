@@ -1,5 +1,5 @@
 tests
-testChangeMemberTransaction
+test0160ChangeMember
 
 	| empId cmt e t af memberId m |
 	empId := 1.

@@ -1,5 +1,5 @@
 tests
-testChangeHourlyTransaction
+test0100ChangeHourly
 
 	| empId t chct e |
 	empId := 1.

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "Q999-Payroll",
+	"category" : "Q999-Payroll-PayrollApplication",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,5 +1,5 @@
 tests
-testChangeSalariedTransaction
+test0110ChangeSalaried
 
 	| empId t chct e |
 	empId := 1.

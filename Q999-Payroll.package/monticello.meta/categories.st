@@ -1,1 +1,9 @@
 SystemOrganization addCategory: #'Q999-Payroll'!
+SystemOrganization addCategory: #'Q999-Payroll-AbstructTransactions'!
+SystemOrganization addCategory: #'Q999-Payroll-PayrollApplication'!
+SystemOrganization addCategory: #'Q999-Payroll-PayrollDatabase'!
+SystemOrganization addCategory: #'Q999-Payroll-PayrollDomain'!
+SystemOrganization addCategory: #'Q999-Payroll-PayrollImplementation'!
+SystemOrganization addCategory: #'Q999-Payroll-PayrollUtil'!
+SystemOrganization addCategory: #'Q999-Payroll-TransactionApplication'!
+SystemOrganization addCategory: #'Q999-Payroll-TransactionImplementation'!

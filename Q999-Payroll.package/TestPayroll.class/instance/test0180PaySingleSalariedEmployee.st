@@ -1,5 +1,5 @@
 tests
-testPaySingleSalariedEmployee
+test0180PaySingleSalariedEmployee
 
 	| empId t payDate pt |
 	empId := 1.

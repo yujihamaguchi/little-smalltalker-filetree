@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Date",
-	"category" : "Q999-Payroll",
+	"category" : "Q999-Payroll-PayrollUtil",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

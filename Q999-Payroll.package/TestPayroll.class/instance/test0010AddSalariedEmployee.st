@@ -1,5 +1,7 @@
 tests
-testAddSalariedEmployee
+test0010AddSalariedEmployee
+
+	"Before proceeding to the implementation phase, ensure that you have thoroughly read Chapter 18. Practice reading each use case, extracting design information from it on your own, and then comparing it with Uncle Bob's ideas."
 
 	| empId t e sc ms hm |
 	empId := 1.

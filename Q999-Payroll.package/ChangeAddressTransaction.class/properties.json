@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "ChangeEmployeeTransaction",
-	"category" : "Q999-Payroll",
+	"category" : "Q999-Payroll-TransactionImplementation",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

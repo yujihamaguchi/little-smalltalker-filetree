@@ -1,5 +1,5 @@
 tests
-testTimeCardTransaction
+test0050TimeCardTransaction
 
 	| empId t tct e hc tc |
 	empId := 2.

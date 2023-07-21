@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Affiliation",
-	"category" : "Q999-Payroll",
+	"category" : "Q999-Payroll-PayrollImplementation",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

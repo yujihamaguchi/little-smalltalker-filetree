@@ -1,5 +1,5 @@
 tests
-testAddCommissionedEmployee
+test0030AddCommissionedEmployee
 
 	| empId t e cm bs hm |
 	empId := 3.

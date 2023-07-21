@@ -1,5 +1,5 @@
 tests
-testChangeUnaffiliatedTransaction
+test0170ChangeUnaffiliated
 
 	| empId cmt e t |
 	empId := 1.

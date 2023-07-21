@@ -1,5 +1,5 @@
 tests
-testAddHourlyEmployee
+test0020AddHourlyEmployee
 	| empId t e hc ws hm |
 	empId := 2.
 	t := AddHourlyEmployee

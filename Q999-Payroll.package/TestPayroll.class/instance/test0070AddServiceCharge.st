@@ -1,5 +1,5 @@
 tests
-testServiceChargeTransaction
+test0070AddServiceCharge
 
 	| empId t tct e af memberId sct timeCardDate serviceChargeDate |
 	empId := 2.

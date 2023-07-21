@@ -1,5 +1,5 @@
 tests
-testDeleteEmployee
+test0040DeleteEmployee
 
 	| empId t e dt |
 	empId := 3.

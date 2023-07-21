@@ -1,5 +1,5 @@
 tests
-testChangeHoldTransaction
+test0150ChangeHoldTransaction
 
 	| empId cdt e t |
 	empId := 1.

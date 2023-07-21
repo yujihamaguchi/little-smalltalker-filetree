@@ -1,5 +1,5 @@
 tests
-testSalesReceiptTransaction
+test0060SalesReceiptTransaction
 
 	| empId t srt e cc sr receiptDate |
 	empId := 3.
