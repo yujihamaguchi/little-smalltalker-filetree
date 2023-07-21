@@ -1,0 +1,16 @@
+{
+	"classtraitcomposition" : "TBeverage classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"cost",
+		"beverage"
+	],
+	"name" : "Topping",
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "TBeverage",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Q040-Decorator"
+}
