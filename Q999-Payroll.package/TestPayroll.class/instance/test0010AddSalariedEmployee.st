@@ -1,7 +1,12 @@
 tests
 test0010AddSalariedEmployee
 
-	"Before proceeding to the implementation phase, ensure that you have thoroughly read Chapter 18. Practice reading each use case, extracting design information from it on your own, and then comparing it with Uncle Bob's ideas."
+	"
+	1. Before proceeding to the implementation phase, ensure that you have thoroughly read Chapter 18.    
+	   Practice reading each use case( 1 - 9 ), extracting design information from it on your own, and then        comparing it with Uncle Bob's ideas.
+	2. Don't push until all implementaions are completed.
+	3. After implementation, please read Chapter 22 and organize the group of classes using package ( on Smalltalk, using tag maybe).
+	"
 
 	| empId t e sc ms hm |
 	empId := 1.
