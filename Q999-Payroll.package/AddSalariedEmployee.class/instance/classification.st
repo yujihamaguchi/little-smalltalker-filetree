@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 classification
 	^ SalariedClassification salary: salary 

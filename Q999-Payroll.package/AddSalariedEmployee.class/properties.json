@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
-	"super" : "AddEmployeeTransaction",
-	"category" : "Q999-Payroll-TransactionImplementation",
+	"super" : "AddEmployee",
+	"category" : "Q999-Payroll-PayrollApplication",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

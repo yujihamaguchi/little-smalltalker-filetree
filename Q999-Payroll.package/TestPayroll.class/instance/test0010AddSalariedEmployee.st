@@ -22,6 +22,7 @@ test0010AddSalariedEmployee
 	self deny: e isNil.
 	self assert: e class equals: Employee.
 	self assert: e name equals: 'Bob'.
+	self assert: e address equals: 'Home'.
 
 	sc := e classification.
 	self deny: sc isNil.

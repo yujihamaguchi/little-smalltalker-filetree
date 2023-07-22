@@ -1,3 +1,0 @@
-private
-schedule
-	^ WeeklyShedule new

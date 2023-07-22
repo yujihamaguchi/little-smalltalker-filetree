@@ -1,18 +1,17 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "Q999-Payroll-PayrollDomain",
+	"category" : "Q999-Payroll-PayrollApplication",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"id",
+		"empId",
 		"name",
 		"address",
 		"classification",
 		"schedule",
-		"method",
-		"affiliation"
+		"method"
 	],
 	"name" : "Employee",
 	"type" : "normal"

@@ -1,13 +1,7 @@
 {
 	"instance" : { },
 	"class" : {
-		"addEmployee:id:" : "YujiHamaguchi 5/19/2023 14:34",
-		"deleteEmployee:" : "YujiHamaguchi 5/19/2023 16:26",
-		"allEmployeeIds" : "YujiHamaguchi 5/27/2023 08:26",
-		"addUnionMember:id:" : "YujiHamaguchi 5/20/2023 14:37",
-		"date:hours:empId:" : "YujiHamaguchi 5/20/2023 08:23",
-		"employee:" : "YujiHamaguchi 5/20/2023 08:22",
-		"removeUnionMember:" : "YujiHamaguchi 5/21/2023 09:28",
-		"unionMember:" : "YujiHamaguchi 5/20/2023 14:47"
+		"employee:" : "YujiHamaguchi 7/23/2023 07:06",
+		"save:" : "YujiHamaguchi 7/23/2023 07:21"
 	}
 }

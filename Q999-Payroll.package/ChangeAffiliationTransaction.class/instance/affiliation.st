@@ -1,3 +1,0 @@
-accessing
-affiliation 
-	^ self subclassResponsibility 
