@@ -1,9 +1,11 @@
 {
 	"instance" : {
-		"initialize" : "YujiHamaguchi 7/22/2023 08:17",
-		"setTemperature:humidity:" : "YujiHamaguchi 7/22/2023 07:57",
-		"notifyObservers" : "YujiHamaguchi 7/22/2023 08:10",
-		"register:interestingIn:" : "YujiHamaguchi 7/22/2023 08:09"
+		"temperature" : "YujiHamaguchi 7/22/2023 09:54",
+		"register:" : "YujiHamaguchi 7/22/2023 09:57",
+		"initialize" : "YujiHamaguchi 7/22/2023 09:55",
+		"humidity" : "YujiHamaguchi 7/22/2023 09:55",
+		"notifyObservers" : "YujiHamaguchi 7/22/2023 09:56",
+		"setTemperature:humidity:" : "YujiHamaguchi 7/22/2023 07:57"
 	},
 	"class" : { }
 }

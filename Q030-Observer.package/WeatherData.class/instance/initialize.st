@@ -1,4 +1,4 @@
 initialization
 initialize
-	observersWithInterestingProperties := Dictionary new.
+	observers := Set new.
 	^ self
