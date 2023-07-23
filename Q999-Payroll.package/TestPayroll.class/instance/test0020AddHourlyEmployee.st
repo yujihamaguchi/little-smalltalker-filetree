@@ -14,6 +14,7 @@ test0020AddHourlyEmployee
 	self deny: e isNil.
 	self assert: e class equals: Employee.
 	self assert: e name equals: 'John'.
+	self assert: e address equals: 'NewYork'.	
 
 	hc := e classification.
 	self deny: hc isNil.

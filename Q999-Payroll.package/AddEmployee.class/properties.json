@@ -1,9 +1,5 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "Q999-Payroll",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TTransaction classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"empId",
@@ -11,5 +7,11 @@
 		"address"
 	],
 	"name" : "AddEmployee",
-	"type" : "normal"
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "TTransaction",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Q999-Payroll"
 }

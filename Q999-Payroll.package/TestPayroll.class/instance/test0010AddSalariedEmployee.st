@@ -8,6 +8,8 @@ test0010AddSalariedEmployee
 	3. After implementation, please read Chapter 22 and organize the group of classes using package ( on Smalltalk, using tag maybe).
 	"
 
+	"The default method for salary payment is the HoldMethod. If an employee wishes for a different method, they will need to submit a separate change request."
+
 	| empId t e sc ms hm |
 	empId := 1.
 	t := AddSalariedEmployee
