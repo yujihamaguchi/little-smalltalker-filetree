@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "AddEmployee",
+	"category" : "Q999-Payroll-PayrollApplication",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"salary",
+		"commissionRate"
+	],
+	"name" : "AddCommissionedEmployee",
+	"type" : "normal"
+}
