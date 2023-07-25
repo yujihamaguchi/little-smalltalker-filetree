@@ -15,7 +15,7 @@ test0040DeleteEmployee
 	e := PayrollDatabase employee: empId.
 	self deny: e isNil.
 
-	dt := DeleteEmployeeTransaction empId: empId.
+	dt := DeleteEmployee empId: empId.
 
 	dt execute.
 

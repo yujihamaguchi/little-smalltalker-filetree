@@ -1,3 +1,3 @@
 as yet unclassified
 employee: empId
-	^ employees at: empId
+	^ employees at: empId ifAbsent: [ nil ]
