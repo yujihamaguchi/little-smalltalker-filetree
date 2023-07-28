@@ -1,6 +1,12 @@
 tests
 test0040DeleteEmployee
 
+	"
+	[ UseCase2: Delete employee ]
+	
+	- DelEmp <EmpID>
+	"
+
 	| empId t e dt |
 	empId := 3.
 	t := AddCommissionedEmployee

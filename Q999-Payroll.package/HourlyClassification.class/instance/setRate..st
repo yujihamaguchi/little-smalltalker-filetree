@@ -1,4 +1,5 @@
 initialization
 setRate: aRateNumber
-	hourlyRate := aRateNumber .
+
+	hourlyRate := aRateNumber.
 	^ self

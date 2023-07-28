@@ -6,9 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"hourlyRate",
-		"timecards"
+		"date",
+		"hours"
 	],
-	"name" : "HourlyClassification",
+	"name" : "TimeCard",
 	"type" : "normal"
 }
