@@ -1,5 +1,5 @@
 tests
-test0050TimeCardTransaction
+test0050AddTimeCard
 
 	"
 	[ UseCase3: Request for timecard processing ]
