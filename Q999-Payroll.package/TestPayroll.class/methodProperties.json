@@ -8,6 +8,7 @@
 		"validatePaycheck:ForEmpId:onPayDate:withPayAmount:" : "YujiHamaguchi 6/4/2023 12:26",
 		"test0020AddHourlyEmployee" : "YujiHamaguchi 7/28/2023 15:09",
 		"test0080ChangeName" : "YujiHamaguchi 7/21/2023 14:59",
+		"test0052AddTimeCardToNonHourlyEmployee" : "YujiHamaguchi 7/30/2023 07:30",
 		"test0170ChangeUnaffiliated" : "YujiHamaguchi 7/21/2023 15:00",
 		"test0110ChangeSalaried" : "YujiHamaguchi 7/21/2023 14:59",
 		"test0060SalesReceiptTransaction" : "YujiHamaguchi 7/21/2023 14:58",
