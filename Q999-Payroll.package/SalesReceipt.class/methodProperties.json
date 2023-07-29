@@ -1,4 +1,10 @@
 {
-	"instance" : { },
-	"class" : { }
+	"instance" : {
+		"amount" : "YujiHamaguchi 7/30/2023 08:18",
+		"date" : "YujiHamaguchi 7/30/2023 08:18",
+		"setDate:amount:" : "YujiHamaguchi 7/30/2023 08:17"
+	},
+	"class" : {
+		"date:amount:" : "YujiHamaguchi 7/30/2023 08:17"
+	}
 }
