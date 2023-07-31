@@ -19,4 +19,4 @@ test0061AddSalesReceiptToNonCommissionedEmployee
 	self assert: raisedError notNil.
 	self
 		assert: raisedError messageText
-		equals: 'Tried to add sales receipt to non-commissioned employee'
+		equals: 'Tried to add sales receipt to non-commissioned employee: SalariedClassification'

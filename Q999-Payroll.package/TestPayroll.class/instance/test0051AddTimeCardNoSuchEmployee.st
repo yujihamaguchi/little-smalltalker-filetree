@@ -11,4 +11,4 @@ test0051AddTimeCardNoSuchEmployee
 		on: Error
 		do: [ :e | raisedError := e ].
 	self assert: raisedError notNil.
-	self assert: raisedError messageText equals: 'No such employee'
+	self assert: raisedError messageText equals: 'No such employee. empId: 999'

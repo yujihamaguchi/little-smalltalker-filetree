@@ -19,4 +19,4 @@ test0052AddTimeCardToNonHourlyEmployee
 	self assert: raisedError notNil.
 	self
 		assert: raisedError messageText
-		equals: 'Tried to add timecard to non-hourly employee'
+		equals: 'Tried to add timecard to non-hourly employee: SalariedClassification'
