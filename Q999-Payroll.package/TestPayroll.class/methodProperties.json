@@ -16,12 +16,12 @@
 		"test0120ChangeCommissioned" : "YujiHamaguchi 7/21/2023 14:59",
 		"test0140ChangeMailTransaction" : "YujiHamaguchi 7/21/2023 14:59",
 		"test0040DeleteEmployee" : "YujiHamaguchi 7/28/2023 15:25",
-		"test0060AddSalesReceipt" : "YujiHamaguchi 7/30/2023 08:22",
-		"test0070AddServiceCharge" : "YujiHamaguchi 7/21/2023 14:59",
+		"test0060AddSalesReceipt" : "YujiHamaguchi 8/3/2023 07:43",
+		"test0070AddServiceCharge" : "YujiHamaguchi 8/3/2023 07:47",
 		"test0061AddSalesReceiptToNonCommissionedEmployee" : "YujiHamaguchi 8/1/2023 07:37",
 		"test0150ChangeHoldTransaction" : "YujiHamaguchi 7/21/2023 15:00",
 		"test0010AddSalariedEmployee" : "YujiHamaguchi 7/28/2023 15:32",
-		"test0050AddTimeCard" : "YujiHamaguchi 7/29/2023 07:27"
+		"test0050AddTimeCard" : "YujiHamaguchi 8/3/2023 07:43"
 	},
 	"class" : { }
 }

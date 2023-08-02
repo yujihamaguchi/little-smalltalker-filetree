@@ -4,6 +4,9 @@ test0050AddTimeCard
 	"
 	[ UseCase3: Request for timecard processing ]
 	- TimeCard <EmpID> <date> <hours>
+	
+	Attachment 1: In the case where the selected employee is not paid by the hour.
+	  Output an error message only, and perform no further processing.
 	"
 
 	| empId t tct e hc tc |
