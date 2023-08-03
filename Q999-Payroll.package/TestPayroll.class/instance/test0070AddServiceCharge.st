@@ -10,7 +10,7 @@ test0070AddServiceCharge
 	"
 
 
-	| empId t tct e af memberId sct timeCardDate serviceChargeDate |
+	| empId t tct e af memberId sct timeCardDate serviceChargeDate employee affiliation date |
 	empId := 2.
 	memberId := 10.
 
@@ -21,7 +21,7 @@ test0070AddServiceCharge
 		     hourlyRate: 15.
 
 	t execute.
-
+"
 	timeCardDate := MyDate fromString: '05/18/2023'.
 	tct := AddTimeCard date: timeCardDate hours: 8 empId: empId.
 	tct execute.
@@ -31,11 +31,17 @@ test0070AddServiceCharge
 	af := UnionAffiliation memberId: memberId dues: 12.
 	e affiliation: af.
 	PayrollDatabase addUnionMember: e id: memberId.
+	"
+	employee := PayrollDatabase employee: empId.
+	affiliation := UnionAffiliation memberId: memberId dues: 12.
+	employee affiliation: affiliation.
+	PayrollDatabase stub addUnionMember: employee willReturn: memberId.
+	date := 20230801.
 	
-	serviceChargeDate := MyDate fromString: '06/01/2023'.
 	sct := AddServiceCharge
-		       date: serviceChargeDate
-		       amount: 13
-		       memberId: memberId.
+		       memberId: memberId
+		       date: date
+		       amount: 13.
 	sct execute.
-	self assert: (af serviceCharge: serviceChargeDate) amount  equals: 13
+	
+	self assert: (affiliation serviceCharge: date) amount equals: 13
