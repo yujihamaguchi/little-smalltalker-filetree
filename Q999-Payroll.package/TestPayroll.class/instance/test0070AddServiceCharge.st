@@ -9,8 +9,7 @@ test0070AddServiceCharge
 	  Output an error message only, and perform no further processing.
 	"
 
-
-	| empId t tct e af memberId sct timeCardDate serviceChargeDate employee affiliation date |
+	| empId t memberId sct employee affiliation date |
 	empId := 2.
 	memberId := 10.
 

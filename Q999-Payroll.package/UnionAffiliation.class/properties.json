@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"memberId",
+		"dues"
+	],
 	"name" : "UnionAffiliation",
 	"type" : "normal"
 }

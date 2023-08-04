@@ -1,4 +1,8 @@
 {
-	"instance" : { },
-	"class" : { }
+	"instance" : {
+		"setMemberId:dues:" : "YujiHamaguchi 8/5/2023 08:41"
+	},
+	"class" : {
+		"memberId:dues:" : "YujiHamaguchi 8/5/2023 08:41"
+	}
 }
