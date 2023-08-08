@@ -17,7 +17,7 @@ test0120ChangeCommissioned
 		        commissionRate: 20.
 	chct execute.
 
-	e := PayrollDatabase employee: empId.
+	e := PayrollDatabase employeeWithId: empId.
 	self deny: e isNil.
 	self assert: e classification class equals: CommissionedClassification.
 	self assert: e schedule class equals: BiweekSchedule.

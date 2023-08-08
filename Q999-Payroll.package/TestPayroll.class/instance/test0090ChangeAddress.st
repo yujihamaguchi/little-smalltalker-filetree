@@ -14,7 +14,7 @@ test0090ChangeAddress
 	cat := ChangeAddressTransaction empId: empId address: 'Boston'.
 	cat execute.
 
-	e := PayrollDatabase employee: empId.
+	e := PayrollDatabase employeeWithId: empId.
 
 	self deny: e isNil.
 	self assert: e address equals: 'Boston'

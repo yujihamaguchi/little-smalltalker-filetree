@@ -3,7 +3,8 @@
 	"super" : "Object",
 	"category" : "Q999-Payroll-PayrollApplication",
 	"classinstvars" : [
-		"employees"
+		"employees",
+		"affiliations"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],

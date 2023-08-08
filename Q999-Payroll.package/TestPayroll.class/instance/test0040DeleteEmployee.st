@@ -18,12 +18,12 @@ test0040DeleteEmployee
 
 	t execute.
 
-	e := PayrollDatabase employee: empId.
+	e := PayrollDatabase employeeWithId: empId.
 	self deny: e isNil.
 
 	dt := DeleteEmployee empId: empId.
 
 	dt execute.
 
-	e := PayrollDatabase employee: empId.
+	e := PayrollDatabase employeeWithId: empId.
 	self assert: e isNil

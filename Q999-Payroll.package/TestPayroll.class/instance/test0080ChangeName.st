@@ -14,7 +14,7 @@ test0080ChangeName
 	cnt := ChangeNameTransaction empId: empId name: 'Bob'.
 	cnt execute.
 
-	e := PayrollDatabase employee: empId.
+	e := PayrollDatabase employeeWithId: empId.
 
 	self deny: e isNil.
 	self assert: e name equals: 'Bob'

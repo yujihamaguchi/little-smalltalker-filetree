@@ -13,5 +13,5 @@ test0140ChangeMailTransaction
 	cdt := ChangeMailTransaction empId: empId.
 	cdt execute.
 
-	e := PayrollDatabase employee: empId.
+	e := PayrollDatabase employeeWithId: empId.
 	self assert: e method class equals: MailMethod

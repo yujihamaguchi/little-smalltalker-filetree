@@ -13,5 +13,5 @@ test0170ChangeUnaffiliated
 
 	cmt := ChangeUnaffiliatedTransaction empId: empId.
 	cmt execute.
-	e := PayrollDatabase employee: empId.
+	e := PayrollDatabase employeeWithId: empId.
 	self assert: e affiliation class equals: NoAffiliation

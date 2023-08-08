@@ -24,7 +24,7 @@ test0050AddTimeCard
 
 	tct execute.
 
-	e := PayrollDatabase employee: empId.
+	e := PayrollDatabase employeeWithId: empId.
 
 	hc := e classification.
 	self deny: hc isNil.

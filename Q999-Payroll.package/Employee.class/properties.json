@@ -11,7 +11,8 @@
 		"address",
 		"classification",
 		"schedule",
-		"method"
+		"method",
+		"affiliation"
 	],
 	"name" : "Employee",
 	"type" : "normal"

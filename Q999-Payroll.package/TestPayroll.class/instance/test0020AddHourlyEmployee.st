@@ -11,7 +11,7 @@ test0020AddHourlyEmployee
 
 	t execute.
 
-	e := PayrollDatabase employee: empId.
+	e := PayrollDatabase employeeWithId: empId.
 	self deny: e isNil.
 	self assert: e class equals: Employee.
 	self assert: e name equals: 'John'.

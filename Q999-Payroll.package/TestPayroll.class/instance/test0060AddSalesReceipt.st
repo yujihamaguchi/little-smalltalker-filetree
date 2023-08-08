@@ -25,7 +25,7 @@ test0060AddSalesReceipt
 	srt := AddSalesReceipt empId: empId date: date amount: amount.
 	srt execute.
 
-	e := PayrollDatabase employee: empId.
+	e := PayrollDatabase employeeWithId: empId.
 
 	cc := e classification.
 	self deny: cc isNil.

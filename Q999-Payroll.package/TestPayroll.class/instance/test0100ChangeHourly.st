@@ -16,7 +16,7 @@ test0100ChangeHourly
 		        hourlyRate: 10.
 	chct execute.
 
-	e := PayrollDatabase employee: empId.
+	e := PayrollDatabase employeeWithId: empId.
 	self deny: e isNil.
 	self assert: e classification class equals: HourlyClassification.
 	self assert: e schedule class equals: WeeklyShedule.	

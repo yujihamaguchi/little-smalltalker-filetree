@@ -20,27 +20,16 @@ test0070AddServiceCharge
 		     hourlyRate: 15.
 
 	t execute.
-"
-	timeCardDate := MyDate fromString: '05/18/2023'.
-	tct := AddTimeCard date: timeCardDate hours: 8 empId: empId.
-	tct execute.
 
-	e := PayrollDatabase employee: empId.
-
-	af := UnionAffiliation memberId: memberId dues: 12.
-	e affiliation: af.
-	PayrollDatabase addUnionMember: e id: memberId.
-	"
-	employee := PayrollDatabase employee: empId.
+	employee := PayrollDatabase employeeWithId: empId.
+ 
 	affiliation := UnionAffiliation memberId: memberId dues: 12.
 	employee affiliation: affiliation.
-	PayrollDatabase stub addUnionMember: employee willReturn: memberId.
+	PayrollDatabase addUnionMember: employee withId: memberId.
+	
 	date := 20230801.
-	
-	sct := AddServiceCharge
-		       memberId: memberId
-		       date: date
-		       amount: 13.
+
+	sct := AddServiceCharge memberId: memberId date: date amount: 13.
 	sct execute.
-	
+
 	self assert: (affiliation serviceCharge: date) amount equals: 13

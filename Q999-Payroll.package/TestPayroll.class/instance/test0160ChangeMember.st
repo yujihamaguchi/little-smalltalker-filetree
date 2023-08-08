@@ -17,7 +17,7 @@ test0160ChangeMember
 		       memberId: memberId
 		       dues: 20.
 	cmt execute.
-	e := PayrollDatabase employee: empId.
+	e := PayrollDatabase employeeWithId: empId.
 	self deny: e isNil.
 	af := e affiliation.
 	self deny: af isNil.

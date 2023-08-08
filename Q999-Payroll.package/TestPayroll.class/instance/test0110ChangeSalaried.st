@@ -14,7 +14,7 @@ test0110ChangeSalaried
 	chct := ChangeSalariedTransaction empId: empId salary: 1000.
 	chct execute.
 
-	e := PayrollDatabase employee: empId.
+	e := PayrollDatabase employeeWithId: empId.
 	self deny: e isNil.
 	self assert: e classification class equals: SalariedClassification.
 	self assert: e schedule class equals: MonthlySchedule.

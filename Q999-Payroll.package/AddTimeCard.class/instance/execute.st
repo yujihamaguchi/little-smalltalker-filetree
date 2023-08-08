@@ -2,7 +2,7 @@ execution
 execute
 
 	| employee classification timecard |
-	employee := PayrollDatabase employee: empId.
+	employee := PayrollDatabase employeeWithId: empId.
 	employee ifNil: [ 
 		^ Error signal:
 			  ('No such employee. empId: {1}' format: { empId asString }) ].

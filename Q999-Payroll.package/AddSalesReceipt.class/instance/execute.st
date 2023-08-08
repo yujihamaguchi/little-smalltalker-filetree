@@ -2,7 +2,7 @@ execution
 execute
 
 	| employee classification salesReceipt |
-	employee := PayrollDatabase employee: empId.
+	employee := PayrollDatabase employeeWithId: empId.
 	employee ifNil: [ ^ Error signal: 'No Such Emolopyee' ].
 	classification := employee classification.
 	classification class = CommissionedClassification ifFalse: [ 
