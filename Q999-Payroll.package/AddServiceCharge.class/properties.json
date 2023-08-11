@@ -1,7 +1,11 @@
 {
 	"classtraitcomposition" : "TTransaction classTrait",
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"memberId",
+		"date",
+		"amount"
+	],
 	"name" : "AddServiceCharge",
 	"commentStamp" : "",
 	"super" : "Object",

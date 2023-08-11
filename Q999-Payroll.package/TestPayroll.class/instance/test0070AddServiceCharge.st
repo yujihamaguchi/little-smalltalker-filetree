@@ -9,7 +9,7 @@ test0070AddServiceCharge
 	  Output an error message only, and perform no further processing.
 	"
 
-	| empId t memberId sct employee affiliation date |
+	| empId t memberId sct employee affiliation date serviceCharge |
 	empId := 2.
 	memberId := 10.
 
@@ -32,4 +32,6 @@ test0070AddServiceCharge
 	sct := AddServiceCharge memberId: memberId date: date amount: 13.
 	sct execute.
 
-	self assert: (affiliation serviceCharge: date) amount equals: 13
+	serviceCharge := affiliation serviceChargeOn: date.
+	self deny: serviceCharge isNil.	
+	self assert: serviceCharge amount equals: 13
