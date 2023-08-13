@@ -6,12 +6,16 @@ test0070AddServiceChargeExp
 	inputMemberId := 100.
 	inputDate := 20230812.
 	inputAmount := 13.
+
 	serviceCharge := ServiceCharge date: inputDate amount: inputAmount.
-	affiliation := Mock new.
-	(affiliation stub serviceChargeOn: inputDate) willReturn: serviceCharge.
+	(ServiceCharge stub date: inputDate amount: inputAmount) willReturn: serviceCharge.
+
 	employee := Mock new.
+	(PayrollDatabase stub employeeWithUnionMemberId: inputMemberId) 
+		willReturn: employee.
+
+	affiliation := Mock new.
 	employee stub affiliation willReturn: affiliation.
-	(PayrollDatabase stub employeeWithUnionMemberId: inputMemberId) willReturn: employee.
 
 	"Act"
 	transaction := AddServiceCharge
@@ -19,6 +23,7 @@ test0070AddServiceChargeExp
 		               date: inputDate
 		               amount: inputAmount.
 	transaction execute.
-	
+
 	"Assert"
-	self assert: serviceCharge amount equals: inputAmount
+	employee should receive affiliation.
+	affiliation should receive addServiceCharge: serviceCharge on: inputDate

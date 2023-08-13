@@ -2,7 +2,7 @@ execution
 execute
 
 	| employee affiliation serviceCharge |
-	employee := PayrollDatabase employeeWithUnionMemberId: memberId.
 	serviceCharge := ServiceCharge date: date amount: amount.
+	employee := PayrollDatabase employeeWithUnionMemberId: memberId.
 	affiliation := employee affiliation.
 	affiliation addServiceCharge: serviceCharge on: date
