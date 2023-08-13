@@ -1,7 +1,6 @@
 {
 	"instance" : {
 		"test0090ChangeAddress" : "YujiHamaguchi 8/7/2023 07:50",
-		"test0070AddServiceChargeExp" : "YujiHamaguchi 8/13/2023 09:09",
 		"test0051AddTimeCardNoSuchEmployee" : "YujiHamaguchi 8/1/2023 07:39",
 		"test0160ChangeMember" : "YujiHamaguchi 8/7/2023 07:50",
 		"test0030AddCommissionedEmployee" : "YujiHamaguchi 8/7/2023 07:50",
@@ -11,6 +10,7 @@
 		"test0080ChangeName" : "YujiHamaguchi 8/7/2023 07:50",
 		"test0052AddTimeCardToNonHourlyEmployee" : "YujiHamaguchi 8/1/2023 07:50",
 		"test0170ChangeUnaffiliated" : "YujiHamaguchi 8/7/2023 07:50",
+		"test0071AddServiceChargeNoSuchMember" : "YujiHamaguchi 8/13/2023 15:47",
 		"test0110ChangeSalaried" : "YujiHamaguchi 8/7/2023 07:50",
 		"test0180PaySingleSalariedEmployee" : "YujiHamaguchi 7/21/2023 15:00",
 		"test0100ChangeHourly" : "YujiHamaguchi 8/7/2023 07:50",
@@ -18,7 +18,8 @@
 		"test0140ChangeMailTransaction" : "YujiHamaguchi 8/7/2023 07:50",
 		"test0040DeleteEmployee" : "YujiHamaguchi 8/7/2023 07:50",
 		"test0060AddSalesReceipt" : "YujiHamaguchi 8/7/2023 07:50",
-		"test0070AddServiceCharge" : "YujiHamaguchi 8/11/2023 16:38",
+		"test0070AddServiceCharge" : "YujiHamaguchi 8/13/2023 12:02",
+		"test0072AddServiceChargeE2E" : "YujiHamaguchi 8/13/2023 15:40",
 		"test0061AddSalesReceiptToNonCommissionedEmployee" : "YujiHamaguchi 8/1/2023 07:37",
 		"test0150ChangeHoldTransaction" : "YujiHamaguchi 8/7/2023 07:50",
 		"test0010AddSalariedEmployee" : "YujiHamaguchi 8/7/2023 07:50",

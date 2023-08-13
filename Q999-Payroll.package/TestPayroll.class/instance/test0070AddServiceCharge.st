@@ -3,35 +3,29 @@ test0070AddServiceCharge
 
 	"
 	[ UseCase4: Request for service charge processing ]
-	- ServiceCharge <memberID> <amount>
+	- AddServiceCharge <memberID> <date> <amount>
 
 	Attachment 1: In the case where the selected memberID is a non-existent union member.
 	  Output an error message only, and perform no further processing.
 	"
 
-	| empId t memberId sct employee affiliation date serviceCharge |
-	empId := 2.
-	memberId := 10.
-
-	t := AddHourlyEmployee
-		     empId: empId
-		     name: 'Bill'
-		     address: 'Home'
-		     hourlyRate: 15.
-
-	t execute.
-
-	employee := PayrollDatabase employeeWithId: empId.
- 
-	affiliation := UnionAffiliation memberId: memberId dues: 12.
-	employee affiliation: affiliation.
-	PayrollDatabase addUnionMember: employee withId: memberId.
+	| employee affiliation inputDate inputAmount inputMemberId transaction serviceCharge |
+	"Arrange"
+	inputMemberId := 100.
+	inputDate := 20230801.
+	inputAmount := 12.
 	
-	date := 20230801.
-
-	sct := AddServiceCharge memberId: memberId date: date amount: 13.
-	sct execute.
-
-	serviceCharge := affiliation serviceChargeOn: date.
-	self deny: serviceCharge isNil.	
-	self assert: serviceCharge amount equals: 13
+	employee := Mock new.
+	(PayrollDatabase stub employeeWithUnionMemberId: inputMemberId) willReturn: employee.
+	affiliation := Mock new.
+	employee stub affiliation willReturn: affiliation.
+	serviceCharge := Mock new.
+	(ServiceCharge stub date: inputDate amount: inputAmount) willReturn: serviceCharge.	
+	 
+	"Action"
+	transaction := AddServiceCharge memberId: inputMemberId date: inputDate amount: inputAmount.
+	transaction execute.
+	
+	"Assert"
+	employee should receive affiliation.
+	affiliation should receive addServiceCharge: serviceCharge on: inputDate.
