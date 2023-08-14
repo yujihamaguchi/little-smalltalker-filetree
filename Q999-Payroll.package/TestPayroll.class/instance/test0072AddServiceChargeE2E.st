@@ -1,5 +1,6 @@
 tests
 test0072AddServiceChargeE2E
+
 	| empId inputMemberId employee affiliation inputDate serviceCharge inputAmount transaction |
 	"Arrange"
 	inputMemberId := 10.

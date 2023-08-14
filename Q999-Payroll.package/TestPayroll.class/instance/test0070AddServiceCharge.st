@@ -2,7 +2,7 @@ tests
 test0070AddServiceCharge
 
 	"
-	[ UseCase4: Request for service charge processing ]
+	[ UseCase5: Request for service charge processing ]
 	- AddServiceCharge <memberID> <date> <amount>
 
 	Attachment 1: In the case where the selected memberID is a non-existent union member.

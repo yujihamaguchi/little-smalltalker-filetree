@@ -1,7 +1,22 @@
 tests
 test0090ChangeAddress
 
-	| empId cat e t |
+	| inputEmpId inputAddress employee transaction |
+	"Arrange"
+	inputEmpId := Mock new.
+	inputAddress := Mock new.
+	employee := Mock new.
+	(PayrollDatabase stub employeeWithId: inputEmpId) willReturn:
+		employee.
+
+	"Action"
+	transaction := ChangeAddress empId: inputEmpId address: inputAddress.
+	transaction execute.
+
+	"Assert"
+	employee should receive address: inputAddress
+
+	"	| empId cat e t |
 	empId := 2.
 	t := AddHourlyEmployee
 		     empId: empId
@@ -17,4 +32,4 @@ test0090ChangeAddress
 	e := PayrollDatabase employeeWithId: empId.
 
 	self deny: e isNil.
-	self assert: e address equals: 'Boston'
+	self assert: e address equals: 'Boston'"
