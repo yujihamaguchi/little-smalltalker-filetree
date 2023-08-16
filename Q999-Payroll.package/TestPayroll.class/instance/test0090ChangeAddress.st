@@ -15,21 +15,3 @@ test0090ChangeAddress
 
 	"Assert"
 	employee should receive address: inputAddress
-
-	"	| empId cat e t |
-	empId := 2.
-	t := AddHourlyEmployee
-		     empId: empId
-		     name: 'John'
-		     address: 'NewYork'
-		     hourlyRate: 10.
-	t execute.
-
-
-	cat := ChangeAddressTransaction empId: empId address: 'Boston'.
-	cat execute.
-
-	e := PayrollDatabase employeeWithId: empId.
-
-	self deny: e isNil.
-	self assert: e address equals: 'Boston'"

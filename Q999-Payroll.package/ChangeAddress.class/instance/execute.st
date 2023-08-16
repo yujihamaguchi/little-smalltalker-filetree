@@ -1,5 +1,8 @@
 execution
 execute
+
 	| employee |
 	employee := PayrollDatabase employeeWithId: empId.
-	employee address: address 
+	employee ifNil: [ 
+		Error signal: 'No such employee. id: ' , empId asString ].
+	employee address: address
