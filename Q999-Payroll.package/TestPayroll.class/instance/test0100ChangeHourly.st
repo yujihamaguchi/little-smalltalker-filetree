@@ -1,23 +1,23 @@
 tests
 test0100ChangeHourly
 
-	| empId t chct e |
-	empId := 1.
-	t := AddSalariedEmployee
-		     empId: empId
-		     name: 'Bob'
-		     address: 'Home'
-		     salary: 1000.
+	| employee inputRate inputEmpId transaction hourlyClassification weeklySchedule |
+	"Arrange"
+	inputEmpId := Mock new.
+	inputRate := Mock new.
+	employee := Mock new.
+	(PayrollDatabase stub employeeWithId: inputEmpId) willReturn:
+		employee.
+	hourlyClassification := Mock new.
+	(HourlyClassification stub hourlyRate: inputRate) willReturn:
+		hourlyClassification.
+	weeklySchedule := Mock new.
+	(WeeklyShedule stub new) willReturn: weeklySchedule .
 
-	t execute.
+	"Action"
+	transaction := ChangeHourly empId: inputEmpId hourlyRate: inputRate.
+	transaction execute.
 
-	chct := ChangeHourlyTransaction
-		        empId: empId
-		        hourlyRate: 10.
-	chct execute.
-
-	e := PayrollDatabase employeeWithId: empId.
-	self deny: e isNil.
-	self assert: e classification class equals: HourlyClassification.
-	self assert: e schedule class equals: WeeklyShedule.	
-	self assert: e classification hourlyRate equals: 10
+	"Assert"
+	employee should receive classification: hourlyClassification.
+	employee should receive schedule: weeklySchedule

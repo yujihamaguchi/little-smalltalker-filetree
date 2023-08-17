@@ -1,5 +1,5 @@
 tests
-test0080ChangeNameNoSuchEmployee
+test0081ChangeNameNoSuchEmployee
 	| inputEmpId inputName transaction raisedError |
 
 	"Arrange"

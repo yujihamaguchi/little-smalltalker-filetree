@@ -1,5 +1,5 @@
 tests
-test0081ChangeNameE2E
+test0082ChangeNameE2E
 
 	| inputEmpId employee transaction inputName |
 	"Arrange"
