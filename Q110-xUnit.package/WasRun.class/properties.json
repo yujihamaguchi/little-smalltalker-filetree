@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MyTestCase",
+	"category" : "Q110-xUnit",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"wasRun"
+	],
+	"name" : "WasRun",
+	"type" : "normal"
+}
