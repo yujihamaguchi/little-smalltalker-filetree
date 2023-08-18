@@ -6,7 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"wasRun"
+		"wasRun",
+		"wasSetUp",
+		"log"
 	],
 	"name" : "WasRun",
 	"type" : "normal"

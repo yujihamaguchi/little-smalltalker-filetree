@@ -1,8 +1,12 @@
 {
 	"instance" : {
-		"testMethod" : "YujiHamaguchi 8/17/2023 15:07",
-		"setName:" : "YujiHamaguchi 8/17/2023 15:45",
-		"wasRun" : "YujiHamaguchi 8/17/2023 15:05"
+		"log" : "YujiHamaguchi 8/18/2023 12:46",
+		"testMethod" : "YujiHamaguchi 8/18/2023 12:50",
+		"wasSetUp" : "YujiHamaguchi 8/18/2023 12:14",
+		"tearDown" : "YujiHamaguchi 8/18/2023 12:54",
+		"setUp" : "YujiHamaguchi 8/18/2023 12:50",
+		"wasRun" : "YujiHamaguchi 8/17/2023 15:05",
+		"testBrokenMethod" : "YujiHamaguchi 8/18/2023 13:12"
 	},
 	"class" : { }
 }

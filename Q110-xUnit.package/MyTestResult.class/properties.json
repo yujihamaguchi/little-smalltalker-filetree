@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "MyTestCase",
+	"super" : "Object",
 	"category" : "Q110-xUnit",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"result"
+		"runCount",
+		"errorCount"
 	],
-	"name" : "MyTestCaseTest",
+	"name" : "MyTestResult",
 	"type" : "normal"
 }
