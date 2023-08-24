@@ -1,7 +1,7 @@
 tests
 test0110ChangeSalaried
 
-	| employee inputEmpId transaction inputSalary salariedClassification |
+	| employee inputEmpId transaction inputSalary salariedClassification monthlySchedule |
 	"Arrange"
 	inputEmpId := Mock new.
 	inputSalary := Mock new.
@@ -9,6 +9,9 @@ test0110ChangeSalaried
 	employee := Mock new.
 	(PayrollDatabase stub employeeWithId: inputEmpId) willReturn:
 		employee.
+
+	monthlySchedule := Mock new.
+	(MonthlySchedule stub new) willReturn: monthlySchedule.
 
 	salariedClassification := Mock new.
 	(SalariedClassification stub salary: inputSalary) willReturn:
@@ -19,4 +22,5 @@ test0110ChangeSalaried
 	transaction execute.
 
 	"Assert"
+	employee should receive schedule: monthlySchedule.
 	employee should receive classification: salariedClassification

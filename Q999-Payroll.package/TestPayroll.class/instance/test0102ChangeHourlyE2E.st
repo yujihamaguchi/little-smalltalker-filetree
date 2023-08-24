@@ -1,7 +1,7 @@
 tests
 test0102ChangeHourlyE2E
 
-	| inputEmpId employee classification inputHourlyRate transaction |
+	| inputEmpId employee classification inputHourlyRate transaction schedule |
 	"Arrange"
 	inputEmpId := Mock new.
 	inputHourlyRate := Mock new.
@@ -20,6 +20,8 @@ test0102ChangeHourlyE2E
 
 	"Assert"
 	employee := PayrollDatabase employeeWithId: inputEmpId.
+	schedule := employee schedule.
+	self assert: schedule class equals: WeeklyShedule.
 	classification := employee classification.
 	self assert: classification class equals: HourlyClassification.
 	self assert: classification hourlyRate equals: inputHourlyRate
