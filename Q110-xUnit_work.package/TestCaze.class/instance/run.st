@@ -3,4 +3,4 @@ run
 
 	self setUp.
 	self perform: name asSymbol.
-	self tearDown
+	self tearDown.

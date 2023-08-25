@@ -1,6 +1,5 @@
 initialization
-setName: aTestMethodNameString
+setName: aString
 
-	wasRun := nil.
-	name := aTestMethodNameString.
+	name := aString.
 	^ self

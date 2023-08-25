@@ -1,15 +1,12 @@
 tests
 test0080Logging
 "
-You should stop to use any flag and use logging.
-Replace from assertion of flag to assertion of log.
-WasRun log -> 'setUp testMethod' 
+You should stop using flags to check if it has been executed and instead use a log.
+WasRun log -> 'setUp testMethod ' 
 
 Please pass the test below on Playground.
-
 ```
-(TestCazeTest name: 'testRunning') run
-(TestCazeTest name: 'testSetUp') run
+(TestCazeTest name: 'testTemplateMethod') run
 ```
 
 If the test is success, nothing is happened.

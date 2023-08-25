@@ -2,9 +2,10 @@ tests
 test0030CallTestMethodDinamically
 "
 
-Please pass the test below on Playground.
-And you should make `testMethod` called dynamically.
+You should make `testMethod` called dynamically.
 
+Please pass the test below on Playground.
+( Same as the previous question )
 ```
 Transcript clear.
 test := WasRun name: 'testMethod'.

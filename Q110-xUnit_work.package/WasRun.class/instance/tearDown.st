@@ -1,3 +1,4 @@
 running
 tearDown
-	log := log, 'tearDown '
+
+	log := log , 'tearDown '

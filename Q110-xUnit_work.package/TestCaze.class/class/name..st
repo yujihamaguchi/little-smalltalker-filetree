@@ -1,3 +1,4 @@
 accessing
-name: aTestMethodNameString
-	^ self new initialize setName: aTestMethodNameString
+name: aString
+
+	^ self new setName: aString

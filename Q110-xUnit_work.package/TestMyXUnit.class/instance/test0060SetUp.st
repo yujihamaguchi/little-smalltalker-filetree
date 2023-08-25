@@ -6,7 +6,7 @@ We want to add setup process before exection of test.
 Please pass the test below on Playground.
 
 ```
-(TestCazeTest name: 'testRunning') run
+(TestCazeTest name: 'testRunning') run.
 (TestCazeTest name: 'testSetUp') run
 ```
 

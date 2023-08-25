@@ -1,9 +1,10 @@
 tests
-test0090RefactorUsingLogging
+test0090TearDown
 "
-Now, testSetUp becomes the test which assert setUp and testMethod.
-So you can remove `testRunning`
+It's easy to add `tearDown`.
 
+Please pass the test below on Playground.
+( Same as the previous test )
 ```
 (TestCazeTest name: 'testTemplateMethod') run
 ```
