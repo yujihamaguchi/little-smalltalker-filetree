@@ -1,3 +1,6 @@
 running
 run
-	self perform: name asSymbol 
+
+	self setUp.
+	self perform: name asSymbol.
+	self tearDown

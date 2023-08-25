@@ -1,15 +1,15 @@
 tests
-test0050UseOurTestCazeClass
+test0060SetUp
 "
-You should use your `TestCaze` class to execute test case.
+We want to add setup process before exection of test.
 
 Please pass the test below on Playground.
 
 ```
 (TestCazeTest name: 'testRunning') run
+(TestCazeTest name: 'testSetUp') run
 ```
 
-You will not see anymore on a Transcript.
 If the test is success, nothing is happened.
 If the test is failed, you will see some stacktrace.
 "

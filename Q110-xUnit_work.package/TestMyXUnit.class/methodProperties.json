@@ -1,10 +1,15 @@
 {
 	"instance" : {
+		"test0090RefactorUsingLogging" : "YujiHamaguchi 8/25/2023 16:05",
+		"test0080Logging" : "YujiHamaguchi 8/25/2023 16:00",
+		"test0060SetUp" : "YujiHamaguchi 8/25/2023 15:33",
+		"test0070RefactorUsingSetUp" : "YujiHamaguchi 8/25/2023 15:47",
 		"test0040SeparateWasRunClassOnResponsibilities" : "YujiHamaguchi 8/25/2023 11:49",
-		"test0030CallTestMethodDinamically" : "YujiHamaguchi 8/25/2023 11:35",
+		"test0100TearDown" : "YujiHamaguchi 8/25/2023 16:16",
 		"test0010CallTestMethod" : "YujiHamaguchi 8/25/2023 11:33",
-		"test0050UseOurTestCazeClass" : "YujiHamaguchi 8/25/2023 12:09",
-		"test0020UseRunMethod" : "YujiHamaguchi 8/25/2023 11:31"
+		"test0030CallTestMethodDinamically" : "YujiHamaguchi 8/25/2023 11:35",
+		"test0020UseRunMethod" : "YujiHamaguchi 8/25/2023 11:31",
+		"test0050UseOurTestCazeClass" : "YujiHamaguchi 8/25/2023 15:29"
 	},
 	"class" : { }
 }
