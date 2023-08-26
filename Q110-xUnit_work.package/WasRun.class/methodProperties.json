@@ -1,9 +1,10 @@
 {
 	"instance" : {
-		"tearDown" : "YujiHamaguchi 8/26/2023 08:21",
-		"testMethod" : "YujiHamaguchi 8/26/2023 08:13",
 		"log" : "YujiHamaguchi 8/26/2023 08:11",
-		"setUp" : "YujiHamaguchi 8/26/2023 08:11"
+		"testMethod" : "YujiHamaguchi 8/26/2023 08:13",
+		"tearDown" : "YujiHamaguchi 8/26/2023 08:21",
+		"setUp" : "YujiHamaguchi 8/26/2023 08:11",
+		"testBrokenMethod" : "YujiHamaguchi 8/27/2023 07:54"
 	},
 	"class" : { }
 }

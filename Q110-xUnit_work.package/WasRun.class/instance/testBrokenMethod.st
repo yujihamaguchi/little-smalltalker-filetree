@@ -1,0 +1,4 @@
+tests
+testBrokenMethod
+
+	Exception signal
