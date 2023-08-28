@@ -1,3 +1,4 @@
 tests
 testBrokenMethod
-	Error signal 
+
+	Exception signal

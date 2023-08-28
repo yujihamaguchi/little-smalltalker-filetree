@@ -1,14 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCaze",
-	"category" : "Q110-xUnit_work",
+	"super" : "Object",
+	"category" : "Q110-xUnit",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"test",
-		"result"
+		"runCount",
+		"errorCount"
 	],
-	"name" : "TestCazeTest",
+	"name" : "TestRezult",
 	"type" : "normal"
 }

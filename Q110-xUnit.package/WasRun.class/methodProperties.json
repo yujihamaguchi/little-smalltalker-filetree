@@ -1,12 +1,10 @@
 {
 	"instance" : {
-		"log" : "YujiHamaguchi 8/18/2023 12:46",
-		"testMethod" : "YujiHamaguchi 8/18/2023 12:50",
-		"wasSetUp" : "YujiHamaguchi 8/18/2023 12:14",
-		"tearDown" : "YujiHamaguchi 8/18/2023 12:54",
-		"setUp" : "YujiHamaguchi 8/18/2023 12:50",
-		"wasRun" : "YujiHamaguchi 8/17/2023 15:05",
-		"testBrokenMethod" : "YujiHamaguchi 8/18/2023 13:12"
+		"log" : "YujiHamaguchi 8/26/2023 08:11",
+		"testMethod" : "YujiHamaguchi 8/26/2023 08:13",
+		"tearDown" : "YujiHamaguchi 8/26/2023 08:21",
+		"setUp" : "YujiHamaguchi 8/26/2023 08:11",
+		"testBrokenMethod" : "YujiHamaguchi 8/27/2023 07:54"
 	},
 	"class" : { }
 }
