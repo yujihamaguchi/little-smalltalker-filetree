@@ -1,5 +1,5 @@
 tests
-test0030CallTestMethodDinamically
+test0030CallTestMethodDynamically
 "
 
 You should make `testMethod` called dynamically.

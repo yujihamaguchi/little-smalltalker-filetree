@@ -1,4 +1,4 @@
 running
 run
 
-	self testMethod
+	self perform: name asSymbol
