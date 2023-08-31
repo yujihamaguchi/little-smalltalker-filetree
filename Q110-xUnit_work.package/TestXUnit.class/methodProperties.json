@@ -7,12 +7,12 @@
 		"test0070RefactorUsingSetUp" : "YujiHamaguchi 8/29/2023 07:45",
 		"test0110CountTest" : "YujiHamaguchi 8/29/2023 07:45",
 		"test0040SeparateWasRunClassOnResponsibilities" : "YujiHamaguchi 8/29/2023 07:45",
-		"test0030CallTestMethodDynamically" : "YujiHamaguchi 9/1/2023 07:26",
+		"test0030CallTestMethodDynamically" : "YujiHamaguchi 9/1/2023 07:30",
 		"test0140TestSuite" : "YujiHamaguchi 8/29/2023 07:45",
 		"test0010CallTestMethod" : "YujiHamaguchi 8/30/2023 09:12",
 		"test0100ReturnTestResult" : "YujiHamaguchi 8/29/2023 07:45",
 		"test0120CountFailedTestFormmating" : "YujiHamaguchi 8/29/2023 07:45",
-		"test0020UseRunMethod" : "YujiHamaguchi 8/31/2023 07:43",
+		"test0020UseRunMethod" : "YujiHamaguchi 9/1/2023 07:30",
 		"test0050UseOurTestCazeClass" : "YujiHamaguchi 8/29/2023 07:45"
 	},
 	"class" : { }
