@@ -1,9 +1,6 @@
 tests
 testSetUp
 
-	| test |
-	"Arrange"
-	test := WasRun name: 'testMethod'.
 	"Act"
 	test run.
 	"Assert"

@@ -13,5 +13,5 @@ You will not see anymore on a Transcript.
 If the test is success, nothing is happened.
 If the test is failed, you will see some stacktrace.
 
-https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/master/Q110-xUnit_work.package
+https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/eb4144c89b76ec197c72550f860bf55bf498898d/Q110-xUnit_work.package
 "
