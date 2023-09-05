@@ -6,7 +6,6 @@ testRunning
 	test := WasRun name: 'testMethod'.
 	"Assert"
 	TestCase new assert: test wasRun isNil.
-		"Act"
 	test run.
 	"Assert"
 	TestCase new assert: test wasRun equals: 1

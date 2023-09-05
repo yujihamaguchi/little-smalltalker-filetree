@@ -1,7 +1,7 @@
 tests
 test0060SetUp
 "
-We want to add setup process before exection of test.
+We want to add `setup` process before execution of test.
 
 Please pass the test below on Playground.
 
@@ -12,4 +12,6 @@ Please pass the test below on Playground.
 
 If the test is success, nothing is happened.
 If the test is failed, you will see some stacktrace.
+
+
 "

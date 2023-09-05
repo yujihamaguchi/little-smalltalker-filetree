@@ -1,7 +1,9 @@
 {
 	"instance" : {
 		"testMethod" : "YujiHamaguchi 8/30/2023 09:09",
-		"wasRun" : "YujiHamaguchi 8/30/2023 09:08"
+		"wasRun" : "YujiHamaguchi 8/30/2023 09:08",
+		"wasSetUp" : "YujiHamaguchi 9/5/2023 14:13",
+		"setUp" : "YujiHamaguchi 9/5/2023 14:09"
 	},
 	"class" : { }
 }
