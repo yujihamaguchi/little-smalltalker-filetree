@@ -1,4 +1,4 @@
 tests
 testMethod
 
-	wasRun := 1
+	log := log , 'testMethod '

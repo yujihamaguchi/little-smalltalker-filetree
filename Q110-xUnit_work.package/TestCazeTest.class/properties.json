@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"test"
-	],
+	"instvars" : [ ],
 	"name" : "TestCazeTest",
 	"type" : "normal"
 }

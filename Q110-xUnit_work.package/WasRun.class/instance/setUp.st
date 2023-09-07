@@ -1,3 +1,4 @@
 initialization
 setUp
-	wasSetUp := 1
+
+	log := 'setUp '

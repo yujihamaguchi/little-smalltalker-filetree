@@ -1,8 +1,6 @@
 {
 	"instance" : {
-		"testSetUp" : "YujiHamaguchi 9/6/2023 07:28",
-		"setUp" : "YujiHamaguchi 9/6/2023 07:27",
-		"testRunning" : "YujiHamaguchi 9/6/2023 07:27"
+		"testTemplateMethod" : "YujiHamaguchi 9/7/2023 13:03"
 	},
 	"class" : { }
 }

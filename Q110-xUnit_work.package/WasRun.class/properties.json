@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"wasRun",
-		"wasSetUp"
+		"wasSetUp",
+		"log"
 	],
 	"name" : "WasRun",
 	"type" : "normal"
