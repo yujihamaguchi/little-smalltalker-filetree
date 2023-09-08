@@ -9,4 +9,4 @@ testTemplateMethod
 	test run.
 
 	"Assert"
-	TestCase new assert: test log equals: 'setUp testMethod '
+	TestCase new assert: test log equals: 'setUp testMethod tearDown '
