@@ -1,7 +1,8 @@
 {
 	"instance" : {
+		"testTemplateMethod" : "YujiHamaguchi 9/9/2023 07:11",
 		"testRezult" : "YujiHamaguchi 9/9/2023 07:14",
-		"testTemplateMethod" : "YujiHamaguchi 9/9/2023 07:11"
+		"testFailedResultFormatting" : "YujiHamaguchi 9/9/2023 07:26"
 	},
 	"class" : { }
 }

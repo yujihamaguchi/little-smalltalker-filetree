@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"runCount"
+		"runCount",
+		"errorCount"
 	],
 	"name" : "TestRezult",
 	"type" : "normal"
