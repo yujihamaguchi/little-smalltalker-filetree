@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "BkTestCaze",
 	"category" : "Q110-xUnit",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"testCases"
+		"test",
+		"result"
 	],
-	"name" : "TestZuite",
+	"name" : "BkTestCazeTest",
 	"type" : "normal"
 }

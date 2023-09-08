@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCaze",
+	"super" : "BkTestCaze",
 	"category" : "Q110-xUnit",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,6 +8,6 @@
 	"instvars" : [
 		"log"
 	],
-	"name" : "WasRun",
+	"name" : "BkWasRun",
 	"type" : "normal"
 }

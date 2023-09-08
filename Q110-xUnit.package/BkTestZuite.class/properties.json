@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "TestMyXUnit",
+	"instvars" : [
+		"testCases"
+	],
+	"name" : "BkTestZuite",
 	"type" : "normal"
 }
