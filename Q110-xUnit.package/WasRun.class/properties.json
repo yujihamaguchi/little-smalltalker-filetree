@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCaze",
+	"category" : "Q110-xUnit",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"wasRun",
+		"wasSetUp",
+		"log"
+	],
+	"name" : "WasRun",
+	"type" : "normal"
+}

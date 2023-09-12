@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Q110-xUnit",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"runCount",
+		"errorCount"
+	],
+	"name" : "TestRezult",
+	"type" : "normal"
+}
