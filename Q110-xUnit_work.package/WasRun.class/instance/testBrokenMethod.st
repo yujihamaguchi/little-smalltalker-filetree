@@ -1,4 +1,0 @@
-tests
-testBrokenMethod
-
-	Exception signal
