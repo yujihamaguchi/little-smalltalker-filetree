@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"result"
+		"testCazes"
 	],
-	"name" : "TestCazeTest",
+	"name" : "TestZuite",
 	"type" : "normal"
 }

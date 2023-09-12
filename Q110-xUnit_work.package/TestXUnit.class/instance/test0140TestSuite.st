@@ -1,10 +1,8 @@
 tests
 test0140TestSuite
 "
-We want to treat single tests and multiple tests in the same way.
+We want to treat a single test and multiple tests in the same way.
 You should create a `TestZuite` class to do it.
-```
-```
 
 Please pass the test below on Playground.
 ```
@@ -19,7 +17,8 @@ result := TestRezult new.
 suite run: result.
 Transcript show: result summary
 ```
-
-If the test is success, nothing is happened.
-If the test is failed, you will see some stacktrace.
+You can see the result below in the Transcript.
+```
+5 run, 0 failed
+```
 "
