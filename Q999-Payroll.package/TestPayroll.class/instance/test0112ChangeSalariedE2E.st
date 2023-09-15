@@ -1,5 +1,5 @@
 tests
-test0110ChangeSalariedE2E
+test0112ChangeSalariedE2E
 
 	| schedule classification inputSalary inputEmpId employee transaction |
 	"Arrange"

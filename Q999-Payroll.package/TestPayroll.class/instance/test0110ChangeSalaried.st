@@ -11,7 +11,7 @@ test0110ChangeSalaried
 		employee.
 
 	monthlySchedule := Mock new.
-	(MonthlySchedule stub new) willReturn: monthlySchedule.
+	MonthlySchedule stub new willReturn: monthlySchedule.
 
 	salariedClassification := Mock new.
 	(SalariedClassification stub salary: inputSalary) willReturn:

@@ -1,5 +1,5 @@
 tests
-test0110ChangeSalariedNoSuchEmployee
+test0111ChangeSalariedNoSuchEmployee
 
 	| raisedError inputEmpId inputSalary transaction |
 	"Arrange"
