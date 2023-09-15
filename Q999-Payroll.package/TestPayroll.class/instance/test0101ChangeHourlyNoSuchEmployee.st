@@ -3,7 +3,7 @@ test0101ChangeHourlyNoSuchEmployee
 
 	| raisedError inputEmpId inputHourlyRate transaction |
 	"Arrange"
-	inputEmpId := Mock new.
+	inputEmpId := 123.
 	inputHourlyRate := Mock new.
 	(PayrollDatabase stub employeeWithId: inputEmpId) willReturn: nil.
 

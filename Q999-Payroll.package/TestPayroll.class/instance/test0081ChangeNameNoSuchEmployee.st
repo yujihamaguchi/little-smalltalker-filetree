@@ -3,7 +3,7 @@ test0081ChangeNameNoSuchEmployee
 	| inputEmpId inputName transaction raisedError |
 
 	"Arrange"
-	inputEmpId := Mock new.
+	inputEmpId := 123.
 	inputName := Mock new.
 	(PayrollDatabase stub employeeWithId: inputEmpId) willReturn: nil.
 	 

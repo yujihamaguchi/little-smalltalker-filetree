@@ -3,7 +3,7 @@ test0071AddServiceChargeNoSuchMember
 
 	| transaction raisedError inputMemberId |
 	"Arrange"
-	inputMemberId := 100.
+	inputMemberId := 123.
 	
 	"Action"
 	transaction := AddServiceCharge memberId: inputMemberId date: 20230801 amount: 1. 

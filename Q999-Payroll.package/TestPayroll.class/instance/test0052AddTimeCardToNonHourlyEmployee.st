@@ -2,7 +2,7 @@ tests
 test0052AddTimeCardToNonHourlyEmployee
 
 	| empId t tct raisedError |
-	empId := 1.
+	empId := 123.
 	t := AddSalariedEmployee
 		     empId: empId
 		     name: 'Bob'
