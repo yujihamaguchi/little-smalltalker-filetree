@@ -1,0 +1,13 @@
+{
+	"classtraitcomposition" : "TTransaction classTrait",
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ChangeDirect",
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "TTransaction",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Q999-Payroll-PayrollApplication"
+}
