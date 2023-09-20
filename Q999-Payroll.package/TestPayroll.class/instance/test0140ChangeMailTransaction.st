@@ -1,17 +1,20 @@
 tests
 test0140ChangeMailTransaction
 
-	| empId cdt e t |
-	empId := 1.
-	t := AddSalariedEmployee
-		     empId: empId
-		     name: 'Bob'
-		     address: 'Home'
-		     salary: 1000.
-	t execute.
+	| inputEmpId employee mailMethod transaction |
+	"Arrange"
+	inputEmpId := Mock new.
+	employee := Mock new.
+	(PayrollDatabase stub employeeWithId: inputEmpId) willReturn:
+		employee.
+	mailMethod := Mock new.
+	MailMethod stub new willReturn: mailMethod.
 
-	cdt := ChangeMailTransaction empId: empId.
-	cdt execute.
+	"Act"
+	transaction := ChangeMail empId: inputEmpId.
+	transaction execute.
 
-	e := PayrollDatabase employeeWithId: empId.
-	self assert: e method class equals: MailMethod
+	"Assert"
+	PayrollDatabase should receive employeeWithId: inputEmpId.
+	MailMethod should receive new.
+	employee should receive method: mailMethod
