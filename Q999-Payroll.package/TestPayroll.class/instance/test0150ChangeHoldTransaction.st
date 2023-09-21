@@ -1,17 +1,20 @@
 tests
 test0150ChangeHoldTransaction
 
-	| empId cdt e t |
-	empId := 1.
-	t := AddSalariedEmployee
-		     empId: empId
-		     name: 'Bob'
-		     address: 'Home'
-		     salary: 1000.
-	t execute.
+	| inputEmpId employee holdMethod transaction |
+	"Arrange"
+	inputEmpId := Mock new.
+	employee := Mock new.
+	(PayrollDatabase stub employeeWithId: inputEmpId) willReturn:
+		employee.
+	holdMethod := Mock new.
+	HoldMethod stub new willReturn: holdMethod.
 
-	cdt := ChangeHoldTransaction empId: empId.
-	cdt execute.
+	"Act"
+	transaction := ChangeHold empId: inputEmpId.
+	transaction execute.
 
-	e := PayrollDatabase employeeWithId: empId.
-	self assert: e method class equals: HoldMethod
+	"Assert"
+	PayrollDatabase should receive employeeWithId: inputEmpId.
+	HoldMethod should receive new.
+	employee should receive method: holdMethod
