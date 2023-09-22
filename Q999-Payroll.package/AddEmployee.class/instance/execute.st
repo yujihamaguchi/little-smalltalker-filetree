@@ -6,4 +6,4 @@ execute
 	employee classification: self classification.
 	employee schedule: self schedule.
 	employee method: HoldMethod new.
-	PayrollDatabase save: employee
+	PayrollDatabase addEmployee: employee

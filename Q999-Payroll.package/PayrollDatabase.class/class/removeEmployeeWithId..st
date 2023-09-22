@@ -1,3 +1,3 @@
 removing
-remove: empId
+removeEmployeeWithId: empId
 	employees removeKey: empId 

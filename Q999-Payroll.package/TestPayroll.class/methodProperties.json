@@ -1,6 +1,7 @@
 {
 	"instance" : {
 		"test0120ChangeCommissioned" : "YujiHamaguchi 9/16/2023 08:15",
+		"test0160ChangeMemberTransaction" : "YujiHamaguchi 9/23/2023 08:46",
 		"test0091ChangeAddressNoSuchEmployee" : "YujiHamaguchi 9/16/2023 08:01",
 		"test0121ChangeCommissionedNoSuchEmployee" : "YujiHamaguchi 9/16/2023 08:17",
 		"test0072AddServiceChargeE2E" : "YujiHamaguchi 9/16/2023 08:12",
@@ -30,6 +31,7 @@
 		"test0170ChangeUnaffiliated" : "YujiHamaguchi 8/7/2023 07:50",
 		"test0150ChangeHoldTransaction" : "YujiHamaguchi 9/21/2023 10:13",
 		"test0070AddServiceCharge" : "YujiHamaguchi 8/14/2023 07:38",
+		"test0161ChangeMemberTransactionNoSuchEmployee" : "YujiHamaguchi 9/23/2023 08:54",
 		"test0020AddHourlyEmployee" : "YujiHamaguchi 9/21/2023 10:02",
 		"test0052AddTimeCardToNonHourlyEmployee" : "YujiHamaguchi 9/16/2023 08:02",
 		"test0061AddSalesReceiptToNonCommissionedEmployee" : "YujiHamaguchi 9/16/2023 08:02",

@@ -1,3 +1,3 @@
 execution
 execute
-	PayrollDatabase remove: empId
+	PayrollDatabase removeEmployeeWithId: empId
