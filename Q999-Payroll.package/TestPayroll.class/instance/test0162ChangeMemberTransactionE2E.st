@@ -3,7 +3,7 @@ test0162ChangeMemberTransactionE2E
 
 	"
 You should pass this test with TDD.
-refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/0a13bd5d314a351b8072e8edb34db6e0dc6054f8/Q999-Payroll.package/TestPayroll.class/instance
+refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/eccc3ae4750c947717dcae1b1932f88e9cf19ad8/Q999-Payroll.package/TestPayroll.class/instance
 "
 	| inputEmpId employee affiliation inputDues inputMemberId member transaction |
 	"Arrange"

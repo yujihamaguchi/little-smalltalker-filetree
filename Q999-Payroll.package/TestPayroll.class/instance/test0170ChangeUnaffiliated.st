@@ -1,17 +1,20 @@
 tests
 test0170ChangeUnaffiliated
 
-	| empId cmt e t |
-	empId := 1.
-	t := AddSalariedEmployee
-		     empId: empId
-		     name: 'Bob'
-		     address: 'Home'
-		     salary: 1000.
+	| employee noAffiliation inputEmpId transaction |
+	"Arrange"
+	inputEmpId := Mock new.
+	employee := Mock new.
+	(PayrollDatabase stub employeeWithId: inputEmpId) willReturn:
+		employee.
+	noAffiliation := Mock new.
+	NoAffiliation stub new willReturn: noAffiliation.
 
-	t execute.
+	"Act"
+	transaction := ChangeUnaffiliated empId: inputEmpId.
+	transaction execute.
 
-	cmt := ChangeUnaffiliatedTransaction empId: empId.
-	cmt execute.
-	e := PayrollDatabase employeeWithId: empId.
-	self assert: e affiliation class equals: NoAffiliation
+	"Assert"
+	PayrollDatabase should receive employeeWithId: inputEmpId.
+	NoAffiliation should receive new.
+	employee should receive affiliation: noAffiliation
