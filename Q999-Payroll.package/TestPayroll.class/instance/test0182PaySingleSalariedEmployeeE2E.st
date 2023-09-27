@@ -1,5 +1,5 @@
 tests
-test0180PaySingleSalariedEmployee
+test0182PaySingleSalariedEmployeeE2E
 
 	"
 You should pass this test with TDD.
@@ -13,16 +13,16 @@ refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/eccc3ae
 	empId := 123.
 	payAmount := 1000.
 	transaction := AddSalariedEmployee
-		     empId: empId
-		     name: 'Bob'
-		     address: 'Home'
-		     salary: 1000.
+		               empId: empId
+		               name: 'Bob'
+		               address: 'Home'
+		               salary: 1000.
 	transaction execute.
-	
+
 	"Act"
 	transaction := Payday payDate: inputPayDate.
 	transaction execute.
-	
+
 	"Assert"
 	paycheck := transaction paycheck: empId.
 	self assert: paycheck payPeriodEndDate equals: inputPayDate.

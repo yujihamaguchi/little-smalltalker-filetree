@@ -3,7 +3,7 @@ test0172ChangeUnaffiliatedE2E
 
 	"
 You should pass this test with TDD.
-refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/eccc3ae4750c947717dcae1b1932f88e9cf19ad8/Q999-Payroll.package/TestPayroll.class/instance
+refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/4f927f75c8c763338f3aad5affbeeeca0291e0d1/Q999-Payroll.package/TestPayroll.class/instance
 "
 
 	| employee inputEmpId transaction |
