@@ -20,7 +20,7 @@ refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/eccc3ae
 	transaction execute.
 
 	empId2 := 456.
-	payAmount2 := 1000.
+	payAmount2 := 2000.
 	transaction := AddSalariedEmployee
 		               empId: empId2
 		               name: Mock new

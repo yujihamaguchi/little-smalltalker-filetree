@@ -2,7 +2,8 @@
 	"classtraitcomposition" : "TTransaction classTrait",
 	"classvars" : [ ],
 	"instvars" : [
-		"payDate"
+		"payDate",
+		"payChecks"
 	],
 	"name" : "Payday",
 	"commentStamp" : "",
