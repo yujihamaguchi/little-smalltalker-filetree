@@ -2,9 +2,9 @@ as yet unclassified
 payday: aPayCheck
 
 	| grossPay deductions |
-	grossPay := classification calculatePay: aPayCheck.
-	deductions := affiliation calculateDeductions: aPayCheck.
+	grossPay := self classification calculatePay: aPayCheck.
+	deductions := self affiliation calculateDeductions: aPayCheck.
 	aPayCheck grossPay: grossPay.
 	aPayCheck deductions: deductions.
 	aPayCheck netPay: grossPay - deductions.
-	method pay: aPayCheck
+	self method pay: aPayCheck

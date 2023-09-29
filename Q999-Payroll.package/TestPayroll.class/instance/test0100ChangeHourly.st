@@ -15,7 +15,7 @@ test0100ChangeHourly
 		hourlyClassification.
 
 	weeklySchedule := Mock new.
-	WeeklyShedule stub new willReturn: weeklySchedule.
+	WeeklySchedule stub new willReturn: weeklySchedule.
 
 	"Action"
 	transaction := ChangeHourly empId: inputEmpId hourlyRate: inputRate.

@@ -24,7 +24,7 @@ test0020AddHourlyEmployee
 
 	ws := e schedule.
 	self deny: ws isNil.
-	self assert: ws class equals: WeeklyShedule.
+	self assert: ws class equals: WeeklySchedule.
 
 	hm := e method.
 	self deny: hm isNil.

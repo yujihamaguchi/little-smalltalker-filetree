@@ -6,7 +6,7 @@ execute
 	employee ifNil: [ 
 		Error signal: 'No such employee. id: ' , empId asString ].
 	hourlyClassification := HourlyClassification hourlyRate: hourlyRate.
-	weeklyShedule := WeeklyShedule new.
+	weeklyShedule := WeeklySchedule new.
 	employee
 		classification: hourlyClassification;
 		schedule: weeklyShedule

@@ -1,3 +1,4 @@
 removing
 removeEmployeeWithId: empId
-	employees removeKey: empId 
+
+	employees removeKey: empId

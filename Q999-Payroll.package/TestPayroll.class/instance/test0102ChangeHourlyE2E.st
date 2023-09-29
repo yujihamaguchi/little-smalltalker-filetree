@@ -26,7 +26,7 @@ refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/7de7de2
 	"Assert"
 	employee := PayrollDatabase employeeWithId: inputEmpId.
 	schedule := employee schedule.
-	self assert: schedule class equals: WeeklyShedule.
+	self assert: schedule class equals: WeeklySchedule.
 	classification := employee classification.
 	self assert: classification class equals: HourlyClassification.
 	self assert: classification hourlyRate equals: inputHourlyRate

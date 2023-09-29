@@ -16,7 +16,7 @@ testPayday
 	deductions := 3.
 	(affiliation stub calculateDeductions: payCheck) willReturn:
 		deductions.
-
+	"Can I rewrite this with mock?"
 	netPay := grossPay - deductions.
 
 	method := Mock new.

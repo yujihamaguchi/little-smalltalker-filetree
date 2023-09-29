@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Affiliation",
+	"super" : "PaymentSchedule",
 	"category" : "Q999-Payroll-PayrollApplication",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "NoAffiliation",
+	"name" : "WeeklySchedule",
 	"type" : "normal"
 }
