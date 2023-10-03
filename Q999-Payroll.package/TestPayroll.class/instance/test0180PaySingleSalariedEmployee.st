@@ -16,7 +16,7 @@ test0180PaySingleSalariedEmployee
 		payPeriodStartDate.
 
 	payCheck := Mock new.
-	(PayCheck stub from: payPeriodStartDate to: inputPayDate) 
+	(Paycheck stub from: payPeriodStartDate to: inputPayDate) 
 		willReturn: payCheck.
 
 	payCheckUpdated := Mock new.
@@ -30,5 +30,5 @@ test0180PaySingleSalariedEmployee
 	PayrollDatabase should receive allEmployeeIds.
 	PayrollDatabase should receive employeeWithId: empId.
 	employee should receive payPeriodStartDate: inputPayDate.
-	PayCheck should receive from: payPeriodStartDate to: inputPayDate.
+	Paycheck should receive from: payPeriodStartDate to: inputPayDate.
 	employee should receive payday: payCheck

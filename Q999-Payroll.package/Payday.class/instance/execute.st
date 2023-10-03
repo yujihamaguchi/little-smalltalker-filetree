@@ -5,7 +5,7 @@ execute
 	payChecks ifNil: [ payChecks := Dictionary new ].
 	PayrollDatabase allEmployeeIds do: [ :empId | 
 		employee := PayrollDatabase employeeWithId: empId.
-		payCheck := PayCheck
+		payCheck := Paycheck
 			            from: (employee payPeriodStartDate: payDate)
 			            to: payDate.
 		employee payday: payCheck.

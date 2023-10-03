@@ -1,9 +1,12 @@
 {
 	"instance" : {
+		"calculateDeductions:" : "YujiHamaguchi 10/3/2023 13:57",
+		"dues" : "YujiHamaguchi 9/23/2023 08:48",
+		"numberOfFridaysBetween:and:" : "YujiHamaguchi 10/3/2023 13:14",
+		"serviceCharges" : "YujiHamaguchi 10/3/2023 13:09",
 		"addServiceCharge:on:" : "YujiHamaguchi 8/11/2023 16:42",
 		"serviceChargeOn:" : "YujiHamaguchi 8/11/2023 16:28",
-		"setMemberId:dues:" : "YujiHamaguchi 8/5/2023 08:41",
-		"dues" : "YujiHamaguchi 9/23/2023 08:48"
+		"setMemberId:dues:" : "YujiHamaguchi 8/5/2023 08:41"
 	},
 	"class" : {
 		"memberId:dues:" : "YujiHamaguchi 8/5/2023 08:41"
