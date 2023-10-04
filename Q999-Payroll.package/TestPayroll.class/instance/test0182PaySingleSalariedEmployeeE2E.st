@@ -4,6 +4,12 @@ test0182PaySingleSalariedEmployeeE2E
 	"
 You should pass this test with TDD.
 refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/eccc3ae4750c947717dcae1b1932f88e9cf19ad8/Q999-Payroll.package/TestPayroll.class/instance
+
+spec:
+- About `deductions`
+Retrieve the service charges from the set held by UnionAffiliation that correspond to the start and end dates of the Paycheck, and sum their amounts.
+On the other hand, calculate the amount by multiplying the dues held by UnionAffiliation with the number of Fridays contained between the start and end dates of the Paycheck.
+The sum of these two calculations will be the deductions.
 "
 
 	| transaction paycheck inputPayDate empId1 empId2 payAmount1 payAmount2 memberId1 memberId2 |
