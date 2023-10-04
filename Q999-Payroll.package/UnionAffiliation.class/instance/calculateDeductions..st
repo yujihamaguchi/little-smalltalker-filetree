@@ -1,15 +1,15 @@
 as yet unclassified
 calculateDeductions: aPaycheck
 
-	| aServiceCharges targetServiceCharges totalServiceCharge aDues numberOfFridays totalDues |
-	aServiceCharges := self serviceCharges.
-	targetServiceCharges := aServiceCharges
-		                        between: aPaycheck startDate
-		                        and: aPaycheck endDate.
-	totalServiceCharge := targetServiceCharges totalAmount.
+	| filterdServiceCharges totalServiceCharge numberOfFridays totalDues |
+	serviceCharges := self serviceCharges.
+	filterdServiceCharges := serviceCharges
+		                         between: aPaycheck startDate
+		                         and: aPaycheck endDate.
+	totalServiceCharge := filterdServiceCharges totalAmount.
 	numberOfFridays := self
 		                   numberOfFridaysBetween: aPaycheck startDate
 		                   and: aPaycheck endDate.
-	aDues := self dues.
-	totalDues := numberOfFridays * aDues.
+	dues := self dues.
+	totalDues := numberOfFridays * dues.
 	^ totalServiceCharge + totalDues
