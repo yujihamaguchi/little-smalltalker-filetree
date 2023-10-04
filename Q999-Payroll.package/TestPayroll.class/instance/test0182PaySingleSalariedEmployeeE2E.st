@@ -32,6 +32,9 @@ The sum of these two calculations will be the deductions.
 		               dues: Mock new.
 	transaction execute.
 
+	transaction := AddServiceCharge memberId: memberId1 date: Mock new amount: Mock new.
+	transaction execute.
+
 	empId2 := 456.
 	memberId2 := 4567.
 	payAmount2 := 2000.
@@ -46,6 +49,9 @@ The sum of these two calculations will be the deductions.
 		               empId: empId2
 		               memberId: memberId2
 		               dues: Mock new.
+	transaction execute.
+
+	transaction := AddServiceCharge memberId: memberId2 date: Mock new amount: Mock new.
 	transaction execute.
 
 	"Act"
