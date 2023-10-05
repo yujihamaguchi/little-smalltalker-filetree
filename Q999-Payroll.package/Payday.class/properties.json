@@ -3,7 +3,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"payDate",
-		"payChecks"
+		"paychecks"
 	],
 	"name" : "Payday",
 	"commentStamp" : "",

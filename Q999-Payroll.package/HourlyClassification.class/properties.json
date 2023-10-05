@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Classification",
+	"super" : "PaymentClassification",
 	"category" : "Q999-Payroll-PayrollApplication",
 	"classinstvars" : [ ],
 	"pools" : [ ],

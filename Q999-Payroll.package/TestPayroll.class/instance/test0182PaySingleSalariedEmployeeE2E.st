@@ -60,14 +60,14 @@ The sum of these two calculations will be the deductions.
 
 	"Assert"
 	paycheck := transaction paycheck: empId1.
-	self assert: paycheck payPeriodEndDate equals: inputPayDate.
+	self assert: paycheck endDate equals: inputPayDate.
 	self assert: paycheck grossPay equals: payAmount1.
 	self assert: (paycheck field: 'Disposition') equals: 'Hold'.
 	self assert: paycheck deductions equals: 0.
 	self assert: paycheck netPay equals: payAmount1.
 	
 	paycheck := transaction paycheck: empId2.
-	self assert: paycheck payPeriodEndDate equals: inputPayDate.
+	self assert: paycheck endDate equals: inputPayDate.
 	self assert: paycheck grossPay equals: payAmount2.
 	self assert: (paycheck field: 'Disposition') equals: 'Hold'.
 	self assert: paycheck deductions equals: 0.

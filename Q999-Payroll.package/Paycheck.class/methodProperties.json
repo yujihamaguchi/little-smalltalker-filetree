@@ -1,8 +1,15 @@
 {
 	"instance" : {
-		"endDate" : "YujiHamaguchi 10/3/2023 13:10",
+		"netPay" : "YujiHamaguchi 10/5/2023 13:43",
 		"setFrom:to:" : "YujiHamaguchi 9/28/2023 09:51",
-		"startDate" : "YujiHamaguchi 10/3/2023 13:10"
+		"grossPay:" : "YujiHamaguchi 10/5/2023 13:42",
+		"grossPay" : "YujiHamaguchi 10/5/2023 13:42",
+		"deductions" : "YujiHamaguchi 10/5/2023 13:43",
+		"startDate" : "YujiHamaguchi 10/3/2023 13:10",
+		"netPay:" : "YujiHamaguchi 10/5/2023 13:43",
+		"deductions:" : "YujiHamaguchi 10/5/2023 13:43",
+		"endDate" : "YujiHamaguchi 10/3/2023 13:10",
+		"field:" : "YujiHamaguchi 10/5/2023 14:00"
 	},
 	"class" : {
 		"from:to:" : "YujiHamaguchi 9/28/2023 09:50"

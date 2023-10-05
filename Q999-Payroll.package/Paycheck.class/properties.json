@@ -7,7 +7,10 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"startDate",
-		"endDate"
+		"endDate",
+		"grossPay",
+		"deductions",
+		"netPay"
 	],
 	"name" : "Paycheck",
 	"type" : "normal"
