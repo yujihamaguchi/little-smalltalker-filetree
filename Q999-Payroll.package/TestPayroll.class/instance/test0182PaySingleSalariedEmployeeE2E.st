@@ -3,7 +3,7 @@ test0182PaySingleSalariedEmployeeE2E
 
 	"
 You should pass this test with TDD.
-refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/eccc3ae4750c947717dcae1b1932f88e9cf19ad8/Q999-Payroll.package/TestPayroll.class/instance
+refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/84d737d3d2db24ec929aaf8a29b5035aad9490d0/Q999-Payroll.package/TestPayroll.class/instance
 
 spec:
 - About `deductions`
