@@ -1,3 +1,0 @@
-execution
-execute
-	PayrollDatabase removeEmployeeWithId: empId

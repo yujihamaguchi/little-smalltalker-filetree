@@ -1,3 +1,4 @@
 as yet unclassified
-salary: aNumber
-	^ self new setSalary: aNumber
+salary: aSalaryNumber
+
+	^ self new setSalary: aSalaryNumber

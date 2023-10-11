@@ -1,4 +1,4 @@
 as yet unclassified
-employeeWithId: empId
+employeeWithId: anEmpIdNumber
 
-	^ employees at: empId ifAbsent: [ nil ]
+	^ employees at: anEmpIdNumber 

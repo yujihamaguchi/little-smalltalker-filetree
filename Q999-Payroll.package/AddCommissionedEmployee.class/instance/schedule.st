@@ -1,3 +1,0 @@
-private
-schedule
-	^ BiweekSchedule new

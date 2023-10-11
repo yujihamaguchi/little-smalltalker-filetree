@@ -1,5 +1,4 @@
 cleanup
 cleanUp
-
-	employees := nil.
-	affiliations := nil
+	
+	employees := nil

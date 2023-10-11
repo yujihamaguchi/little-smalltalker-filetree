@@ -6,13 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"empId",
+		"id",
 		"name",
 		"address",
 		"classification",
-		"schedule",
 		"method",
-		"affiliation"
+		"schedule"
 	],
 	"name" : "Employee",
 	"type" : "normal"

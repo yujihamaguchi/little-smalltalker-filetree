@@ -1,4 +1,4 @@
 accessing
-classification: anObject
+classification: aClassification
 
-	classification := anObject
+	classification := aClassification

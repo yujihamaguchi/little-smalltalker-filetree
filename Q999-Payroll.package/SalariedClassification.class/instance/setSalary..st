@@ -1,4 +1,5 @@
 initialization
-setSalary: aNumber
-	salary := aNumber.
+setSalary: aSalaryNumber
+
+	salary := aSalaryNumber.
 	^ self

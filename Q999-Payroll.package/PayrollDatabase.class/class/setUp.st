@@ -1,5 +1,4 @@
 initialization
 setUp
 
-	employees := Dictionary new.
-	affiliations := Dictionary new
+	employees := Dictionary new

@@ -1,4 +1,0 @@
-accessing
-serviceCharges
-
-	^ serviceCharges
