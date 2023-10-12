@@ -1,4 +1,4 @@
-cleanup
+initialization
 cleanUp
-	
+
 	employees := nil

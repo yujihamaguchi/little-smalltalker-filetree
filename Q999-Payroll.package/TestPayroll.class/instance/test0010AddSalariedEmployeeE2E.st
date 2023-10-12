@@ -19,13 +19,18 @@ test0010AddSalariedEmployeeE2E
 	If an employee wishes for a different method, they will need to submit a separate change request.
 	"
 
+	"
+	You should pass this test with TDD.
+	refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/eac898f3d1a9c31dbae0953c98f9b79bbbd011d2/Q999-Payroll.package/TestPayroll.class/instance
+"
+
 	| empId transaction employee classification schedule method name address salary |
 	"Arrange"
 	empId := 123.
 	name := 'Bob'.
 	address := 'Home'.
 	salary := 2340.
-	
+
 	"Act"
 	transaction := AddSalariedEmployee
 		               empId: empId

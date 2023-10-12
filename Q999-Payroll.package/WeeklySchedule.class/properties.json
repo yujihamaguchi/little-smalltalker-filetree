@@ -2,14 +2,10 @@
 	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "Q999-Payroll-PayrollApplication",
-	"classinstvars" : [
-		"employees"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"employees"
-	],
-	"name" : "PayrollDatabase",
+	"instvars" : [ ],
+	"name" : "WeeklySchedule",
 	"type" : "normal"
 }

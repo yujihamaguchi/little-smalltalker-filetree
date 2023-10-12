@@ -5,9 +5,9 @@
 		"empId",
 		"name",
 		"address",
-		"salary"
+		"hourlyRate"
 	],
-	"name" : "AddSalariedEmployee",
+	"name" : "AddHourlyEmployee",
 	"commentStamp" : "",
 	"super" : "Object",
 	"traitcomposition" : "TTransaction",

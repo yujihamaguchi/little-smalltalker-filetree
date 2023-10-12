@@ -2,14 +2,12 @@
 	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "Q999-Payroll-PayrollApplication",
-	"classinstvars" : [
-		"employees"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"employees"
+		"rate"
 	],
-	"name" : "PayrollDatabase",
+	"name" : "HourlyClassification",
 	"type" : "normal"
 }
