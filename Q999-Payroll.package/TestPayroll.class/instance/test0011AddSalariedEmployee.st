@@ -22,6 +22,8 @@ test0011AddSalariedEmployee
 	method := Mock new.
 	HoldMethod stub new willReturn: method.
 
+	(PayrollDatabase stub employee: employee) willReturnYourself.
+
 	"Act"
 	transaction := AddSalariedEmployee
 		               empId: empId
@@ -37,4 +39,5 @@ test0011AddSalariedEmployee
 	MonthlySchedule should receive new.
 	employee should receive schedule: schedule.
 	HoldMethod should receive new.
-	employee should receive method: method
+	employee should receive method: method.
+	PayrollDatabase should receive employee: employee

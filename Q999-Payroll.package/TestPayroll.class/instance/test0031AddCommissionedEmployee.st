@@ -1,44 +1,49 @@
 tests
-test0021AddHourlyEmployee
+test0031AddCommissionedEmployee
 
-	| empId name address houlyRate transaction employee classification schedule method |
+	| empId name address salary commissionRate transaction employee classification schedule method |
 	"Arrange"
 	empId := Mock new.
 	name := Mock new.
 	address := Mock new.
-	houlyRate := Mock new.
+	salary := Mock new.
+	commissionRate := Mock new.
 
 	employee := Mock new.
 	(Employee stub id: empId name: name address: address) willReturn:
 		employee.
 
 	classification := Mock new.
-	(HourlyClassification stub rate: houlyRate) willReturn:
-		classification.
+	(CommissionedClassification stub
+		 salary: salary
+		 commissionRate: commissionRate) willReturn: classification.
 
 	schedule := Mock new.
-	WeeklySchedule stub new willReturn: schedule.
+	BiweekSchedule stub new willReturn: schedule.
 
 	method := Mock new.
 	HoldMethod stub new willReturn: method.
 
 	(PayrollDatabase stub employee: employee) willReturnYourself.
-
+	
 	"Act"
-	transaction := AddHourlyEmployee
+	transaction := AddCommissionedEmployee
 		               empId: empId
 		               name: name
 		               address: address
-		               hourlyRate: houlyRate.
+		               salary: salary
+		               commissionRate: commissionRate.
 
 	transaction execute.
 
 	"Assert"
 	Employee should receive id: empId name: name address: address.
-	HourlyClassification should receive rate: houlyRate.
+	CommissionedClassification should receive
+		salary: salary
+		commissionRate: commissionRate.
 	employee should receive classification: classification.
-	WeeklySchedule should receive new.
+	BiweekSchedule should receive new.
 	employee should receive schedule: schedule.
 	HoldMethod should receive new.
 	employee should receive method: method.
-	PayrollDatabase should receive employee: employee
+	PayrollDatabase should receive employee: employee 
