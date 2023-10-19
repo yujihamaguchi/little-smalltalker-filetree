@@ -7,4 +7,4 @@ execute
 	employee classification: classification.
 	employee schedule: WeeklySchedule new.
 	employee method: HoldMethod new.
-	PayrollDatabase employee: employee
+	PayrollDatabase addEmployee: employee

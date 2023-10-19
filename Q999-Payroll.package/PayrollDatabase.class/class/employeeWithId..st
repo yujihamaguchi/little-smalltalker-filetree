@@ -1,4 +1,4 @@
 initialization
 employeeWithId: anEmpIdNumber
 
-	^ employees at: anEmpIdNumber 
+	^ employees at: anEmpIdNumber ifAbsent: [ nil ]

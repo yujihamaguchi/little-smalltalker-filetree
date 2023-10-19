@@ -9,4 +9,4 @@ execute
 	employee classification: classification.
 	employee schedule: BiweekSchedule new.
 	employee method: HoldMethod new.
-	PayrollDatabase employee: employee
+	PayrollDatabase addEmployee: employee

@@ -1,9 +1,10 @@
 {
 	"instance" : { },
 	"class" : {
-		"employee:" : "YujiHamaguchi 10/12/2023 11:19",
-		"employeeWithId:" : "YujiHamaguchi 10/12/2023 11:19",
+		"addEmployee:" : "YujiHamaguchi 10/14/2023 08:05",
+		"removeEmployeeWithId:" : "YujiHamaguchi 10/19/2023 10:42",
+		"setUp" : "YujiHamaguchi 10/12/2023 11:20",
 		"cleanUp" : "YujiHamaguchi 10/12/2023 11:20",
-		"setUp" : "YujiHamaguchi 10/12/2023 11:20"
+		"employeeWithId:" : "YujiHamaguchi 10/14/2023 08:16"
 	}
 }

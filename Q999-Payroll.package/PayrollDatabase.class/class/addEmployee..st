@@ -1,4 +1,4 @@
 as yet unclassified
-employee: anEmployee
+addEmployee: anEmployee
 
 	employees at: anEmployee id put: anEmployee

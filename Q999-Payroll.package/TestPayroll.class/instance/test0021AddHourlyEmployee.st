@@ -22,7 +22,7 @@ test0021AddHourlyEmployee
 	method := Mock new.
 	HoldMethod stub new willReturn: method.
 
-	(PayrollDatabase stub employee: employee) willReturnYourself.
+	(PayrollDatabase stub addEmployee: employee) willReturnYourself.
 
 	"Act"
 	transaction := AddHourlyEmployee
@@ -41,4 +41,4 @@ test0021AddHourlyEmployee
 	employee should receive schedule: schedule.
 	HoldMethod should receive new.
 	employee should receive method: method.
-	PayrollDatabase should receive employee: employee
+	PayrollDatabase should receive addEmployee: employee
