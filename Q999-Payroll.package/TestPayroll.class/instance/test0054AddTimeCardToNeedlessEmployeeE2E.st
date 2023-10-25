@@ -1,5 +1,5 @@
 tests
-test0053AddTimeCardToNonHourlyEmployee
+test0054AddTimeCardToNeedlessEmployeeE2E
 
 	| raisedException transaction empId employee classification timecard exception date hours |
 	"Arrange"
