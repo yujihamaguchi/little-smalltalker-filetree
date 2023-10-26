@@ -8,5 +8,4 @@ execute
 	classification := employee classification.
 	Transcript show: classification class name; cr.
 	timecard := TimeCard date: date hours: hours.
-	Transcript show: timecard class name; cr.
 	classification addTimecard: timecard

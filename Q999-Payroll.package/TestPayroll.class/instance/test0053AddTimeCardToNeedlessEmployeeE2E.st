@@ -34,4 +34,4 @@ test0053AddTimeCardToNeedlessEmployeeE2E
 	self
 		assert: raisedException messageText
 		equals:
-		'This classification does not handle time card. classification: SalariedClassification'
+		'Message not understood: SalariedClassification >> #addTimecard:'

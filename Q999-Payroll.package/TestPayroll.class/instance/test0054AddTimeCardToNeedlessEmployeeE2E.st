@@ -18,7 +18,7 @@ test0054AddTimeCardToNeedlessEmployeeE2E
 
 	exception := Exception new.
 	exception stub messageText willReturn:
-		'This classification does not handle time card. classification: SalariedClassification'.
+		'Message not understood: SalariedClassification >> #addTimecard:'.
 	(classification stub addTimecard: timecard) willRaise: exception.
 
 	"Act"
@@ -31,4 +31,4 @@ test0054AddTimeCardToNeedlessEmployeeE2E
 	self
 		assert: raisedException messageText
 		equals:
-		'This classification does not handle time card. classification: SalariedClassification'
+		'Message not understood: SalariedClassification >> #addTimecard:'

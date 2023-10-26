@@ -1,14 +1,16 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "Q999-Payroll-PayrollApplication",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TTimeCardsCapable classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"rate",
 		"timecards"
 	],
 	"name" : "HourlyClassification",
-	"type" : "normal"
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "TTimeCardsCapable",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Q999-Payroll-PayrollApplication"
 }
