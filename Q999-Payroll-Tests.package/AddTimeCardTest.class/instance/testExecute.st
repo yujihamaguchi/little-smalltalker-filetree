@@ -1,5 +1,5 @@
 tests
-test0051AddTimeCard
+testExecute
 
 	| transaction empId date hours employee classification timecard |
 	"Arrange"
@@ -23,4 +23,4 @@ test0051AddTimeCard
 	PayrollDatabase should receive employeeWithId: empId.
 	employee should receive classification.
 	TimeCard should receive date: date hours: hours.
-	classification should receive addTimecard: timecard
+	classification should receive addTimeCard: timecard

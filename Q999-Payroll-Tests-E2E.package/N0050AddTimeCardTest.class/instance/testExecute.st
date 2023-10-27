@@ -1,5 +1,5 @@
 tests
-test0050AddTimeCardE2E
+testExecute
 
 	"
 	[ UseCase3: Request for timecard processing ]
@@ -40,7 +40,7 @@ test0050AddTimeCardE2E
 	employee := PayrollDatabase employeeWithId: empId.
 
 	classification := employee classification.
-	timecard := classification timecardAt: date.
+	timecard := classification timeCardAt: date.
 	self deny: timecard isNil.
 	self assert: timecard class equals: TimeCard.
 	self assert: timecard hours equals: hours

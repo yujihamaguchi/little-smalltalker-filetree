@@ -1,5 +1,5 @@
 tests
-test0052AddTimeCardNoSuchEmployee
+testExecuteNoSuchEmployee
 
 	| raisedException empId transaction |
 	"Arrange"

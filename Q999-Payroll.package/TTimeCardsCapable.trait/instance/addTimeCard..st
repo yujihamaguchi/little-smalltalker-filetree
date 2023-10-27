@@ -1,3 +1,3 @@
 adding
-addTimecard: aTimecard
+addTimeCard: aTimecard
 	^ self explicitRequirement 

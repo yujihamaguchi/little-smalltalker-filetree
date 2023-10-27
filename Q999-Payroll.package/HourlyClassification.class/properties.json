@@ -3,7 +3,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"rate",
-		"timecards"
+		"timeCards"
 	],
 	"name" : "HourlyClassification",
 	"commentStamp" : "",

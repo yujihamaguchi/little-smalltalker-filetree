@@ -1,5 +1,5 @@
 tests
-test0054AddTimeCardToNeedlessEmployeeE2E
+testExecuteTimeCardNeedlessEmployee
 
 	| raisedException transaction empId employee classification timecard exception date hours |
 	"Arrange"
@@ -19,7 +19,7 @@ test0054AddTimeCardToNeedlessEmployeeE2E
 	exception := Exception new.
 	exception stub messageText willReturn:
 		'Message not understood: SalariedClassification >> #addTimecard:'.
-	(classification stub addTimecard: timecard) willRaise: exception.
+	(classification stub addTimeCard: timecard) willRaise: exception.
 
 	"Act"
 	transaction := AddTimeCard empId: empId date: date hours: hours.

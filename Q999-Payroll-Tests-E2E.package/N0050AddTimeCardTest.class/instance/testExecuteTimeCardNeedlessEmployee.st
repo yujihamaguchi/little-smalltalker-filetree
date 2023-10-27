@@ -1,5 +1,5 @@
 tests
-test0053AddTimeCardToNeedlessEmployeeE2E
+testExecuteTimeCardNeedlessEmployee
 
 	"
 	You should pass this test with TDD.
@@ -34,4 +34,4 @@ test0053AddTimeCardToNeedlessEmployeeE2E
 	self
 		assert: raisedException messageText
 		equals:
-		'Message not understood: SalariedClassification >> #addTimecard:'
+		'Message not understood: SalariedClassification >> #addTimeCard:'
