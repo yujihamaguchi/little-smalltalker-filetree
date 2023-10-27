@@ -11,7 +11,7 @@ testExecute
 
 	"
 	You should pass this test with TDD.
-	refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/4e270254dbbda5f6dd17ca0e7d1b88a1811e5eb3/Q999-Payroll.package/TestPayroll.class/instance
+	refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/1022f511dbf61660e8c9c2c1877c169fc55a42ed/Q999-Payroll-Tests.package
 "
 
 	| empId transaction employee classification timecard name address hourlyRate date hours |

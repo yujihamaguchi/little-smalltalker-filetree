@@ -1,4 +1,4 @@
 adding
 addTimeCard: aTimeCard
 
-	self timeCards add: aTimeCard
+	timeCards add: aTimeCard
