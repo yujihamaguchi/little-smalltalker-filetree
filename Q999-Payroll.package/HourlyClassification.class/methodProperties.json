@@ -1,12 +1,12 @@
 {
 	"instance" : {
 		"initialize" : "YujiHamaguchi 10/27/2023 15:00",
+		"timeCardAt:" : "YujiHamaguchi 10/27/2023 15:15",
 		"rate" : "YujiHamaguchi 10/12/2023 11:22",
 		"addTimeCard:" : "YujiHamaguchi 10/28/2023 07:45",
-		"setRate:" : "YujiHamaguchi 10/12/2023 10:41",
-		"timeCardAt:" : "YujiHamaguchi 10/27/2023 15:15"
+		"setRate:timeCards:" : "YujiHamaguchi 10/28/2023 14:13"
 	},
 	"class" : {
-		"rate:" : "YujiHamaguchi 10/12/2023 10:41"
+		"rate:timeCards:" : "YujiHamaguchi 10/28/2023 14:12"
 	}
 }

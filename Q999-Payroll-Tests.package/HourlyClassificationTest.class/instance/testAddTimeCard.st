@@ -1,14 +1,16 @@
 tests
 testAddTimeCard
 
-	| timeCard classification date |
+	| timeCards timeCard hourlyClassification |
 	"Arrange"
-	date := 20231027.
-	classification := HourlyClassification rate: 10.
-	timeCard := TimeCard date: 20231027 hours: 8.
+	timeCards := Mock new.
+	hourlyClassification := HourlyClassification
+		                        rate: Mock new
+		                        timeCards: timeCards.
+	timeCard := Mock new.
 
 	"Act"
-	classification addTimeCard: timeCard.
+	hourlyClassification addTimeCard: timeCard.
 
 	"Assert"
-	self assert: (classification timeCardAt: date) equals: timeCard
+	timeCards should receive add: timeCard
