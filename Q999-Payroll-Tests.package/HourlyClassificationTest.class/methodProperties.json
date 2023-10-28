@@ -1,6 +1,7 @@
 {
 	"instance" : {
-		"testAddTimeCard" : "YujiHamaguchi 10/28/2023 14:21"
+		"testAddTimeCardBlackBox" : "YujiHamaguchi 10/29/2023 07:02",
+		"testAddTimeCardWhiteBox" : "YujiHamaguchi 10/29/2023 07:25"
 	},
 	"class" : { }
 }

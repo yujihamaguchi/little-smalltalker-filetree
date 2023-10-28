@@ -1,5 +1,5 @@
 tests
-testAddTimeCard
+testAddTimeCardWhiteBox
 
 	| timeCards timeCard hourlyClassification |
 	"Arrange"

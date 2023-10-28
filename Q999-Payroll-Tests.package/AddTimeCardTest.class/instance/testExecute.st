@@ -10,7 +10,6 @@ testExecute
 	employee := Mock new.
 	(PayrollDatabase stub employeeWithId: empId) willReturn: employee.
 	classification := Mock new.
-	classification stub class willReturn: HourlyClassification.
 	employee stub classification willReturn: classification.
 	timecard := Mock new.
 	(TimeCard stub date: date hours: hours) willReturn: timecard.
