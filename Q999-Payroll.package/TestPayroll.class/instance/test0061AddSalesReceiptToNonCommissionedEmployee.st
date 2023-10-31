@@ -1,6 +1,6 @@
 tests
 test0061AddSalesReceiptToNonCommissionedEmployee
-
+"
 	| empId t tct raisedError |
 	empId := 123.
 	t := AddSalariedEmployee
@@ -19,4 +19,4 @@ test0061AddSalesReceiptToNonCommissionedEmployee
 	self assert: raisedError notNil.
 	self
 		assert: raisedError messageText
-		equals: 'Tried to add sales receipt to non-commissioned employee: SalariedClassification'
+		equals: 'Tried to add sales receipt to non-commissioned employee: SalariedClassification'"

@@ -6,8 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"timeCards"
+		"date",
+		"amount"
 	],
-	"name" : "TimeCards",
+	"name" : "SalesReceipt",
 	"type" : "normal"
 }

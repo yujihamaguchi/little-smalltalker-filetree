@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"classinstvars" : [ ],
-	"category" : "Q999-Payroll",
+	"category" : "Q999-Payroll-PayrollApplication",
 	"instvars" : [ ],
 	"name" : "TTransaction"
 }

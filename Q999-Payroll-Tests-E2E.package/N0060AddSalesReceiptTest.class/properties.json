@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "N0050AddTimeCardTest",
+	"name" : "N0060AddSalesReceiptTest",
 	"type" : "normal"
 }
