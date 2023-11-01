@@ -1,7 +1,7 @@
 tests
 test0031AddCommissionedEmployee
 
-	| empId name address salary commissionRate transaction employee classification schedule method |
+	| empId name address salary commissionRate transaction employee classification schedule method salesReceipts |
 	"Arrange"
 	empId := Mock new.
 	name := Mock new.
@@ -13,10 +13,13 @@ test0031AddCommissionedEmployee
 	(Employee stub id: empId name: name address: address) willReturn:
 		employee.
 
+	salesReceipts := Mock new.
+	SalesReceipts stub new willReturn: salesReceipts.
 	classification := Mock new.
 	(CommissionedClassification stub
 		 salary: salary
-		 commissionRate: commissionRate) willReturn: classification.
+		 commissionRate: commissionRate
+		 salesReceipts: salesReceipts) willReturn: classification.
 
 	schedule := Mock new.
 	BiweekSchedule stub new willReturn: schedule.
@@ -25,7 +28,7 @@ test0031AddCommissionedEmployee
 	HoldMethod stub new willReturn: method.
 
 	(PayrollDatabase stub addEmployee: employee) willReturnYourself.
-	
+
 	"Act"
 	transaction := AddCommissionedEmployee
 		               empId: empId
@@ -40,10 +43,11 @@ test0031AddCommissionedEmployee
 	Employee should receive id: empId name: name address: address.
 	CommissionedClassification should receive
 		salary: salary
-		commissionRate: commissionRate.
+		commissionRate: commissionRate
+		salesReceipts: salesReceipts.
 	employee should receive classification: classification.
 	BiweekSchedule should receive new.
 	employee should receive schedule: schedule.
 	HoldMethod should receive new.
 	employee should receive method: method.
-	PayrollDatabase should receive addEmployee: employee 
+	PayrollDatabase should receive addEmployee: employee
