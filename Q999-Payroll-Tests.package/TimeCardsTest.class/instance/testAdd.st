@@ -1,5 +1,5 @@
 tests
-testAddTimeCard
+testAdd
 
 	| date timeCard timeCards |
 	"Arrange"

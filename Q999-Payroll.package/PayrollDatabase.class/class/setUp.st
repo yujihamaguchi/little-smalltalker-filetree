@@ -1,4 +1,5 @@
 initialization
 setUp
 
-	employees := Dictionary new
+	employees := Dictionary new.
+	unionMembers := Dictionary new.

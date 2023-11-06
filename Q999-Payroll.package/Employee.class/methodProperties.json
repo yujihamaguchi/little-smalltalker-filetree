@@ -3,13 +3,15 @@
 		"method:" : "YujiHamaguchi 10/11/2023 17:04",
 		"name" : "YujiHamaguchi 10/11/2023 17:14",
 		"id" : "YujiHamaguchi 10/11/2023 17:14",
-		"schedule:" : "YujiHamaguchi 10/11/2023 17:05",
-		"setId:name:address:" : "YujiHamaguchi 10/11/2023 17:14",
 		"schedule" : "YujiHamaguchi 10/11/2023 17:15",
 		"address" : "YujiHamaguchi 10/11/2023 17:14",
 		"classification" : "YujiHamaguchi 10/11/2023 17:15",
+		"affiliation:" : "YujiHamaguchi 11/6/2023 10:20",
+		"schedule:" : "YujiHamaguchi 10/11/2023 17:05",
 		"method" : "YujiHamaguchi 10/11/2023 17:15",
-		"classification:" : "YujiHamaguchi 10/11/2023 17:04"
+		"setId:name:address:" : "YujiHamaguchi 10/11/2023 17:14",
+		"classification:" : "YujiHamaguchi 10/11/2023 17:04",
+		"affiliation" : "YujiHamaguchi 11/6/2023 10:20"
 	},
 	"class" : {
 		"id:name:address:" : "YujiHamaguchi 10/11/2023 17:12"

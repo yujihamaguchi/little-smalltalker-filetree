@@ -1,4 +1,5 @@
 initialization
 cleanUp
 
-	employees := nil
+	employees := nil.
+	unionMembers := nil.
