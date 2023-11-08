@@ -34,7 +34,7 @@ testExecute
 	self deny: classification isNil.
 	self assert: classification class equals: CommissionedClassification.
 
-	salesReceipt := classification salesReceiptAt: date.
+	salesReceipt := classification salesReceiptOn: date.
 	self deny: salesReceipt isNil.
 	self assert: salesReceipt class equals: SalesReceipt.
 	self assert: salesReceipt amount equals: amount

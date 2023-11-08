@@ -1,4 +1,4 @@
 accessing
-salesReceiptAt: aDateNumber
+salesReceiptOn: aDateNumber
 
 	^ salesReceipts at: aDateNumber 

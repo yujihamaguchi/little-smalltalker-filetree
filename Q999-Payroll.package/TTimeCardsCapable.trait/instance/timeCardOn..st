@@ -1,4 +1,4 @@
 accessing
-timeCardAt: aDateNumber
+timeCardOn: aDateNumber
 
 	^ self explicitRequirement

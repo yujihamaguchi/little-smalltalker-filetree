@@ -12,4 +12,4 @@ testAddTimeCardBlackBox
 	classification addTimeCard: timeCard.
 
 	"Assert"
-	self assert: (classification timeCardAt: date) equals: timeCard
+	self assert: (classification timeCardOn: date) equals: timeCard

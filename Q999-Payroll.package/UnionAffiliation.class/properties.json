@@ -1,9 +1,5 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "Q999-Payroll",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TServiceChargesCapable classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"memberId",
@@ -11,5 +7,11 @@
 		"serviceCharges"
 	],
 	"name" : "UnionAffiliation",
-	"type" : "normal"
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "TServiceChargesCapable",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Q999-Payroll"
 }

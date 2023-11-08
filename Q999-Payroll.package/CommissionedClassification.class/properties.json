@@ -1,5 +1,5 @@
 {
-	"classtraitcomposition" : "TSalesReceiptCapable classTrait",
+	"classtraitcomposition" : "TSalesReceiptsCapable classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"salary",
@@ -9,7 +9,7 @@
 	"name" : "CommissionedClassification",
 	"commentStamp" : "",
 	"super" : "Object",
-	"traitcomposition" : "TSalesReceiptCapable",
+	"traitcomposition" : "TSalesReceiptsCapable",
 	"type" : "normal",
 	"classinstvars" : [ ],
 	"pools" : [ ],

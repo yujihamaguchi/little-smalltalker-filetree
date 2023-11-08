@@ -1,4 +1,4 @@
 accessing
-timeCardAt: aDateNumber
+timeCardOn: aDateNumber
 
 	^ timeCards at: aDateNumber

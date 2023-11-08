@@ -1,10 +1,10 @@
 {
 	"instance" : {
-		"salesReceiptAt:" : "YujiHamaguchi 11/1/2023 10:17",
 		"commissionRate" : "YujiHamaguchi 10/13/2023 15:38",
 		"salary" : "YujiHamaguchi 10/13/2023 15:38",
 		"addSalesReceipt:" : "YujiHamaguchi 11/1/2023 10:05",
-		"setSalary:commissionRate:salesReceipts:" : "YujiHamaguchi 11/1/2023 09:59"
+		"setSalary:commissionRate:salesReceipts:" : "YujiHamaguchi 11/1/2023 09:59",
+		"salesReceiptOn:" : "YujiHamaguchi 11/8/2023 09:47"
 	},
 	"class" : {
 		"salary:commissionRate:salesReceipts:" : "YujiHamaguchi 11/1/2023 09:59"

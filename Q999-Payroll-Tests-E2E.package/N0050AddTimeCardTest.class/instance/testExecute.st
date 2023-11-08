@@ -40,7 +40,7 @@ testExecute
 	employee := PayrollDatabase employeeWithId: empId.
 
 	classification := employee classification.
-	timecard := classification timeCardAt: date.
+	timecard := classification timeCardOn: date.
 	self deny: timecard isNil.
 	self assert: timecard class equals: TimeCard.
 	self assert: timecard hours equals: hours

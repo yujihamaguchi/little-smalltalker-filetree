@@ -3,5 +3,5 @@
 	"classinstvars" : [ ],
 	"category" : "Q999-Payroll-PayrollApplication",
 	"instvars" : [ ],
-	"name" : "TSalesReceiptCapable"
+	"name" : "TSalesReceiptsCapable"
 }
