@@ -9,6 +9,11 @@ testExecute
 	  Output an error message only, and perform no further processing.
 	"
 
+	"
+You should pass this test with TDD.
+refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/52922af84ccd4f42f3918aa900f76d56b380af66/Q999-Payroll-Tests.package
+"
+
 	| empId transaction employee classification salesReceipt date amount |
 	"Arrange"
 	empId := 3.
