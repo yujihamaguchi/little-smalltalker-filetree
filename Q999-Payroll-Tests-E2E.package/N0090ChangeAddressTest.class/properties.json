@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PayrollE2ETestCase",
+	"category" : "Q999-Payroll-Tests-E2E",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "N0090ChangeAddressTest",
+	"type" : "normal"
+}
