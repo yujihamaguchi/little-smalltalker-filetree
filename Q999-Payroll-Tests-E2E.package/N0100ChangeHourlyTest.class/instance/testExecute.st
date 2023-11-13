@@ -2,8 +2,16 @@ tests
 testExecute
 
 	"
+	[ UseCase6: Change employee's profile ]
+	- ChgEmp <EmpID> Hourly <hourlyRate>
+
+	Attachment 1: In the case where the selected empID / memberID is a non-existent one.
+	  Output an error message only, and perform no further processing.
+	"
+
+	"
 You should pass this test with TDD.
-refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/7de7de292bf02e838e78c4723b571b6aa0eea42c/Q999-Payroll.package/TestPayroll.class/instance
+refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/80291f697e09bbe7f0a319c612c6ffc4f491aeb3/Q999-Payroll-Tests.package
 "
 
 	| empId employee classification hourlyRate transaction schedule |
