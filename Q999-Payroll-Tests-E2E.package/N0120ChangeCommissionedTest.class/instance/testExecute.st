@@ -2,8 +2,16 @@ tests
 testExecute
 
 	"
+	[ UseCase6: Change employee's profile ]
+	- ChgEmp <EmpID> Commissioned <salary> <rate>
+
+	Attachment 1: In the case where the selected empID / memberID is a non-existent one.
+	  Output an error message only, and perform no further processing.
+	"
+
+	"
 You should pass this test with TDD.
-refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/7de7de292bf02e838e78c4723b571b6aa0eea42c/Q999-Payroll.package/TestPayroll.class/instance
+refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/bdf408ea36b84e58bc1d2a7fc577c79a268fb8ae/Q999-Payroll-Tests.package
 "
 
 	| empId salary commissionRate transaction employee classification schedule |
