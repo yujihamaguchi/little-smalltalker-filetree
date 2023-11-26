@@ -1,7 +1,8 @@
 {
 	"instance" : {
-		"execute" : "YujiHamaguchi 11/21/2023 10:56",
-		"setEmpId:memberId:dues:" : "YujiHamaguchi 11/21/2023 10:28"
+		"recordMembership:" : "YujiHamaguchi 11/26/2023 14:44",
+		"setEmpId:memberId:dues:" : "YujiHamaguchi 11/21/2023 10:28",
+		"affiliation" : "YujiHamaguchi 11/26/2023 14:44"
 	},
 	"class" : {
 		"empId:memberId:dues:" : "YujiHamaguchi 11/21/2023 10:28"

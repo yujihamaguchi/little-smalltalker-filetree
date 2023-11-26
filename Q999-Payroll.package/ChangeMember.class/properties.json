@@ -1,17 +1,14 @@
 {
-	"classtraitcomposition" : "TTransaction classTrait",
+	"commentStamp" : "",
+	"super" : "ChangeAffiliation",
+	"category" : "Q999-Payroll",
+	"classinstvars" : [ ],
+	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"empId",
 		"memberId",
 		"dues"
 	],
 	"name" : "ChangeMember",
-	"commentStamp" : "",
-	"super" : "Object",
-	"traitcomposition" : "TTransaction",
-	"type" : "normal",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"category" : "Q999-Payroll"
+	"type" : "normal"
 }

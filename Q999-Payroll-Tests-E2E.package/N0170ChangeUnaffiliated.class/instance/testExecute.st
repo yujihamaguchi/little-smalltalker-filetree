@@ -10,13 +10,15 @@ testExecute
 
 	"
 You should pass this test with TDD.
-refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/4f927f75c8c763338f3aad5affbeeeca0291e0d1/Q999-Payroll.package/TestPayroll.class/instance
+refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/5c03cd5a6a1d9c604f8d3e660a78300a3868ce6f/Q999-Payroll-Tests.package
 "
 
-	| employee empId transaction |
+	| employee empId transaction memberId dues member |
 	"Arrange"
 	empId := 123.
-
+	memberId := 234.
+	dues := 45.
+	
 	transaction := AddSalariedEmployee
 		               empId: empId
 		               name: Mock new
@@ -24,8 +26,11 @@ refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/4f927f7
 		               salary: Mock new.
 	transaction execute.
 
-	employee := PayrollDatabase employeeWithId: empId.
-	self assert: employee affiliation isNil.
+	transaction := ChangeMember
+		               empId: empId
+		               memberId: memberId
+		               dues: dues.
+	transaction execute.
 
 	"Act"
 	transaction := ChangeUnaffiliated empId: empId.
@@ -33,4 +38,7 @@ refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/4f927f7
 
 	"Assert"
 	employee := PayrollDatabase employeeWithId: empId.
-	self assert: employee affiliation class equals: NoAffiliation
+	self assert: employee affiliation class equals: NoAffiliation.
+
+	member := PayrollDatabase employeeWithUnionMemberId: memberId.
+	self assert: member isNil

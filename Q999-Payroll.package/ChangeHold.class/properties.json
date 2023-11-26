@@ -1,15 +1,11 @@
 {
-	"classtraitcomposition" : "TTransaction classTrait",
-	"classvars" : [ ],
-	"instvars" : [
-		"empId"
-	],
-	"name" : "ChangeHold",
 	"commentStamp" : "",
-	"super" : "Object",
-	"traitcomposition" : "TTransaction",
-	"type" : "normal",
+	"super" : "ChangeEmployee",
+	"category" : "Q999-Payroll",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"category" : "Q999-Payroll"
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ChangeHold",
+	"type" : "normal"
 }

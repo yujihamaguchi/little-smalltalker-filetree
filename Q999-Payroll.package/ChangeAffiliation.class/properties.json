@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCase",
-	"category" : "Q999-Payroll-Tests",
+	"super" : "ChangeEmployee",
+	"category" : "Q999-Payroll",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ChangeAddressTest",
+	"name" : "ChangeAffiliation",
 	"type" : "normal"
 }
