@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Material",
+	"category" : "Q054-Abstruct-Factory",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Banana",
+	"type" : "normal"
+}

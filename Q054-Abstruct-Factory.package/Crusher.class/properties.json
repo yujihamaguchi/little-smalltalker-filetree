@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Q054-Abstruct-Factory",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"material",
+		"condition"
+	],
+	"name" : "Crusher",
+	"type" : "normal"
+}

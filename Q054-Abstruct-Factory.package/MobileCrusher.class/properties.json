@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Crusher",
+	"category" : "Q054-Abstruct-Factory",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MobileCrusher",
+	"type" : "normal"
+}
