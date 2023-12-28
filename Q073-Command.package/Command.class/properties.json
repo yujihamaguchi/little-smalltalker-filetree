@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"status"
+		"receiver"
 	],
-	"name" : "Fan",
+	"name" : "Command",
 	"type" : "normal"
 }

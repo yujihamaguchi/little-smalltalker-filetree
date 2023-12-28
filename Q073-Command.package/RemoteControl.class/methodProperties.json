@@ -1,8 +1,9 @@
 {
 	"instance" : {
 		"initialize" : "YujiHamaguchi 12/21/2023 09:23",
+		"pushOffButton:" : "YujiHamaguchi 12/28/2023 14:29",
 		"pushOnButton:" : "YujiHamaguchi 12/21/2023 09:25",
-		"slot:onCommand:" : "YujiHamaguchi 12/21/2023 09:23"
+		"slot:onCommand:offCommand:" : "YujiHamaguchi 12/28/2023 14:36"
 	},
 	"class" : { }
 }
