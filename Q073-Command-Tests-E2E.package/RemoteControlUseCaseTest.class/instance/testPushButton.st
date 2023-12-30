@@ -1,44 +1,44 @@
 tests
 testPushButton
 
-	| fan remoteControl fanOnCommand stereo slot0Index stereoVolumeUpCommand slot1Index initStatus initVolume fanOffCommand stereoVolumeDownCommand |
+	| fan remoteControl fanOnCommand stereo fanSlot stereoVolumeUpCommand stereoSlot initStatus initVolume fanOffCommand stereoVolumeDownCommand |
 	"Arrange"
 	fan := Fan new.
 	stereo := Stereo new.
 	remoteControl := RemoteControl new.
 
-	slot0Index := 0.
+	fanSlot := 0.
 	fanOnCommand := FanOnCommand receiver: fan.
 	fanOffCommand := FanOffCommand receiver: fan.
 	remoteControl
-		slot: slot0Index
+		slot: fanSlot
 		onCommand: fanOnCommand
 		offCommand: fanOffCommand.
 	initStatus := #off.
 	self assert: fan status equals: initStatus.
 
-	slot1Index := 1.
+	stereoSlot := 1.
 	stereoVolumeUpCommand := StereoVolumeUpCommand receiver: stereo.
 	stereoVolumeDownCommand := StereoVolumeDownCommand receiver: stereo.
 	remoteControl
-		slot: slot1Index
+		slot: stereoSlot
 		onCommand: stereoVolumeUpCommand
 		offCommand: stereoVolumeDownCommand.
 	initVolume := 5.
 	self assert: stereo volume equals: initVolume.
 
-	"Act"
-	remoteControl pushOnButton: slot0Index.
-	remoteControl pushOnButton: slot1Index.
+	"On Act"
+	remoteControl pushOnButton: fanSlot.
+	remoteControl pushOnButton: stereoSlot.
 
-	"Assert"
+	"On Assert"
 	self assert: fan status equals: #on.
 	self assert: stereo volume equals: 6.
 
-	"Act"
-	remoteControl pushOffButton: slot0Index.
-	remoteControl pushOffButton: slot1Index.
+	"Off Act"
+	remoteControl pushOffButton: fanSlot.
+	remoteControl pushOffButton: stereoSlot.
 
-	"Assert"
+	"Off Assert"
 	self assert: fan status equals: #off.
 	self assert: stereo volume equals: 5
