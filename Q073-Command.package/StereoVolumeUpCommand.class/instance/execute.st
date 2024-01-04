@@ -1,4 +1,7 @@
 execution
 execute
 
-	receiver volumeUp
+	[ receiver volumeUp ]
+		on: Exception
+		do: [ :e | 
+		Exception signal: 'Command failed because ' , e messageText ]

@@ -1,15 +1,23 @@
 tests
 testExecuteWhenReceiverThrowsException
 
-	| command raisedException raisedExceptoin |
+	| command raisedException stereo exception messageText |
+	"Arrange"
+	exception := Exception new.
+	messageText := 'volume is already at maximum'.
+	exception stub messageText willReturn: messageText.
 
+	stereo := Mock new.
+	stereo stub volumeUp willRaise: exception.
+
+	command := StereoVolumeUpCommand receiver: stereo.
 	
 	"Act"
 	[ command execute ]
 		on: Exception
-		do: [ :e | raisedException := e ].
+		do: [ :e | raisedException  := e ].
 
 	"Assert"
 	self
-		assert: raisedExceptoin messageText
-		equals: 'Command failed because stereo is broken'
+		assert: raisedException messageText
+		equals: 'Command failed because ', messageText 
