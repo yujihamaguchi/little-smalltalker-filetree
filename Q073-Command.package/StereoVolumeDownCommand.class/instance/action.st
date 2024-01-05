@@ -1,4 +1,4 @@
 execution
-execute
+action
 
 	receiver volumeDown
