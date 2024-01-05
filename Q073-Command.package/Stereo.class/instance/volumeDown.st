@@ -1,4 +1,4 @@
 as yet unclassified
 volumeDown
 
-	volume := volume - 1
+	volume > self minimumVolume ifTrue: [ volume := volume - 1 ]

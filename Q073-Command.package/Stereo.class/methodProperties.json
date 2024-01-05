@@ -1,9 +1,12 @@
 {
 	"instance" : {
-		"initialize" : "YujiHamaguchi 12/28/2023 14:25",
-		"volumeUp" : "YujiHamaguchi 12/28/2023 14:24",
+		"defaultVolume" : "YujiHamaguchi 1/5/2024 16:52",
+		"minimumVolume" : "YujiHamaguchi 1/6/2024 08:04",
+		"initialize" : "YujiHamaguchi 1/5/2024 16:52",
 		"volume" : "YujiHamaguchi 12/28/2023 14:26",
-		"volumeDown" : "YujiHamaguchi 12/28/2023 14:39"
+		"volumeUp" : "YujiHamaguchi 1/6/2024 07:53",
+		"volumeDown" : "YujiHamaguchi 1/6/2024 08:02",
+		"maximumVolume" : "YujiHamaguchi 1/6/2024 07:57"
 	},
 	"class" : { }
 }

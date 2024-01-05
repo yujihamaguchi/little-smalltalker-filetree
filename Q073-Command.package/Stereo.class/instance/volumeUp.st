@@ -1,4 +1,4 @@
 as yet unclassified
 volumeUp
 
-	volume := volume + 1 
+	volume < self maximumVolume ifTrue: [ volume := volume + 1 ]

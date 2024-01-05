@@ -2,4 +2,4 @@ initialization
 initialize
 
 	super initialize.
-	volume := 5
+	volume := self defaultVolume

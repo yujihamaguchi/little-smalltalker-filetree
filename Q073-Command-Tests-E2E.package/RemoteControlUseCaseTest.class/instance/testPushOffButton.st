@@ -1,5 +1,5 @@
 tests
-testPushButton
+testPushOffButton
 
 	| fan remoteControl fanOnCommand stereo fanSlot stereoVolumeUpCommand stereoSlot initStatus initVolume fanOffCommand stereoVolumeDownCommand |
 	"Arrange"
@@ -27,18 +27,16 @@ testPushButton
 	initVolume := 5.
 	self assert: stereo volume equals: initVolume.
 
-	"On Act"
 	remoteControl pushOnButton: fanSlot.
 	remoteControl pushOnButton: stereoSlot.
 
-	"On Assert"
 	self assert: fan status equals: #on.
 	self assert: stereo volume equals: 6.
 
-	"Off Act"
+	"Act"
 	remoteControl pushOffButton: fanSlot.
 	remoteControl pushOffButton: stereoSlot.
 
-	"Off Assert"
+	"Assert"
 	self assert: fan status equals: #off.
-	self assert: stereo volume equals: 5
+	self assert: stereo volume equals: initVolume 
