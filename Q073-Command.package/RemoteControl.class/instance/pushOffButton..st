@@ -1,6 +1,8 @@
 as yet unclassified
 pushOffButton: aSlotInteger
 
-	| command |
-	command := (buttonLayout at: aSlotInteger) at: #off.
+	| command slot |
+	slot := self slot: aSlotInteger.
+	command := slot at: #off.
+	undoCommand := slot at: #on.
 	command execute

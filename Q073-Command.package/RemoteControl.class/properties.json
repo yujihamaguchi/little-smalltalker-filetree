@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"buttonLayout"
+		"buttonLayout",
+		"undoCommand"
 	],
 	"name" : "RemoteControl",
 	"type" : "normal"
