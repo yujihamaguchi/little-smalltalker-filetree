@@ -1,19 +1,19 @@
 tests
 testArrivalDate
 
-	| customer arrivalDate supplier aDate supplierAdaptor |
+	| customer arrivalDate deliveryDate adaptee adapter |
 	"Arrange"
 	customer := Customer new.
-	supplier := Supplier new.
-	aDate := '2023/01/14'.
+	adaptee := Supplier new.
+	deliveryDate := '2023/01/14'.
 
-	supplier deliveryDate: aDate.
-	supplierAdaptor := SupplierAdopter supplier: supplier.
+	adaptee deliveryDate: deliveryDate.
+	adapter := SupplierAdapter supplier: adaptee.
 
-	customer supplierAdopter: supplierAdaptor.
+	customer supplierAdapter: adapter.
 
 	"Act"
 	arrivalDate := customer arrivalDate.
 
 	"Assert"
-	self assert: arrivalDate equals: aDate
+	self assert: arrivalDate equals: deliveryDate
