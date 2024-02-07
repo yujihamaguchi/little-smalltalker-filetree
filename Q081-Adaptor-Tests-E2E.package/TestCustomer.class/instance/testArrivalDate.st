@@ -1,14 +1,15 @@
 tests
 testArrivalDate
 
-	| customer arrivalDate deliveryDate adaptee adapter |
+	| customer arrivalDate deliveryDate supplier adapter |
 	"Arrange"
 	customer := Customer new.
-	adaptee := Supplier new.
-	deliveryDate := '2023/01/14'.
 
-	adaptee deliveryDate: deliveryDate.
-	adapter := SupplierAdapter supplier: adaptee.
+	supplier := Supplier new.
+	deliveryDate := '2023/01/14'.
+	supplier deliveryDate: deliveryDate.
+
+	adapter := SupplierAdapter supplier: supplier.
 
 	customer supplierAdapter: adapter.
 
