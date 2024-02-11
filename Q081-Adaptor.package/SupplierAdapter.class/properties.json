@@ -1,0 +1,15 @@
+{
+	"classtraitcomposition" : "TSupplierArrivalDate classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"supplier"
+	],
+	"name" : "SupplierAdapter",
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "TSupplierArrivalDate",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Q081-Adaptor"
+}

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"classinstvars" : [ ],
-	"category" : "Q080-Adaptor",
+	"category" : "Q081-Adaptor",
 	"instvars" : [ ],
-	"name" : "TCustomer"
+	"name" : "TSupplierArrivalDate"
 }

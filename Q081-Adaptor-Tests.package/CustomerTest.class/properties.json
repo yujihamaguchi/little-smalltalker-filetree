@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "Q080-Adaptor",
+	"category" : "Q081-Adaptor-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "AdoptorTest",
+	"name" : "CustomerTest",
 	"type" : "normal"
 }
