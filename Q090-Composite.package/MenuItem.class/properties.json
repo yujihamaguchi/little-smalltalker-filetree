@@ -2,7 +2,7 @@
 	"classtraitcomposition" : "TMenuComponent classTrait",
 	"classvars" : [ ],
 	"instvars" : [
-		"name"
+		"title"
 	],
 	"name" : "MenuItem",
 	"commentStamp" : "",

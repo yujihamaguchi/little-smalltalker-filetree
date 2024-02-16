@@ -1,3 +1,3 @@
 printing
-asMenuString
+asMenuString: n
 	^ self explicitRequirement 

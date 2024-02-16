@@ -1,25 +1,27 @@
 tests
 testAsMenuString
-	| menu subMenu item1 item2 item3 |
-	menu := Menu new.
-	menu name: 'Menu'.
-	subMenu := Menu new.
-	subMenu name: 'Food'.
-	item1 := MenuItem name: 'foo'.
-	item2 := MenuItem name: 'bar'.
-	item3 := MenuItem name: 'baz'.
+	| menu subMenu1 item1 item2 item3 subMenu2 item4 |
+	menu := Menu title: 'Ground menu'.
+	subMenu1 := Menu title: 'Food'.
+	subMenu2 := Menu title: 'Drink'.
+	item1 := MenuItem title: 'foo'.
+	item2 := MenuItem title: 'bar'.
+	item3 := MenuItem title: 'baz'.
+	item4 := MenuItem title: 'hoge'.
+
 	menu add: item1.
-	subMenu add: item2.
-	subMenu add: item3.
-	menu add: subMenu.
+	menu add: subMenu1.
+	menu add: subMenu2.
+	subMenu1 add: item2.
+	subMenu1 add: item3.
+	subMenu2 add: item4.
 	
 	self assert: (menu asMenuString: 0) equals: '
-[Menu]
+[Ground menu]
   foo
   [Food]
     bar
     baz
   [Drink]
-    hoge
-'
+    hoge'
 	

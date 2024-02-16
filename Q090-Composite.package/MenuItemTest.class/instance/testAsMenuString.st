@@ -2,5 +2,5 @@ tests
 testAsMenuString
 
 	| target |
-	target := MenuItem name: 'foo'.
+	target := MenuItem title: 'foo'.
 	self assert: target asMenuString equals: 'foo'
