@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "Q090-Composite",
+	"category" : "Q090-Composite-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "MenuE2eTest",
+	"name" : "MenuItemTest",
 	"type" : "normal"
 }
