@@ -16,8 +16,7 @@ testAsMenuString
 	subMenu1 add: item3.
 	subMenu2 add: item4.
 	
-	self assert: (menu asMenuString: 0) equals: '
-[Ground menu]
+	self assert: (menu asMenuString: 0) equals: '[Ground menu]
   foo
   [Food]
     bar
