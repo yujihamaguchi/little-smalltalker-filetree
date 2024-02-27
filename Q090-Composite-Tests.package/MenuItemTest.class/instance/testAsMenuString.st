@@ -1,41 +1,15 @@
 tests
 testAsMenuString
 
-	| title menuItem depthNumber indent |
+	| indentedTitle menuItem depthNumber |
 	"Arrange"
-	
-	title := Mock new.
-	menuItem := MenuItem title: title.
-	menuItem stub title willReturn: title.
-	
+	indentedTitle := Mock new.
+	menuItem := MenuItem new.
 	depthNumber := Mock new.
-	(menuItem stub indent: depthNumber) willReturn: Mock new.
-		
+	(menuItem stub indentedTitle: depthNumber) willReturn: indentedTitle.
+
 	"Act"
 	menuItem asMenuString: depthNumber.
 
 	"Assert"
-	menuItem should receive indent: depthNumber.
-	menuItem should receive title
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	"	| target |
-	target := MenuItem title: 'foo'.
-	self assert: target asMenuString equals: 'foo'"
+	menuItem should receive indentedTitle: depthNumber

@@ -1,5 +1,6 @@
 tests
 testAsMenuString
+
 	| menu subMenu1 item1 item2 item3 subMenu2 item4 |
 	menu := Menu title: 'Ground menu'.
 	subMenu1 := Menu title: 'Food'.
@@ -15,7 +16,7 @@ testAsMenuString
 	subMenu1 add: item2.
 	subMenu1 add: item3.
 	subMenu2 add: item4.
-	
+
 	self assert: (menu asMenuString: 0) equals: '[Ground menu]
   foo
   [Food]
@@ -23,4 +24,3 @@ testAsMenuString
     baz
   [Drink]
     hoge'
-	
