@@ -1,4 +1,4 @@
 printing
-asMenuString: aDepthNumber
+asPrintingString: aDepthNumber
 
 	^ self explicitRequirement

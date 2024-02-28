@@ -1,9 +1,10 @@
 {
 	"instance" : {
-		"title" : "YujiHamaguchi 2/28/2024 07:29",
-		"add:" : "YujiHamaguchi 2/17/2024 07:44",
+		"titleForPrinting:" : "YujiHamaguchi 2/29/2024 07:20",
 		"setTitle:" : "YujiHamaguchi 2/25/2024 07:09",
-		"asMenuString:" : "YujiHamaguchi 2/28/2024 07:33"
+		"add:" : "YujiHamaguchi 2/17/2024 07:44",
+		"asPrintingString:" : "YujiHamaguchi 2/29/2024 07:54",
+		"subComponentsForPrinting:" : "YujiHamaguchi 2/29/2024 07:46"
 	},
 	"class" : {
 		"title:" : "YujiHamaguchi 2/17/2024 07:43"

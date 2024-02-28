@@ -1,6 +1,7 @@
 {
 	"instance" : {
-		"testAsMenuString" : "YujiHamaguchi 2/28/2024 07:43"
+		"testAsPrintingString" : "YujiHamaguchi 2/29/2024 07:54",
+		"testSubComponentsForPrinting" : "YujiHamaguchi 2/29/2024 07:45"
 	},
 	"class" : { }
 }

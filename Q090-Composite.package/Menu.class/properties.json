@@ -1,5 +1,5 @@
 {
-	"classtraitcomposition" : "TMenuComponent classTrait",
+	"classtraitcomposition" : "TPrintingMenuComponent classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"menuComponents",
@@ -8,7 +8,7 @@
 	"name" : "Menu",
 	"commentStamp" : "",
 	"super" : "Object",
-	"traitcomposition" : "TMenuComponent",
+	"traitcomposition" : "TPrintingMenuComponent",
 	"type" : "normal",
 	"classinstvars" : [ ],
 	"pools" : [ ],
