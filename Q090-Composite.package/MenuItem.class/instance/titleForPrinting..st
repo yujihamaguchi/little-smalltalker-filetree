@@ -1,4 +1,4 @@
 printing
 titleForPrinting: aDepthNumber
 
-	^ (self indent: aDepthNumber) , title
+	^ (self indentStringFor: aDepthNumber) , title

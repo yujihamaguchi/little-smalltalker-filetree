@@ -1,4 +1,4 @@
 editing keys
-indent: aDepthNumber
+indentStringFor: aDepthNumber
 
 	^ ' ' repeat: aDepthNumber * 2 

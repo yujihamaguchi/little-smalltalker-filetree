@@ -1,7 +1,8 @@
 {
 	"instance" : {
 		"testAsPrintingString" : "YujiHamaguchi 2/29/2024 07:54",
-		"testSubComponentsForPrinting" : "YujiHamaguchi 2/29/2024 07:45"
+		"testSubComponentsForPrinting" : "YujiHamaguchi 2/29/2024 07:45",
+		"testTitleForPrinting" : "YujiHamaguchi 3/3/2024 08:24"
 	},
 	"class" : { }
 }
