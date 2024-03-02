@@ -1,14 +1,8 @@
 tests
 testIndentStringFor
 
-	| menuComponent depthNumber indentString tempMenuComponentClass |
+	| menuComponent depthNumber indentString |
 	"Arrange"
-	tempMenuComponentClass := Object
-		                          subclass: #TempMenuComponentClass
-		                          uses: TPrintingMenuComponent
-		                          instanceVariableNames: ''
-		                          classVariableNames: ''
-		                          package: 'Q090-Composite'.
 	menuComponent := tempMenuComponentClass new.
 	depthNumber := 2.
 
@@ -16,6 +10,4 @@ testIndentStringFor
 	indentString := menuComponent indentStringFor: depthNumber.
 
 	"Assert"
-	self assert: indentString equals: '    '.
-
-	tempMenuComponentClass removeFromSystem
+	self assert: indentString equals: '    '
