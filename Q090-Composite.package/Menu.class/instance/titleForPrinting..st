@@ -1,4 +1,5 @@
 printing
 titleForPrinting: aDepthNumber
 
-	^ (self indentStringFor: aDepthNumber) , '[' , title , ']' , String cr
+	^ (self indentStringFor: aDepthNumber) , '[' , title , ']'
+	  , String cr

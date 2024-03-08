@@ -14,4 +14,4 @@ testTitleForPrinting
 	titleForPrinting := menuItem titleForPrinting: depthNumber.
 
 	"Assert"
-	self assert: titleForPrinting equals: indentString, title
+	self assert: titleForPrinting equals: indentString , title

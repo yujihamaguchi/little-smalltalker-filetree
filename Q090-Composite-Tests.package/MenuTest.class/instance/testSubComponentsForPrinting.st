@@ -5,7 +5,7 @@ testSubComponentsForPrinting
 	"Arrange"
 	menu := Menu new.
 	depthNumber := Mock new.
-	
+
 	component1 := Mock new.
 	(component1 stub asPrintingString: depthNumber) willReturnYourself.
 	component2 := Mock new.
