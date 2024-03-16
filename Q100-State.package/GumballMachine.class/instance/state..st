@@ -1,4 +1,4 @@
-accessing
+private
 state: anObject
 
 	state := anObject

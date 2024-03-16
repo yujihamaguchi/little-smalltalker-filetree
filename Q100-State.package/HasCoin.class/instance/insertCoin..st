@@ -1,3 +1,4 @@
 as yet unclassified
 insertCoin: aGumballMachine
-	CoinAlreadyInsertedException signal: 'Coin already inserted.'
+
+	aGumballMachine printer print: 'A coin is already inserted.'

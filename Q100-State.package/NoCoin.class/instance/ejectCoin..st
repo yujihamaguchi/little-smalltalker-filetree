@@ -1,3 +1,4 @@
 as yet unclassified
 ejectCoin: aGumballMachine
-	NoCoinToEjectException signal: 'No coin to eject.'
+
+	aGumballMachine printer print: 'There is no coin to eject'
