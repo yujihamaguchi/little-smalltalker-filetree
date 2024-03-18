@@ -1,3 +1,4 @@
 as yet unclassified
 ejectCoin: aGumballMachine
-	^ self explicitRequirement 
+
+	^ self explicitRequirement

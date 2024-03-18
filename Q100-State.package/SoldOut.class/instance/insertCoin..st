@@ -1,3 +1,5 @@
 as yet unclassified
 insertCoin: aGumballMachine
-	aGumballMachine state: HasCoin new
+
+	aGumballMachine printer print:
+		'Coins cannot be inserted due to being sold out'
