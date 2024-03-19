@@ -1,3 +1,4 @@
 as yet unclassified
 fly
-	^ 'no way'
+
+	^ 'No way!'

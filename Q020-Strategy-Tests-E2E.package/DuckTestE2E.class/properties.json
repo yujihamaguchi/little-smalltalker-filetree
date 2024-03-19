@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "Q020-Strategy",
+	"category" : "Q020-Strategy-Tests-E2E",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "DuckTest",
+	"name" : "DuckTestE2E",
 	"type" : "normal"
 }
