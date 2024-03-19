@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "Q020-Strategy",
+	"super" : "TestCase",
+	"category" : "Q020-Strategy-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "FlyWithWings",
+	"name" : "DuckTest",
 	"type" : "normal"
 }
