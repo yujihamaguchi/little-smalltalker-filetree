@@ -1,11 +1,13 @@
 {
-	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "Q020-Strategy",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TFlyBahavier classTrait",
 	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "FlyWithWings",
-	"type" : "normal"
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "TFlyBahavier",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Q020-Strategy"
 }
