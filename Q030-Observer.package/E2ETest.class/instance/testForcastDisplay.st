@@ -1,18 +1,18 @@
 tests
 testForcastDisplay
 
-	| weatherData target |
+	| subject observer |
 	"Rule: The observers should not be dependent on the subject"
-	weatherData := WeatherData new initialize.
+	subject := WeatherData new.
 
-	target := ForecastDisplay subject: weatherData.
+	observer := ForecastDisplay subject: subject.
 
-	weatherData setTemperature: 1 humidity: 2.
+	subject setTemperature: 1 humidity: 2.
 	self
-		assert: target display
+		assert: observer display
 		equals: 'Forecast / temperature: 1, humidity: 2'.
 
-	weatherData setTemperature: 4 humidity: 5.
+	subject setTemperature: 4 humidity: 5.
 	self
-		assert: target display
+		assert: observer display
 		equals: 'Forecast / temperature: 4, humidity: 5'

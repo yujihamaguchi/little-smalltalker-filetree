@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "Q081-Adaptor-Tests-E2E",
+	"category" : "Q030-Observer-Tests-E2E",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TestCustomer",
+	"name" : "WeatherDataTestE2E",
 	"type" : "normal"
 }

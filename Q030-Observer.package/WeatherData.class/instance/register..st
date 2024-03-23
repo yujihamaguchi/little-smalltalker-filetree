@@ -1,4 +1,4 @@
-as yet unclassified
+private
 register: anObserver
 
 	observers add: anObserver
