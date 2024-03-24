@@ -1,3 +1,4 @@
 updating
 update: aSubject
-	^ self subclassResponsibility 
+
+	^ self subclassResponsibility

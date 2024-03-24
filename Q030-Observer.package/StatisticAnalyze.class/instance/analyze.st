@@ -1,3 +1,8 @@
 private
 analyze
-	^ 'Statistic / temperature: ', temperature asString , ' is Good!'
+
+	^ 'Statistic / temperature: {1} is {2}!' format: { 
+			  self temperature asString.
+			  (self temperature <= 13
+				   ifTrue: 'cold'
+				   ifFalse: 'warm') }

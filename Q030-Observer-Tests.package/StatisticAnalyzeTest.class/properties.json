@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "Q030-Observer",
+	"category" : "Q030-Observer-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "E2ETest",
+	"name" : "StatisticAnalyzeTest",
 	"type" : "normal"
 }
