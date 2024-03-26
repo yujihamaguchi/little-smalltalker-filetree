@@ -1,0 +1,15 @@
+{
+	"classtraitcomposition" : "TPrice classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"originalPrice"
+	],
+	"name" : "MarginPrice",
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "TPrice",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Q040-Decorator"
+}

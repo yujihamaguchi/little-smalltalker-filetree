@@ -1,0 +1,15 @@
+{
+	"classtraitcomposition" : "TBeverage classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"cost"
+	],
+	"name" : "DarkRoast",
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "TBeverage",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Q040-Decorator-bk-Q040-Decorator-bk"
+}
