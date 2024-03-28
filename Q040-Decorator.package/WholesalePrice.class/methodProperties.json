@@ -1,4 +1,9 @@
 {
-	"instance" : { },
-	"class" : { }
+	"instance" : {
+		"setPrice:advantage:" : "YujiHamaguchi 3/29/2024 07:24",
+		"value" : "YujiHamaguchi 3/29/2024 07:29"
+	},
+	"class" : {
+		"price:advantage:" : "YujiHamaguchi 3/29/2024 07:25"
+	}
 }

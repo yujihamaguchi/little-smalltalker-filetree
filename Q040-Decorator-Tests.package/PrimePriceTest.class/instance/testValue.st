@@ -3,7 +3,7 @@ testValue
 
 	| value primePrice result |
 	"Arrange"
-	value := 11.
+	value := 3.
 	primePrice := PrimePrice value: value.
 
 	"Act"

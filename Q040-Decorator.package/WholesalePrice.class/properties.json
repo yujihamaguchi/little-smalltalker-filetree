@@ -1,10 +1,12 @@
 {
 	"classtraitcomposition" : "TPrice classTrait",
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"advantage"
+	],
 	"name" : "WholesalePrice",
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "MarginPrice",
 	"traitcomposition" : "TPrice",
 	"type" : "normal",
 	"classinstvars" : [ ],

@@ -1,16 +1,15 @@
 tests
 testValue
 
-	| wholesalePrice value primePrice doublePrice result |
+	| wholesalePrice primePrice doublePrice result |
 	"Arrange"
-	primePrice := PrimePrice value: 10.
+	primePrice := PrimePrice value: 3.
 	doublePrice := DoublePrice price: primePrice.
-	wholesalePrice := WholesalePrice price: doublePrice advantage: 15.
+	wholesalePrice := WholesalePrice price: doublePrice advantage: 7.
 	doublePrice := DoublePrice price: wholesalePrice.
-	result := doublePrice value.
 
 	"Act"
-	value := wholesalePrice value.
+	result := doublePrice value.
 
 	"Assert"
-	self assert: value equals: 70
+	self assert: result equals: 26

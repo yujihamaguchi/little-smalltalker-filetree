@@ -3,11 +3,11 @@ testValue
 
 	| primePrice doublePrice result |
 	"Arrange"
-	primePrice := PrimePrice value: 10.
+	primePrice := PrimePrice value: 3.
 	doublePrice := DoublePrice price: primePrice.
 
 	"Act"
 	result := doublePrice value.
 
 	"Assert"
-	self assert: result equals: 20
+	self assert: result equals: 6
