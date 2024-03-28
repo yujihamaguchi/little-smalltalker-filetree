@@ -1,3 +1,0 @@
-accessing
-cost
-	^ self explicitRequirement 
