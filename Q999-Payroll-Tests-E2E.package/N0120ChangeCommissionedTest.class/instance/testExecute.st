@@ -11,7 +11,7 @@ testExecute
 
 	"
 You should pass this test with TDD.
-refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/bdf408ea36b84e58bc1d2a7fc577c79a268fb8ae/Q999-Payroll-Tests.package
+refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/a3b733cba9736cd644a70c8687eb430eb3d2b832/Q999-Payroll-Tests.package
 "
 
 	| empId salary commissionRate transaction employee classification schedule |

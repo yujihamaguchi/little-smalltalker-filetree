@@ -10,7 +10,7 @@ testExecute
 
 	"
 You should pass this test with TDD.
-refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/5c03cd5a6a1d9c604f8d3e660a78300a3868ce6f/Q999-Payroll-Tests.package
+refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/a3b733cba9736cd644a70c8687eb430eb3d2b832/Q999-Payroll-Tests.package
 "
 
 	| employee empId transaction memberId dues member |

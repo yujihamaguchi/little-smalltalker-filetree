@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ListPrinter",
+	"category" : "Q053-Factory-Method",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"comparator"
+	],
+	"name" : "DictionaryOrderListPrinter",
+	"type" : "normal"
+}

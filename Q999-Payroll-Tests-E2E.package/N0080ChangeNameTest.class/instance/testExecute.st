@@ -4,15 +4,6 @@ testExecute
 	"
 	[ UseCase6: Change employee's profile ]
 	- ChgEmp <EmpID> Name <name>
-	- ChgEmp <EmpID> Address <address>
-	- ChgEmp <EmpID> Hourly <hourlyRate>
-	- ChgEmp <EmpID> Salaried <salary>
-	- ChgEmp <EmpID> Commissioned <salary> <rate>
-	- ChgEmp <EmpID> Hold
-	- ChgEmp <EmpID> Direct <bank> <account>
-	- ChgEmp <EmpID> Mail <address>
-	- ChgEmp <EmpID> Member <mamberID> Dues <rate>
-	- ChgEmp <EmpID> NoMember
 
 	Attachment 1: In the case where the selected empID / memberID is a non-existent one.
 	  Output an error message only, and perform no further processing.
@@ -20,7 +11,7 @@ testExecute
 
 	"
 You should pass this test with TDD.
-refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/52922af84ccd4f42f3918aa900f76d56b380af66/Q999-Payroll-Tests.package
+refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/a3b733cba9736cd644a70c8687eb430eb3d2b832/Q999-Payroll-Tests.package
 "
 
 	| empId employee transaction name |

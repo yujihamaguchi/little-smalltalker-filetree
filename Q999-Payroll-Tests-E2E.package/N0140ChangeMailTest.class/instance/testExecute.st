@@ -11,7 +11,7 @@ testExecute
 
 	"
 You should pass this test with TDD.
-refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/48566e76032a70803a74bda5a568a5bed1477806/Q999-Payroll-Tests.package
+refer: https://github.com/yujihamaguchi/little-smalltalker-filetree/tree/a3b733cba9736cd644a70c8687eb430eb3d2b832/Q999-Payroll-Tests.package
 "
 
 	| empId employee transaction |
