@@ -7,7 +7,7 @@ testPrintList
 
 	"Act"
 	result := dictionaryOrderListPrinter printList:
-		          { 'banana'. 'cake'. 'apple' }.
+		          (MyArray newFrom: { 'banana'. 'cake'. 'apple' }).
 
 	"Assert"
-	self assert: result equals: '#(''apple'' ''banana'' ''cake'')'
+	self assert: result equals: 'a MyArray(''apple'' ''banana'' ''cake'')'

@@ -4,10 +4,12 @@ testPrintList
 	| result lengthOrderListPrinter |
 	"Arrange"
 	lengthOrderListPrinter := LengthOrderListPrinter new.
-	
+
 	"Act"
 	result := lengthOrderListPrinter printList:
-		          { 'banana'. 'cake'. 'apple' }.
-		
+		          (MyArray newFrom: { 'banana'. 'cake'. 'apple' }).
+
 	"Assert"
-	self assert: result equals: '#(''cake'' ''apple'' ''banana'')'
+	self
+		assert: result
+		equals: 'a MyArray(''cake'' ''apple'' ''banana'')'
