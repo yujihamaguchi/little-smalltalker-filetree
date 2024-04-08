@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Q055-Abstruct-Factory",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"table",
+		"chair",
+		"bench",
+		"factory"
+	],
+	"name" : "FurnitureStudio",
+	"type" : "normal"
+}
