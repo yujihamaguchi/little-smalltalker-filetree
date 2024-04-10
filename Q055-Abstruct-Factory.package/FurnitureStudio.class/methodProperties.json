@@ -1,8 +1,9 @@
 {
 	"instance" : {
-		"factory" : "YujiHamaguchi 4/9/2024 07:54",
-		"createTableSet" : "YujiHamaguchi 4/9/2024 07:53",
 		"table" : "YujiHamaguchi 4/9/2024 07:53",
+		"factory" : "YujiHamaguchi 4/9/2024 07:54",
+		"bench" : "YujiHamaguchi 4/10/2024 14:33",
+		"createTableSet" : "YujiHamaguchi 4/10/2024 14:30",
 		"setFactory:" : "YujiHamaguchi 4/9/2024 07:52",
 		"chair" : "YujiHamaguchi 4/9/2024 07:54"
 	},

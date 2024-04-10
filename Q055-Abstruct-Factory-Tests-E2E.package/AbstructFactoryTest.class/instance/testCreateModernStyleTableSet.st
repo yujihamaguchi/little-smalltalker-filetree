@@ -10,6 +10,6 @@ testCreateModernStyleTableSet
 	target createTableSet.
 
 	"Assert"
-	self assert: target chair class equals: MordernChair.
-	self assert: target table class equals: MordernTable.
-	self assert: target bench class equals: MordernBench
+	self assert: target chair sit equals: 'sit on the modern chair'.
+	self assert: target table stand equals: 'stand on the modern table'.
+	self assert: target bench lie equals: 'lie on the modern bench'

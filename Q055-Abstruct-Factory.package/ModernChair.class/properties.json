@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "FurnitureFactory",
+	"super" : "Chair",
 	"category" : "Q055-Abstruct-Factory",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ModernStyleFactory",
+	"name" : "ModernChair",
 	"type" : "normal"
 }

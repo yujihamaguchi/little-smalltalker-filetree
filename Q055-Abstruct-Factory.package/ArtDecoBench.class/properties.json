@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "FurnitureFactory",
+	"super" : "Bench",
 	"category" : "Q055-Abstruct-Factory",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ModernStyleFactory",
+	"name" : "ArtDecoBench",
 	"type" : "normal"
 }

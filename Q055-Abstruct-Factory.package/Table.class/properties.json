@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "Product",
 	"category" : "Q055-Abstruct-Factory",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "MordernBench",
+	"name" : "Table",
 	"type" : "normal"
 }

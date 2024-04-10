@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ModernStyleFactory",
+	"name" : "ArtDecoStyleFactory",
 	"type" : "normal"
 }

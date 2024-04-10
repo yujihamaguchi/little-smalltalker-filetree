@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "FurnitureFactory",
+	"super" : "Table",
 	"category" : "Q055-Abstruct-Factory",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ModernStyleFactory",
+	"name" : "ModernTable",
 	"type" : "normal"
 }

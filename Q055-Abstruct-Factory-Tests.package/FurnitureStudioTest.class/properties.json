@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "FurnitureFactory",
-	"category" : "Q055-Abstruct-Factory",
+	"super" : "TestCase",
+	"category" : "Q055-Abstruct-Factory-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ModernStyleFactory",
+	"name" : "FurnitureStudioTest",
 	"type" : "normal"
 }
