@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Sushi",
+	"category" : "Q052-Simple-Factory",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Norimaki",
+	"type" : "normal"
+}

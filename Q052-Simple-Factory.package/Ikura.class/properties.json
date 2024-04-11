@@ -4,10 +4,10 @@
 	"instvars" : [ ],
 	"name" : "Ikura",
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "Sushi",
 	"traitcomposition" : "TSushi",
 	"type" : "normal",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"category" : "Q051-Simple-Factory"
+	"category" : "Q052-Simple-Factory"
 }
