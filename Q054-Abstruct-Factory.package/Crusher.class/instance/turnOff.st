@@ -1,4 +1,0 @@
-switching
-turnOff
-
-	condition := #off
