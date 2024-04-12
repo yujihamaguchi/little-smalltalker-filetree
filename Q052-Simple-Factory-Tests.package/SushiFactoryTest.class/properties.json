@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "Q051-Simple-Factory",
+	"category" : "Q052-Simple-Factory-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SushiStoreTest",
+	"name" : "SushiFactoryTest",
 	"type" : "normal"
 }
