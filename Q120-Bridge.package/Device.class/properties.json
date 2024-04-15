@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Q120-Bridge",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"enabled",
+		"volume"
+	],
+	"name" : "Device",
+	"type" : "normal"
+}
