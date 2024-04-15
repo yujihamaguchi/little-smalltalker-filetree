@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Q130-Facade",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"speed",
+		"distance"
+	],
+	"name" : "Car",
+	"type" : "normal"
+}
