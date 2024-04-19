@@ -1,0 +1,4 @@
+testing
+isDisabled
+
+	^ enabled not

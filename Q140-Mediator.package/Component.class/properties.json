@@ -1,11 +1,14 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "Q140-Mediator-Tests-E2E",
+	"category" : "Q140-Mediator",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "CheckboxTest",
+	"instvars" : [
+		"dialog",
+		"enabled"
+	],
+	"name" : "Component",
 	"type" : "normal"
 }

@@ -5,7 +5,12 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"title",
+		"loginOrRegisterChkBx",
+		"loginForm",
+		"registerForm"
+	],
 	"name" : "AuthenticationDialog",
 	"type" : "normal"
 }

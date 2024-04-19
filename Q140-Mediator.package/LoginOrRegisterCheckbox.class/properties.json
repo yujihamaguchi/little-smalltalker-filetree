@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "Component",
 	"category" : "Q140-Mediator",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "Checkbox",
+	"name" : "LoginOrRegisterCheckbox",
 	"type" : "normal"
 }
